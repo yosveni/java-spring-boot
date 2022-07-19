@@ -1,1 +1,0 @@
-alter table if exists tab_company add column if not exists avg_receipt_term_invoices integer default 0
