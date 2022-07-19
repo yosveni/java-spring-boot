@@ -1,0 +1,28 @@
+package com.linkapital.core.services.comment.contract.enums;
+
+public enum LearningSession {
+    DATA,
+    PARTNER,
+    BILLING,
+    FUNCTIONARY,
+    RELATIONS,
+    FISCAL,
+    DATA_PARTNER,
+    DATA_SPOUSE,
+    PROPERTIES,
+    HORIZONTAL_ANALYSIS,
+    VERTICAL_ANALYSIS,
+    CASH_CONVERSION,
+    CASH_FLOW,
+    HORIZONTAL_VERTICAL_ANALYSIS,
+    OTHERS_ANALYSIS,
+    LEGAL,
+    SANCTIONS_RESTRICTIONS,
+    PROPERTIES_COMPANY,
+    CHAT,
+    OFFER,
+    CNAE,
+    CORPORATE,
+    PROTEST,
+    CRI_CRA_DEBENTURE
+}

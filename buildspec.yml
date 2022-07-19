@@ -1,0 +1,74 @@
+version: 0.2
+
+  #env:
+  #variables:
+  # key: "value"
+  # key: "value"
+  #parameter-store:
+  # key: "value"
+  # key: "value"
+  #secrets-manager:
+  # key: secret-id:json-key:version-stage:version-id
+  # key: secret-id:json-key:version-stage:version-id
+  #exported-variables:
+  # - variable
+  # - variable
+  #git-credential-helper: yes
+#batch:
+#fast-fail: true
+#build-list:
+#build-matrix:
+#build-graph:
+phases:
+  #install:
+  #Si utiliza la imagen estándar de Ubuntu 2.0 o posterior, debe especificar las versiones del tiempo de ejecución.
+  #Si especifica las versiones del tiempo de ejecución y utiliza una imagen que no sea la estándar de Ubuntu 2.0, se produce un error en la compilación.
+  #runtime-versions:
+  # name: version
+  # name: version
+  #commands:
+  #- echo Install java
+  #- yum install java-16-amazon-corretto-devel -y
+  #- alternatives --set java /usr/lib/jvm/java-16-amazon-corretto.aarch64/bin/java
+  # - command
+  pre_build:
+    commands:
+      - echo Downloading artefact
+      - aws s3 cp s3://$AWS_ARTIFACT_BUCKET/jdk-16.0.2_linux-x64_bin.tar.gz .
+      - aws s3 cp s3://$AWS_ARTIFACT_BUCKET/gradle-7.1.1-bin.zip .
+      - tar zxvf jdk-16.0.2_linux-x64_bin.tar.gz
+      - mv jdk-16.0.2 /usr/lib/jvm/
+      - export JAVA_HOME=/usr/lib/jvm/jdk-16.0.2
+      - export PATH=$PATH:$JAVA_HOME/bin
+      - mkdir /opt/gradle
+      - unzip -d /opt/gradle gradle-7.1.1-bin.zip
+  build:
+    commands:
+      - echo Build started on `date`
+      - /opt/gradle/gradle-7.1.1/bin/gradle bootJar
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - cp platform/build/libs/com.linkapital.platform-0.0.1-SNAPSHOT.jar deploy/windows
+      # - command
+      #reports:
+      #report-name-or-arn:
+      #files:
+      # - location
+      # - location
+    #base-directory: location
+    #discard-paths: yes
+    #file-format: JunitXml | CucumberJson
+artifacts:
+  files:
+    - '**/*'
+  base-directory: deploy/windows
+    # - location
+    # - location
+    #name: $(date +%Y-%m-%d)
+  #discard-paths: yes
+  #base-directory: location
+cache:
+  paths:
+    - '/root/.gradle/caches/**/*'
+    - '/root/.gradle/wrapper/**/*'

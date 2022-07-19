@@ -1,0 +1,1 @@
+package com.linkapital.core.services.partner_bank;

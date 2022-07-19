@@ -1,0 +1,356 @@
+{
+  "code": 200,
+  "code_message": "A requisição foi processada com sucesso.",
+  "header": {
+    "api_version": "v2",
+    "product": "Consultas",
+    "service": "ieptb/protestos",
+    "parameters": {
+      "cnpj": "14442615000182"
+    },
+    "client_name": "Osmanis Del Risco Ferral 80151528950",
+    "token_name": "Osmanis Del Risco Ferral 80151528950",
+    "billable": true,
+    "price": "0.24",
+    "requested_at": "2022-01-10T10:16:09.000-03:00",
+    "elapsed_time_in_milliseconds": 15832,
+    "remote_ip": "189.27.213.151",
+    "signature": "U2FsdGVkX19wK91nTJ2oKwwhOe/eQeN2YtcpCIz/qt3Xvd02FlxQeWrsBEKve+T/+ZmHSg3yVbIiMnKrixoa5g=="
+  },
+  "data_count": 1,
+  "data": [
+    {
+      "cartorios": {
+        "SP": [
+          {
+            "codigo": 2,
+            "nome": "2. TABELIAO DE PROTESTO DE LETRAS E TITULOS",
+            "telefone": "11 32937210",
+            "endereco": "RUA BOA VISTA, 314 CENTRO, SAO PAULO - SP",
+            "cidade_codigo": "3550308",
+            "cidade_codigo_ibge": "3550308",
+            "municipio": "SAO PAULO",
+            "cidade": "SAO PAULO",
+            "bairro": "",
+            "atualizacao_data": "",
+            "quantidade": 5,
+            "periodo_pesquisa": "",
+            "protestos": [
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-21",
+                "data_protesto": "2020-01-21",
+                "data_protesto_string": "21/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 888.0,
+                "valor_string": "888,00",
+                "chave": "35503080000057202200116",
+                "nome_apresentante": "BANCO DO BRASIL S/A",
+                "nome_cedente": "REFRIJET INDUSTRIA E COMERCIO IMPORTACAO E EX",
+                "tem_anuencia": "Sim"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-23",
+                "data_protesto": "2020-01-23",
+                "data_protesto_string": "23/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1662.5,
+                "valor_string": "1.662,50",
+                "chave": "35503080000415802200120",
+                "nome_apresentante": "BANCO ITAU - UNIBANCO S.A.",
+                "nome_cedente": "REFRIGERACAO TIPI LTDA",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-28",
+                "data_protesto": "2020-01-28",
+                "data_protesto_string": "28/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1957.32,
+                "valor_string": "1.957,32",
+                "chave": "35503080000121702200123",
+                "nome_apresentante": "BANCO SANTANDER SA",
+                "nome_cedente": "QANTA TRADE IMPORTACAO & EXPORTACAO EIRE",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-02-19",
+                "data_protesto": "2020-02-19",
+                "data_protesto_string": "19/02/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1525.0,
+                "valor_string": "1.525,00",
+                "chave": "35503080000419202200214",
+                "nome_apresentante": "BANCO ITAU - UNIBANCO S.A.",
+                "nome_cedente": "REFRIGERACAO TIPI LTDA",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2021-01-04",
+                "data_protesto": "2021-01-04",
+                "data_protesto_string": "04/01/2021",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 305.7,
+                "valor_string": "305,70",
+                "chave": "35503080000056802201215",
+                "nome_apresentante": "BANCO SANTANDER SA",
+                "nome_cedente": "POST CARD SERVICOS POSTAIS LTDA",
+                "tem_anuencia": "Não"
+              }
+            ]
+          },
+          {
+            "codigo": 4,
+            "nome": "4. TABELIAO DE PROTESTO DE LETRAS E TITULOS",
+            "telefone": "11 31867254",
+            "endereco": "AVENIDA BRIGADEIRO LUIZ ANTONIO, 319 CENTRO, SAO PAULO - SP",
+            "cidade_codigo": "3550308",
+            "cidade_codigo_ibge": "3550308",
+            "municipio": "SAO PAULO",
+            "cidade": "SAO PAULO",
+            "bairro": "",
+            "atualizacao_data": "",
+            "quantidade": 2,
+            "periodo_pesquisa": "",
+            "protestos": [
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-16",
+                "data_protesto": "2020-01-16",
+                "data_protesto_string": "16/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 888.0,
+                "valor_string": "888,00",
+                "chave": "35503080000087504200107",
+                "nome_apresentante": "BANCO DO BRASIL S/A",
+                "nome_cedente": "REFRIJET INDUSTRIA E COMERCIO IMPORTACAO E EX",
+                "tem_anuencia": "Sim"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-03-09",
+                "data_protesto": "2020-03-09",
+                "data_protesto_string": "09/03/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1695.26,
+                "valor_string": "1.695,26",
+                "chave": "35503080001004104200228",
+                "nome_apresentante": "BANCO ITAU - UNIBANCO SA",
+                "nome_cedente": "SECURECOM SEC DE REC COM S/A",
+                "tem_anuencia": "Não"
+              }
+            ]
+          },
+          {
+            "codigo": 6,
+            "nome": "6. TABELIAO DE PROTESTO DE LETRAS E TITULOS",
+            "telefone": "11 31196060",
+            "endereco": "RUA FRANCISCA MIQUELINA, 325 CENTRO, SAO PAULO - SP",
+            "cidade_codigo": "3550308",
+            "cidade_codigo_ibge": "3550308",
+            "municipio": "SAO PAULO",
+            "cidade": "SAO PAULO",
+            "bairro": "",
+            "atualizacao_data": "",
+            "quantidade": 3,
+            "periodo_pesquisa": "",
+            "protestos": [
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-02-05",
+                "data_protesto": "2020-02-05",
+                "data_protesto_string": "05/02/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1525.0,
+                "valor_string": "1.525,00",
+                "chave": "35503080000976106200131",
+                "nome_apresentante": "BANCO ITAU UNIBANCO SA",
+                "nome_cedente": "REFRIGERACAO TIPI LTDA",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-02-12",
+                "data_protesto": "2020-02-12",
+                "data_protesto_string": "12/02/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1957.32,
+                "valor_string": "1.957,32",
+                "chave": "35503080000158506200206",
+                "nome_apresentante": "BANCO SANTANDER SA",
+                "nome_cedente": "QANTA TRADE IMPORTACAO EXPORTACAO EIRE",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-03-20",
+                "data_protesto": "2020-03-20",
+                "data_protesto_string": "20/03/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1695.26,
+                "valor_string": "1.695,26",
+                "chave": "35503080000365506200316",
+                "nome_apresentante": "BANCO ITAU UNIBANCO SA",
+                "nome_cedente": "SECURECOM SEC DE REC COM S A",
+                "tem_anuencia": "Não"
+              }
+            ]
+          },
+          {
+            "codigo": 7,
+            "nome": "7. TABELIAO DE PROTESTO DE LETRAS E TITULOS",
+            "telefone": "11 31117070",
+            "endereco": "RUA DA GLORIA, 152 LIBERDADE, SAO PAULO - SP",
+            "cidade_codigo": "3550308",
+            "cidade_codigo_ibge": "3550308",
+            "municipio": "SAO PAULO",
+            "cidade": "SAO PAULO",
+            "bairro": "",
+            "atualizacao_data": "",
+            "quantidade": 4,
+            "periodo_pesquisa": "",
+            "protestos": [
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-07",
+                "data_protesto": "2020-01-07",
+                "data_protesto_string": "07/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1240.6,
+                "valor_string": "1.240,60",
+                "chave": "35503080000667607200102",
+                "nome_apresentante": "BANCO ITAU SA",
+                "nome_cedente": "SECURECOM SEC DE REC COM S A",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-17",
+                "data_protesto": "2020-01-17",
+                "data_protesto_string": "17/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1240.6,
+                "valor_string": "1.240,60",
+                "chave": "35503080000667407200113",
+                "nome_apresentante": "BANCO ITAU SA",
+                "nome_cedente": "SECURECOM SEC DE REC COM S A",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-22",
+                "data_protesto": "2020-01-22",
+                "data_protesto_string": "22/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1525.0,
+                "valor_string": "1.525,00",
+                "chave": "35503080000555107200117",
+                "nome_apresentante": "BANCO ITAU SA",
+                "nome_cedente": "REFRIGERACAO TIPI LTDA",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-11-17",
+                "data_protesto": "2020-11-17",
+                "data_protesto_string": "17/11/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 111.7,
+                "valor_string": "111,70",
+                "chave": "35503080000072907201105",
+                "nome_apresentante": "BANCO SANTANDER SA",
+                "nome_cedente": "POST CARD SERVICOS POSTAIS LTDA",
+                "tem_anuencia": "Não"
+              }
+            ]
+          },
+          {
+            "codigo": 8,
+            "nome": "8. TABELIAO DE PROTESTO DE LETRAS E TITULOS",
+            "telefone": "11 32928030",
+            "endereco": "RUA XV DE NOVEMBRO, 331 CENTRO, SAO PAULO - SP",
+            "cidade_codigo": "3550308",
+            "cidade_codigo_ibge": "3550308",
+            "municipio": "SAO PAULO",
+            "cidade": "SAO PAULO",
+            "bairro": "",
+            "atualizacao_data": "",
+            "quantidade": 3,
+            "periodo_pesquisa": "",
+            "protestos": [
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2019-12-16",
+                "data_protesto": "2019-12-16",
+                "data_protesto_string": "16/12/2019",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1243.88,
+                "valor_string": "1.243,88",
+                "chave": "35503080000544108191211",
+                "nome_apresentante": "BANCO ITAU SA",
+                "nome_cedente": "REFRIGERACAO TIPI LTDA",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-09",
+                "data_protesto": "2020-01-09",
+                "data_protesto_string": "09/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1525.0,
+                "valor_string": "1.525,00",
+                "chave": "35503080001617508200106",
+                "nome_apresentante": "BANCO ITAU SA",
+                "nome_cedente": "REFRIGERACAO TIPI LTDA",
+                "tem_anuencia": "Não"
+              },
+              {
+                "cpf_cnpj": "14442615000182",
+                "data": "2020-01-14",
+                "data_protesto": "2020-01-14",
+                "data_protesto_string": "14/01/2020",
+                "data_vencimento": "",
+                "data_vencimento_string": "",
+                "valor": 1244.24,
+                "valor_string": "1.244,24",
+                "chave": "35503080000605308200109",
+                "nome_apresentante": "BANCO ITAU SA",
+                "nome_cedente": "REFRIGERACAO TIPI LTDA",
+                "tem_anuencia": "Não"
+              }
+            ]
+          }
+        ]
+      },
+      "consulta_data": "10/01/2022",
+      "consulta_datahora": "10/01/2022 10:13",
+      "documento_pesquisado": "14442615000182",
+      "quantidade_titulos": 17,
+      "site_receipt": "https://storage.googleapis.com/infosimples-api-tmp-files/api/ieptb/protestos/0110101609_9c6f557ceb7acab99a320026f73c3c2d_0_X-k.html"
+    }
+  ],
+  "errors": [],
+  "site_receipts": [
+    "https://storage.googleapis.com/infosimples-api-tmp-files/api/ieptb/protestos/0110101609_9c6f557ceb7acab99a320026f73c3c2d_0_X-k.html"
+  ]
+}

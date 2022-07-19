@@ -1,0 +1,14 @@
+{
+  "result": {
+    "distances": [
+      0.38
+    ]
+  },
+  "requestId": "38pwW7uJYECfUEKG8sbGc",
+  "elapsedMilliseconds": 341,
+  "status": {
+    "message": "Ok",
+    "code": "200",
+    "errors": null
+  }
+}

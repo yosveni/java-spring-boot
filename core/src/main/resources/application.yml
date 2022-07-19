@@ -1,0 +1,119 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 250MB
+      max-request-size: 260MB
+
+  #spring-boot-starter-notifications
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: info@linkapital.com.br
+    password: infolink@2020*
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    test-connection: false
+
+  flyway:
+    schemas: linkapital
+    locations: classpath:db/migration
+    enabled: true
+
+server:
+  servlet:
+    context-path: /api
+  port: 80
+
+#Security
+security:
+  jwt:
+    token:
+      secret-key: secret
+      expire-length: 3600000
+      refresh-token: 86400000
+
+#api.neoway:
+api_integration:
+  neo_way:
+    host: https://api.neoway.com.br
+    application: linkapital-app
+    application_secret: OwRoHqhQAQ
+  robot:
+    death_captcha:
+      token: 1GOd10aUF6G9nhItK98U27VL9057tP0Vzosds47Mw41a1aaVz11gfB6uQlw04ATzFQn26DRxQJW7U8B5ilFgI1Iv0jfARi1NwSrG2uqjRJMp2E830YoG6e79u9S8RA719gP12t7l8F7t3Tb0gKE523sULPME
+      username: dainiel
+      password: Linkapital.2020*
+  google:
+    maps:
+      key: AIzaSyACvHra1L1YnCqqLq9_e2q8XSLO3U3O_l4
+  infosimples:
+    host: https://api.infosimples.com
+    token: zzSpt6RdSFnnC0kmFX9ilYkKnuK1gDgomIV-8nwz
+    key: AIzaSyACvHra1L1YnCqqLq9_e2q8XSLO3U3O_l4
+
+#api.src:
+api_src:
+  host: https://scr.fiducia.digital
+  token: ZGFpbmllbEBsaW5rYXBpdGFsLmNvbS5icjpGaWR1Y2lhbExLMjAyMSo=
+  input: input.xml
+  client_type: 2
+
+#Thread
+thread:
+  prefix: Linkapital-
+  pool:
+    size: 3
+    max-pool-size: 3
+  queue:
+    capacity: 500
+
+#Notifications
+notifications:
+  emails: dainiel@linkapital.com.br,bruno@linkapital.com.br,hector@linkapital.com.br
+  admin: admin@gmail.com
+
+#Api SMS
+sms:
+  sid: AC23879a5f5e05b63af77c2c403eb1d24d
+  token: 4f92d7d8916f3e7f69e1823fa4ec58c6
+  number: +13203377409
+
+#Logs
+logging:
+  level:
+    org:
+      hibernate: error
+      springframework:
+        web: info
+    com:
+      linkapital:
+        core: debug
+  file:
+    name: errors.log
+
+#fault tolerance
+resilience4j.retry:
+  configs:
+    default:
+      failAfterMaxAttempts: true
+      retryExceptions:
+        - com.fasterxml.jackson.databind.exc.InvalidDefinitionException
+        - org.springframework.web.client.HttpServerErrorException
+        - org.springframework.web.client.RestClientException
+        - java.util.concurrent.TimeoutException
+        - java.io.IOException
+  instances:
+    sidra:
+      baseConfig: default
+    bndes:
+      baseConfig: default
+    ibge:
+      baseConfig: default
+    fiducia:
+      baseConfig: default

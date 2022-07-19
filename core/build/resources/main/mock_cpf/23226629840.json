@@ -1,0 +1,541 @@
+{
+  "_id": "23226629840",
+  "_metadata": {
+    "model-analytics-pessoa-renda-estimada": {
+      "processingTimestamp": "2020-10-04T05:00:30.000Z",
+      "schemaID": "3091"
+    },
+    "pessoa-banco-central": {
+      "noMatchFound": true
+    },
+    "pessoa-ceis": {
+      "noMatchFound": true
+    },
+    "pessoa-cnep": {
+      "noMatchFound": true
+    },
+    "pessoa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "pessoa-irpf-restituicao": {
+      "insertDate": "2021-02-01T22:25:20.649Z",
+      "lastUpdate": "2021-02-01T22:25:20Z",
+      "processingTimestamp": "2021-02-01T22:25:20Z",
+      "source": [
+        "irpf-restituicao"
+      ],
+      "updatedAt": "2021-02-01T22:25:26.045Z"
+    },
+    "pessoa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "pessoas": {
+      "_metadata": {
+        "irpf": {
+          "processingTimestamp": "2021-02-01T22:25:20Z",
+          "source": [
+            "IRPF-RESTITUICAO"
+          ]
+        },
+        "participacaoSocietaria": {
+          "processingTimestamp": "2020-12-16T00:00:00.000Z",
+          "source": [
+            "JUCESP"
+          ]
+        },
+        "participacaoSocietariaRF": {
+          "processingTimestamp": "2021-02-14T00:00:00.000Z",
+          "source": [
+            "QSA RF PPD2"
+          ]
+        },
+        "participacaoSocietariaUnico": {
+          "processingTimestamp": "2021-02-14T00:00:00.000Z",
+          "source": [
+            "JUCESP",
+            "QSA RF"
+          ]
+        },
+        "pessoas": {
+          "processingTimestamp": "2020-09-18T13:19:56Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "veiculos": {
+          "processingTimestamp": "2018-03-26T00:00:00.000Z",
+          "source": [
+            "DPVAT"
+          ]
+        }
+      },
+      "lastUpdate": "2021-02-28T02:25:33.197Z",
+      "updatedAt": "2021-02-28T02:25:33.239Z"
+    }
+  },
+  "cafir": {
+    "areaTotal": 75.2,
+    "numeroImoveisCondomino": 0,
+    "numeroImoveisTitular": 1,
+    "imoveis": [
+      {
+        "area": 75.2,
+        "condominioInfo": "NAO",
+        "municipio": "ARACATUBA",
+        "nirf": "422210089",
+        "nome": "PREDIO MAIOR",
+        "tipo": "TITULAR",
+        "uf": "SP"
+      }
+    ]
+  },
+  "cpf": "23226629840",
+  "cpfDataInscricao": "2006-06-23",
+  "cpfMae": "23795074819",
+  "dataNascimento": "1966-03-21T12:00:00Z",
+  "endereco": {
+    "bairro": "PANORAMA",
+    "cep": "16013800",
+    "complemento": "BL E",
+    "logradouro": "RUA GASPAR DE LEMOS",
+    "municipio": "ARACATUBA",
+    "numero": "281",
+    "uf": "SP"
+  },
+  "enderecoOutros": [
+    {
+      "bairro": "INGLESES",
+      "cep": "88058455",
+      "complemento": "APT 202",
+      "logradouro": "RIO VERMELHO",
+      "municipio": "SANTA CATARINA",
+      "numero": "67",
+      "uf": "SC"
+    },
+    {
+      "bairro": "CORREGO GRANDE",
+      "cep": "88037340",
+      "complemento": "110A",
+      "logradouro": "RUA GUALBERTO SUAREZ",
+      "municipio": "SANTA CATARINA",
+      "numero": "110",
+      "uf": "SC"
+    }
+  ],
+  "falecido": false,
+  "falecidoConfirmado": false,
+  "idade": 54,
+  "imoveis": [
+    {
+      "areaConstruida": 61.9,
+      "areaTerreno": 80.1,
+      "idReferencia": "00902900838",
+      "valorAvaliacao": "2307320",
+      "endereco": {
+        "bairro": "PANORAMA",
+        "cep": "16013800",
+        "complemento": "BL H",
+        "logradouro": "RUA GASPAR DE LEMOS",
+        "municipio": "ARACATUBA",
+        "numero": "287",
+        "uf": "SP"
+      }
+    },
+    {
+      "areaConstruida": 77.2,
+      "areaTerreno": 90.2,
+      "idReferencia": "0040212255",
+      "valorAvaliacao": "1557142",
+      "endereco": {
+        "bairro": "PANORAMA",
+        "cep": "16013800",
+        "complemento": "BL D",
+        "logradouro": "RUA GASPAR DE LEMOS",
+        "municipio": "ARACATUBA",
+        "numero": "322",
+        "uf": "SP"
+      }
+    }
+  ],
+  "incomePrediction": {
+    "incomeInterval": "ACIMA DE 19.080"
+  },
+  "irpfRestituicao": {
+    "exercicios": [
+      {
+        "anoExercicio": 2015,
+        "dataDisponibilidade": "2015-11-16T00:00:00Z",
+        "nomeBanco": "BANCO BRADESCO",
+        "numAgencia": "3543",
+        "numLote": "06",
+        "situacao": "CREDITADA"
+      },
+      {
+        "anoExercicio": 2019,
+        "dataDisponibilidade": "2019-11-18T00:00:00Z",
+        "nomeBanco": "BANCO BRADESCO",
+        "numAgencia": "3543",
+        "numLote": "006",
+        "situacao": "CREDITADA"
+      },
+      {
+        "anoExercicio": 2020,
+        "dataDisponibilidade": "2020-08-31T00:00:00Z",
+        "nomeBanco": "BANCO BRADESCO",
+        "numAgencia": "3543",
+        "numLote": "004",
+        "situacao": "CREDITADA"
+      }
+    ]
+  },
+  "mteCnd": {
+    "codigo": "DRR5633HJKI",
+    "dataEmissao": "12/01/2015",
+    "situacaoDebito": "ACTIVE",
+    "tipoCertidao": "SIMPLIFICADO",
+    "processos": [
+      {
+        "capitulacaoInfracao": "9955AFR",
+        "categoriaInfracao": "GERAL",
+        "numero": "458",
+        "situacaoProcesso": "FUNCIONAL"
+      },
+      {
+        "capitulacaoInfracao": "65PPO45",
+        "categoriaInfracao": "INFORMAL",
+        "numero": "25",
+        "situacaoProcesso": "NÃO FUNCIONAL"
+      }
+    ]
+  },
+  "nome": "BRITALDO HERNANDEZ FERNANDEZ",
+  "nomeMae": "ANA JULIA FERNANDEZ GUTIERREZ",
+  "participacaoSocietaria": [
+    {
+      "capitalSocialEmpresa": 24406559,
+      "cnpj": "22630378000101",
+      "dataAbertura": "2015-06-11T00:00:00Z",
+      "dataEntrada": "2015-06-11T00:00:00Z",
+      "descricaoCnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 81.000,01 A R$ 360.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 8786361.24,
+      "qualificacao": "SOCIO E ADMINISTRADOR",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "SLFT3 PARTICIPACOES SOCIETARIAS LTDA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 35.81
+    },
+    {
+      "capitalSocialEmpresa": 1000,
+      "cnpj": "22684320000140",
+      "dataAbertura": "2015-06-19T00:00:00Z",
+      "dataEntrada": "2015-06-19T00:00:00Z",
+      "descricaoCnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 390,
+      "qualificacao": "SOCIO",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "HDC PARTICIPACOES SOCIETARIAS LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 39.4
+    },
+    {
+      "capitalSocialEmpresa": 40000002.7,
+      "cnpj": "12456606000115",
+      "dataAbertura": "2010-08-10T00:00:00Z",
+      "dataEntrada": "2015-08-13T00:00:00Z",
+      "descricaoCnae": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS",
+      "faixaFaturamentoPresumido": "DE R$ 4.800.000,01 A R$ 10.000.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 30.000.000,01 A R$ 100.000.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "DIRETOR",
+      "ramoAtividade": "INDUSTRIA DIGITAL",
+      "razaoSocial": "TECSOIL AUTOMACAO E SISTEMAS SA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    }
+  ],
+  "participacaoSocietariaRF": [
+    {
+      "capitalSocialEmpresa": 40000002.7,
+      "cnpj": "12456606000115",
+      "dataAbertura": "2010-08-10T00:00:00Z",
+      "dataEntrada": "2015-08-13T00:00:00Z",
+      "descricaoCnae": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS",
+      "faixaFaturamentoPresumido": "DE R$ 4.800.000,01 A R$ 10.000.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 30.000.000,01 A R$ 100.000.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "DIRETOR",
+      "ramoAtividade": "INDUSTRIA DIGITAL",
+      "razaoSocial": "TECSOIL AUTOMACAO E SISTEMAS SA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 225472647.68,
+      "cnpj": "29739460000118",
+      "dataAbertura": "2018-02-21T00:00:00Z",
+      "dataEntrada": "2018-05-28T00:00:00Z",
+      "descricaoCnae": "OUTRAS SOCIEDADES DE PARTICIPACAO, EXCETO HOLDINGS",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 81.000,01 A R$ 360.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "DIRETOR",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "STEC PARTICIPACOES SA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 1000,
+      "cnpj": "22684320000140",
+      "dataAbertura": "2015-06-19T00:00:00Z",
+      "dataEntrada": "2015-06-19T00:00:00Z",
+      "descricaoCnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "HDC PARTICIPACOES SOCIETARIAS LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 24406559,
+      "cnpj": "22630378000101",
+      "dataAbertura": "2015-06-11T00:00:00Z",
+      "dataEntrada": "2016-11-23T00:00:00Z",
+      "descricaoCnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 81.000,01 A R$ 360.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "SLFT3 PARTICIPACOES SOCIETARIAS LTDA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 1056,
+      "cnpj": "08809880000153",
+      "dataAbertura": "2007-05-03T00:00:00Z",
+      "dataEntrada": "2007-05-03T00:00:00Z",
+      "descricaoCnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 360.000,01 A R$ 1.500.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO ADMINISTRADOR",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "SOLINFTEC PARTICIPACOES LTDA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    }
+  ],
+  "participacaoSocietariaUnico": [
+    {
+      "capitalSocialEmpresa": 40000002.7,
+      "cnpj": "12456606000115",
+      "dataAbertura": "2010-08-10T00:00:00Z",
+      "dataPrimeiraCaptura": "2020-10-23T00:00:00Z",
+      "descricaoCnae": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS",
+      "faixaFaturamentoPresumido": "DE R$ 4.800.000,01 A R$ 10.000.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 30.000.000,01 A R$ 100.000.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "DIRETOR",
+      "ramoAtividade": "INDUSTRIA DIGITAL",
+      "razaoSocial": "TECSOIL AUTOMACAO E SISTEMAS SA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 1000,
+      "cnpj": "22684320000140",
+      "dataAbertura": "2015-06-19T00:00:00Z",
+      "dataPrimeiraCaptura": "2020-12-16T00:00:00Z",
+      "descricaoCnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 390,
+      "qualificacao": "SOCIO",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "HDC PARTICIPACOES SOCIETARIAS LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 39.4
+    },
+    {
+      "capitalSocialEmpresa": 24406559,
+      "cnpj": "22630378000101",
+      "dataAbertura": "2015-06-11T00:00:00Z",
+      "dataPrimeiraCaptura": "2020-07-05T00:00:00Z",
+      "descricaoCnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 81.000,01 A R$ 360.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO E ADMINISTRADOR",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "SLFT3 PARTICIPACOES SOCIETARIAS LTDA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 225472647.68,
+      "cnpj": "29739460000118",
+      "dataAbertura": "2018-02-21T00:00:00Z",
+      "dataPrimeiraCaptura": "2020-07-22T00:00:00Z",
+      "descricaoCnae": "OUTRAS SOCIEDADES DE PARTICIPACAO, EXCETO HOLDINGS",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 81.000,01 A R$ 360.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "DIRETOR",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "STEC PARTICIPACOES SA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 1056,
+      "cnpj": "08809880000153",
+      "dataAbertura": "2007-05-03T00:00:00Z",
+      "dataPrimeiraCaptura": "2020-07-30T00:00:00Z",
+      "descricaoCnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 360.000,01 A R$ 1.500.000,00",
+      "municipio": "ARACATUBA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO ADMINISTRADOR",
+      "ramoAtividade": "BENS DE CAPITAL",
+      "razaoSocial": "SOLINFTEC PARTICIPACOES LTDA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    }
+  ],
+  "processoJudicialTotalizadores": {
+    "quantidades": [
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 3,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 1,
+        "qtdTotal": 4,
+        "tipo": "NUMERO DE PROCESSOS"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "CRIMINAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRIBUTARIO"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRABALHISTA"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "ELEITORAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "MILITAR"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 3,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 1,
+        "qtdTotal": 4,
+        "tipo": "CIVEL / ADMINISTRATIVO"
+      }
+    ],
+    "valorTotal": 3574.63,
+    "valorTotalAtiva": 0,
+    "valorTotalOutrasPartes": 930,
+    "valorTotalPassiva": 2644.63
+  },
+  "pessoaPgfnDau": {
+    "totalDividas": 36000,
+    "dividas": [
+      {
+        "inscricao": "PUBLICA",
+        "natureza": "JURIDICA",
+        "valorInscricaoDevido": 14000.00
+      },
+      {
+        "inscricao": "PUBLICA",
+        "natureza": "JURIDICA",
+        "valorInscricaoDevido": 22000.00
+      }
+    ]
+  },
+  "quantidadeEmpresasParticipacaoQsaUnico": 5,
+  "relacionamentos": [
+    {
+      "cpf": "23590965835",
+      "descricao": "IRMAO",
+      "nome": "JORGE LUIS HERNANDEZ FERNANDEZ"
+    },
+    {
+      "cpf": "23795074819",
+      "descricao": "MAE",
+      "nome": "ANA JULIA FERNANDEZ GUTIERREZ"
+    }
+  ],
+  "servidorPublico": false,
+  "sexo": "NAO INFORMADO",
+  "situacaoCpf": "REGULAR",
+  "situacaoEmpregaticia": "SEM VINCULO",
+  "telefones": [
+    {
+      "numero": "1833056869"
+    },
+    {
+      "numero": "1836086404"
+    },
+    {
+      "numero": "1836222898"
+    }
+  ]
+}

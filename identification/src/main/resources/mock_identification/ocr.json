@@ -1,0 +1,157 @@
+{
+  "result": [
+    {
+      "fields": [
+        {
+          "name": "cat_hab",
+          "stdName": null,
+          "value": null,
+          "score": null
+        },
+        {
+          "name": "cpf",
+          "stdName": null,
+          "value": "24246324809",
+          "score": 0.94
+        },
+        {
+          "name": "rg",
+          "stdName": null,
+          "value": "7060005262019",
+          "score": 0.93
+        },
+        {
+          "name": "doc",
+          "stdName": null,
+          "value": "doc . identidade / org , emisor yuf\n87060005262019\n",
+          "score": 0.93
+        },
+        {
+          "name": "codigo_seguranca",
+          "stdName": null,
+          "value": "16516144558",
+          "score": 0.89
+        },
+        {
+          "name": "data_emissao",
+          "stdName": null,
+          "value": "2019-08-15",
+          "score": 0.93
+        },
+        {
+          "name": "data_nascimento",
+          "stdName": null,
+          "value": "1970-04-14",
+          "score": 0.92
+        },
+        {
+          "name": "local_cidade",
+          "stdName": null,
+          "value": null,
+          "score": null
+        },
+        {
+          "name": "nome",
+          "stdName": null,
+          "value": "HECTOR RAFAEL BENITEZ GONZALEZ",
+          "score": 0.94
+        },
+        {
+          "name": "filiacao_1",
+          "stdName": null,
+          "value": "AIDA GONZALEZ GARCIA",
+          "score": 0.97
+        },
+        {
+          "name": "filiacao_2",
+          "stdName": null,
+          "value": "RAFAEL BENITEZ RAMIREZ",
+          "score": 0.97
+        },
+        {
+          "name": "numero_espelho_frente",
+          "stdName": null,
+          "value": "1902678791",
+          "score": 0.89
+        },
+        {
+          "name": "numero_espelho_verso",
+          "stdName": null,
+          "value": "1902678791",
+          "score": 0.88
+        },
+        {
+          "name": "observacoes",
+          "stdName": null,
+          "value": " observacoes - 00000 own ",
+          "score": 0.86
+        },
+        {
+          "name": "data_primeira_habilitacao",
+          "stdName": null,
+          "value": "2001-11-01",
+          "score": 0.93
+        },
+        {
+          "name": "registro",
+          "stdName": null,
+          "value": "07314259238",
+          "score": 0.94
+        },
+        {
+          "name": "renach",
+          "stdName": null,
+          "value": "SP980296765",
+          "score": 0.89
+        },
+        {
+          "name": "data_validade",
+          "stdName": null,
+          "value": "2024-06-19",
+          "score": 0.74
+        },
+        {
+          "name": "local_uf",
+          "stdName": null,
+          "value": "SP",
+          "score": 0.56
+        },
+        {
+          "name": "orgao_emissor",
+          "stdName": null,
+          "value": "Órgão de Trânsito",
+          "score": 0.94
+        },
+        {
+          "name": "estado_emissor",
+          "stdName": null,
+          "value": "SP",
+          "score": 0.6
+        }
+      ],
+      "image": null,
+      "score": 0.9,
+      "type": "documento-pessoal",
+      "stdType": "personal-document",
+      "pageNumber": 1,
+      "tags": [
+        "id=bra-cnh-1",
+        "region=bottom",
+        "region=top",
+        "subtype=cnh",
+        "has=photo",
+        "region=front",
+        "region=back"
+      ],
+      "tables": null,
+      "processType": "extraction"
+    }
+  ],
+  "requestId": "z78sNPUkMUGsechd2mWav",
+  "elapsedMilliseconds": 3468,
+  "status": {
+    "message": "Ok",
+    "code": "200",
+    "errors": null
+  }
+}

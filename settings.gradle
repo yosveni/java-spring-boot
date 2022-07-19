@@ -1,0 +1,6 @@
+rootProject.name = 'linkapital'
+include 'core'
+include 'captcha'
+include 'jucesp-bot'
+include 'platform'
+include 'identification'

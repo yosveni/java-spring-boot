@@ -1,0 +1,28 @@
+package com.linkapital.core.services.method_k.contract.enums;
+
+public enum KeyDescriptionSped {
+    AVAILABLE_ACTIVE,
+    CURRENT_ACTIVE,
+    NOT_CURRENT_ACTIVE,
+    PERMANENT_ACTIVE,
+    ACTIVE,
+    CURRENT_PASSIVE,
+    NOT_CURRENT_PASSIVE,
+    PERMANENT_PASSIVE,
+    PL,
+    PASSIVE,
+    CCL,
+    NET_DEBT,
+    INVOICING,
+    CMV,
+    OPERATIONAL_PANTRY,
+    EBITDA,
+    PANTRY_AM,
+    OPERATIONAL_PROFIT,
+    FINANCIAL_EXPENSES,
+    TAX,
+    NET_PROFIT,
+    PERCENT_EBITDA,
+    DL_EBITDA,
+    PERCENT_NET_PROFIT
+}

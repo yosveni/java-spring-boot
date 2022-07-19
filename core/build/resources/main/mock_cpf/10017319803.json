@@ -1,0 +1,395 @@
+{
+  "_id": "10017319803",
+  "_metadata": {
+    "model-analytics-pessoa-renda-estimada": {
+      "processingTimestamp": "2020-10-04T05:00:30.000Z",
+      "schemaID": "3091"
+    },
+    "pessoa-banco-central": {
+      "noMatchFound": true
+    },
+    "pessoa-ceis": {
+      "noMatchFound": true
+    },
+    "pessoa-cnep": {
+      "noMatchFound": true
+    },
+    "pessoa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "pessoa-irpf-restituicao": {
+      "insertDate": "2021-01-25T07:16:51.351Z",
+      "lastUpdate": "2021-01-25T07:16:51Z",
+      "processingTimestamp": "2021-01-25T07:16:51Z",
+      "source": [
+        "irpf-restituicao"
+      ],
+      "updatedAt": "2021-01-25T07:16:57.332Z"
+    },
+    "pessoa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "pessoas": {
+      "_metadata": {
+        "cafir": {
+          "processingTimestamp": "2018-07-16T00:00:00.000Z",
+          "source": [
+            "CAFIR"
+          ]
+        },
+        "irpf": {
+          "processingTimestamp": "2021-01-25T07:16:51Z",
+          "source": [
+            "IRPF-RESTITUICAO"
+          ]
+        },
+        "participacaoSocietaria": {
+          "processingTimestamp": "2018-12-13T00:00:00.000Z",
+          "source": [
+            "JUCESP"
+          ]
+        },
+        "participacaoSocietariaRF": {
+          "processingTimestamp": "2021-02-25T00:00:00.000Z",
+          "source": [
+            "QSA RF PPD2",
+            "QSA RF ANTIGO"
+          ]
+        },
+        "participacaoSocietariaUnico": {
+          "processingTimestamp": "2021-01-20T00:00:00.000Z",
+          "source": [
+            "JUCESP",
+            "QSA RF",
+            "QSA RF ANTIGO"
+          ]
+        },
+        "pessoas": {
+          "processingTimestamp": "2020-07-19T13:06:39Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "possuiSeguroDesemprego": {
+          "processingTimestamp": "2015-12-04",
+          "source": [
+            "MTE - MINISTERIO DO TRABALHO"
+          ]
+        },
+        "seguroDesemprego": {
+          "processingTimestamp": "2015-12-04",
+          "source": [
+            "MTE - MINISTERIO DO TRABALHO"
+          ]
+        },
+        "veiculos": {
+          "processingTimestamp": "2017-07-17T00:00:00.000Z",
+          "source": [
+            "DENATRAN_UPDATED",
+            "IPVA-SP"
+          ]
+        }
+      },
+      "lastUpdate": "2021-03-27T23:16:17.222Z",
+      "updatedAt": "2021-03-27T23:16:17.237Z"
+    }
+  },
+  "cafir": {
+    "areaTotal": 155.6,
+    "imoveis": [
+      {
+        "area": 17.5,
+        "condominioInfo": "SIM",
+        "municipio": "IBITINGA",
+        "nirf": "32292597",
+        "nome": "CHACARA MOINHO VELHO",
+        "tipo": "TITULAR",
+        "uf": "SP"
+      },
+      {
+        "area": 138.1,
+        "condominioInfo": "SIM",
+        "municipio": "IBITINGA",
+        "nirf": "89038657",
+        "nome": "FAZENDA SANTA RITA",
+        "tipo": "TITULAR",
+        "uf": "SP"
+      }
+    ],
+    "numeroImoveisCondomino": 0,
+    "numeroImoveisTitular": 2
+  },
+  "cpf": "10017319803",
+  "dataNascimento": "1958-09-21T12:00:00Z",
+  "endereco": {
+    "cep": "14940000",
+    "logradouro": "RUA BOM JESUS",
+    "municipio": "IBITINGA",
+    "numero": "277",
+    "uf": "SP"
+  },
+  "falecido": false,
+  "falecidoConfirmado": false,
+  "idade": 62,
+  "incomePrediction": {
+    "incomeInterval": "DE 4.770,01 A 7.632"
+  },
+  "irpfRestituicao": {
+    "exercicios": [
+      {
+        "anoExercicio": 2016,
+        "dataDisponibilidade": "2016-11-16T00:00:00Z",
+        "nomeBanco": "BANCO ITAU",
+        "numAgencia": "4088",
+        "numLote": "006",
+        "situacao": "CREDITADA"
+      },
+      {
+        "anoExercicio": 2019,
+        "situacao": "IMPOSTO A PAGAR SEM OPCAO POR DEBITO AUTOMATICO"
+      },
+      {
+        "anoExercicio": 2020,
+        "situacao": "IMPOSTO A PAGAR SEM OPCAO POR DEBITO AUTOMATICO"
+      }
+    ]
+  },
+  "nome": "AGENOR CAMAS JUNIOR",
+  "nomeMae": "JUCELINA LUZIA DE ARAUJO CAMAS",
+  "participacaoSocietaria": [
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "02072516000177",
+      "dataAbertura": "1997-08-04T00:00:00Z",
+      "dataEntrada": "1997-08-04T00:00:00Z",
+      "descricaoCnae": "INCORPORACAO DE EMPREENDIMENTOS IMOBILIARIOS",
+      "municipio": "IBITINGA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO E ADMINISTRADOR",
+      "ramoAtividade": "INDUSTRIA DA CONSTRUCAO",
+      "razaoSocial": "EMPREENDIMENTO IMOBILIARIO CAMAS LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 2.5
+    }
+  ],
+  "participacaoSocietariaRF": [
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "23837629000196",
+      "dataAbertura": "2015-11-25T00:00:00Z",
+      "descricaoCnae": "CRIACAO DE BOVINOS PARA CORTE",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 360.000,01 A R$ 1.500.000,00",
+      "municipio": "IBITINGA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "PRODUTOR RURAL",
+      "ramoAtividade": "PRODUTOS DE AGROPECUARIA",
+      "razaoSocial": "AGENOR CAMAS JUNIOR E OUTRA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 100000,
+      "cnpj": "73667271000179",
+      "dataAbertura": "1993-11-03T00:00:00Z",
+      "descricaoCnae": "SERVICOS DE ENGENHARIA",
+      "faixaFaturamentoPresumido": "ATE R$ 81.000,00",
+      "faixaFaturamentoPresumidoGrupo": "ATE R$ 81.000,00",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO",
+      "ramoAtividade": "SERVICOS PROFISSIONAIS E TECNICOS",
+      "razaoSocial": "PERTECNICA HSMA CONSULTORIA E PROJETOS LTDA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "06039459000185",
+      "dataAbertura": "2003-12-02T00:00:00Z",
+      "dataEntrada": "2003-12-02T00:00:00Z",
+      "descricaoCnae": "TREINAMENTO EM DESENVOLVIMENTO PROFISSIONAL E GERENCIAL",
+      "municipio": "IBITINGA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO-ADMINISTRADOR",
+      "ramoAtividade": "SERVICOS DE EDUCACAO",
+      "razaoSocial": "PONS CAMAS TREINAMENTO PROFISSIONAL S S LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 50
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "02072516000177",
+      "dataAbertura": "1997-08-04T00:00:00Z",
+      "dataEntrada": "1997-08-04T00:00:00Z",
+      "descricaoCnae": "INCORPORACAO DE EMPREENDIMENTOS IMOBILIARIOS",
+      "municipio": "IBITINGA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO-ADMINISTRADOR",
+      "ramoAtividade": "INDUSTRIA DA CONSTRUCAO",
+      "razaoSocial": "EMPREENDIMENTO IMOBILIARIO CAMAS LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 2.5
+    }
+  ],
+  "participacaoSocietariaUnico": [
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "02072516000177",
+      "dataAbertura": "1997-08-04T00:00:00Z",
+      "dataPrimeiraCaptura": "2018-12-13T00:00:00Z",
+      "descricaoCnae": "INCORPORACAO DE EMPREENDIMENTOS IMOBILIARIOS",
+      "municipio": "IBITINGA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO E ADMINISTRADOR",
+      "ramoAtividade": "INDUSTRIA DA CONSTRUCAO",
+      "razaoSocial": "EMPREENDIMENTO IMOBILIARIO CAMAS LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 2.5
+    },
+    {
+      "capitalSocialEmpresa": 100000,
+      "cnpj": "73667271000179",
+      "dataAbertura": "1993-11-03T00:00:00Z",
+      "dataPrimeiraCaptura": "2020-07-27T00:00:00Z",
+      "descricaoCnae": "SERVICOS DE ENGENHARIA",
+      "faixaFaturamentoPresumido": "ATE R$ 81.000,00",
+      "faixaFaturamentoPresumidoGrupo": "ATE R$ 81.000,00",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO",
+      "ramoAtividade": "SERVICOS PROFISSIONAIS E TECNICOS",
+      "razaoSocial": "PERTECNICA HSMA CONSULTORIA E PROJETOS LTDA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "23837629000196",
+      "dataAbertura": "2015-11-25T00:00:00Z",
+      "dataPrimeiraCaptura": "2020-07-28T00:00:00Z",
+      "descricaoCnae": "CRIACAO DE BOVINOS PARA CORTE",
+      "faixaFaturamentoPresumido": "DE R$ 81.000,01 A R$ 360.000,00",
+      "faixaFaturamentoPresumidoGrupo": "DE R$ 360.000,01 A R$ 1.500.000,00",
+      "municipio": "IBITINGA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "PRODUTOR RURAL",
+      "ramoAtividade": "PRODUTOS DE AGROPECUARIA",
+      "razaoSocial": "AGENOR CAMAS JUNIOR E OUTRA",
+      "situacao": "ATIVA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "06039459000185",
+      "dataAbertura": "2003-12-02T00:00:00Z",
+      "dataPrimeiraCaptura": "2003-12-02T00:00:00Z",
+      "descricaoCnae": "TREINAMENTO EM DESENVOLVIMENTO PROFISSIONAL E GERENCIAL",
+      "municipio": "IBITINGA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO-ADMINISTRADOR",
+      "ramoAtividade": "SERVICOS DE EDUCACAO",
+      "razaoSocial": "PONS CAMAS TREINAMENTO PROFISSIONAL S S LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 50
+    }
+  ],
+  "pis": "12154824635",
+  "processoJudicialTotalizadores": {
+    "quantidades": [
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 2,
+        "qtdTotal": 2,
+        "tipo": "NUMERO DE PROCESSOS"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "CRIMINAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRIBUTARIO"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRABALHISTA"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "ELEITORAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "MILITAR"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 2,
+        "qtdTotal": 2,
+        "tipo": "CIVEL / ADMINISTRATIVO"
+      }
+    ],
+    "valorTotal": 2450827.57,
+    "valorTotalAtiva": 0,
+    "valorTotalOutrasPartes": 0,
+    "valorTotalPassiva": 2450827.57
+  },
+  "profissaoNeoway": "ENGENHEIRO",
+  "quantidadeEmpresasParticipacaoQsaUnico": 4,
+  "seguroDesemprego": [
+    {
+      "dataPrimeiraParcela": "2015-06-19T00:00:00Z",
+      "pis": "12154824635",
+      "situacao": "SEGURO COMPLETO"
+    }
+  ],
+  "servidorPublico": false,
+  "sexo": "MASCULINO",
+  "situacaoCpf": "REGULAR",
+  "situacaoEmpregaticia": "SEM VINCULO",
+  "telefones": [
+    {
+      "numero": "1130605909"
+    },
+    {
+      "numero": "1632424651"
+    },
+    {
+      "numero": "1633424651"
+    }
+  ]
+}

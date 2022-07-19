@@ -1,0 +1,292 @@
+{
+  "_id": "04271101656",
+  "_metadata": {
+    "model-analytics-pessoa-renda-estimada": {
+      "processingTimestamp": "2021-04-11T05:00:30.000Z",
+      "schemaID": "5288"
+    },
+    "pessoa-banco-central": {
+      "noMatchFound": true
+    },
+    "pessoa-ceis": {
+      "noMatchFound": true
+    },
+    "pessoa-cnep": {
+      "noMatchFound": true
+    },
+    "pessoa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "pessoa-doacao-eleitoral": {
+      "insertDate": "2021-03-09T05:33:38.461Z",
+      "lastUpdate": "2021-03-09T03:55:20Z",
+      "processingTimestamp": "2021-03-09T03:55:20Z",
+      "source": [
+        "tse-doacoes"
+      ],
+      "updatedAt": "2021-03-22T14:13:57.871Z"
+    },
+    "pessoa-irpf-restituicao": {
+      "insertDate": "2021-01-17T12:19:00.619Z",
+      "lastUpdate": "2021-01-17T12:19:00Z",
+      "processingTimestamp": "2021-01-17T12:19:00Z",
+      "source": [
+        "irpf-restituicao"
+      ],
+      "updatedAt": "2021-01-17T12:19:05.995Z"
+    },
+    "pessoa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "pessoas": {
+      "_metadata": {
+        "enderecoEmpregoRaisNovo": {
+          "processingTimestamp": "2021-03-20T16:10:50Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "historicoFuncional": {
+          "processingTimestamp": "2021-03-09T00:00:00.000Z",
+          "source": [
+            "RAIS"
+          ]
+        },
+        "irpf": {
+          "processingTimestamp": "2021-01-17T12:19:00Z",
+          "source": [
+            "IRPF-RESTITUICAO"
+          ]
+        },
+        "pessoas": {
+          "processingTimestamp": "2021-03-20T16:10:50Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        }
+      },
+      "lastUpdate": "2021-04-17T05:23:35.079Z",
+      "updatedAt": "2021-04-17T05:23:35.09Z"
+    }
+  },
+  "cafir": {
+    "areaTotal": 0,
+    "numeroImoveisCondomino": 0,
+    "numeroImoveisTitular": 0
+  },
+  "cpf": "04271101656",
+  "cpfDataInscricao": "1997-09-07",
+  "cpfMae": "64584437653",
+  "dataNascimento": "1979-08-24T12:00:00Z",
+  "doacaoEleitoral": {
+    "doacoes": [
+      {
+        "descricaoEleicao": "ELEICOES GERAIS 2014",
+        "nomeDoadorOriginario": "VIA ENGENHARIA S A",
+        "setorEconomicoDoador": "ATIVIDADES DE ORGANIZACOES POLITICAS",
+        "valorDoado": 277.2
+      },
+      {
+        "descricaoEleicao": "ELEICOES GERAIS 2014",
+        "valorDoado": 1000
+      },
+      {
+        "descricaoEleicao": "ELEICOES GERAIS 2014",
+        "valorDoado": 500
+      },
+      {
+        "descricaoEleicao": "ELEICOES GERAIS 2014",
+        "nomeDoadorOriginario": "ECOLURB ENGENHARIA CONSERVACAO E LIMPEZA URBANA LTDA",
+        "setorEconomicoDoador": "ATIVIDADES DE ORGANIZACOES POLITICAS",
+        "valorDoado": 4000
+      }
+    ]
+  },
+  "endereco": {
+    "bairro": "JARDIM LEBLON",
+    "cep": "31540220",
+    "complemento": "AP 6",
+    "logradouro": "RUA CONCEICAO DOS OUROS",
+    "municipio": "BELO HORIZONTE",
+    "numero": "106",
+    "uf": "MG"
+  },
+  "enderecoEmpregoRaisNovo": {
+    "EnderecoResidencial": false,
+    "bairro": "SERRA VERDE",
+    "cep": "31630900",
+    "cnpj": "16695025000197",
+    "complemento": "ANDAR 6",
+    "descricaoCnae": "SEGURANCA E ORDEM PUBLICA",
+    "faixaFaturamento": "ACIMA DE 1 BILHAO DE REAIS",
+    "logradouro": "RODOVIA PAPA JOAO PAULO II",
+    "municipio": "BELO HORIZONTE",
+    "numero": "4143",
+    "precisaoGeo": "SEM INFORMACAO",
+    "quantidadeFuncionarios": 38800,
+    "ramoAtividade": "SERVICOS DIVERSOS",
+    "razaoSocial": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
+    "uf": "MG"
+  },
+  "falecido": false,
+  "falecidoConfirmado": false,
+  "historicoFuncional": [
+    {
+      "cnpj": "16695025000197",
+      "dataAdmissao": "2004-04-26T00:00:00Z",
+      "numeroMesesEmpresa": 203,
+      "razaoSocial": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS"
+    }
+  ],
+  "idade": 41,
+  "incomePrediction": {
+    "incomeInterval": "DE 7.632,01 A 10.494"
+  },
+  "irpfRestituicao": {
+    "exercicios": [
+      {
+        "anoExercicio": 2015,
+        "situacao": "SUA DECLARACAO JA FOI PROCESSADA"
+      },
+      {
+        "anoExercicio": 2016,
+        "dataDisponibilidade": "2016-12-15T00:00:00Z",
+        "nomeBanco": "BANCO DO BRASIL",
+        "numAgencia": "5873",
+        "numLote": "007",
+        "situacao": "CREDITADA"
+      },
+      {
+        "anoExercicio": 2017,
+        "dataDisponibilidade": "2017-07-17T00:00:00Z",
+        "nomeBanco": "BANCO DO BRASIL",
+        "numAgencia": "3610",
+        "numLote": "002",
+        "situacao": "CREDITADA"
+      },
+      {
+        "anoExercicio": 2018,
+        "dataDisponibilidade": "2018-11-16T00:00:00Z",
+        "nomeBanco": "BANCO BRADESCO",
+        "numAgencia": "6538",
+        "numLote": "006",
+        "situacao": "CREDITADA"
+      },
+      {
+        "anoExercicio": 2009,
+        "dataDisponibilidade": "2009-07-15T00:00:00Z",
+        "nomeBanco": "BANCO DO BRASIL",
+        "numAgencia": "4208",
+        "numLote": "002",
+        "situacao": "CREDITADA"
+      },
+      {
+        "anoExercicio": 2019,
+        "situacao": "IMPOSTO A PAGAR SEM OPCAO POR DEBITO AUTOMATICO"
+      },
+      {
+        "anoExercicio": 2020,
+        "situacao": "IMPOSTO A PAGAR COM SOLICITACAO DE DEBITO AUTOMATICO"
+      }
+    ]
+  },
+  "nome": "DANIEL SILVA PEREIRA",
+  "nomeMae": "GLORIA SILVA PEREIRA",
+  "pis": "19020672986",
+  "processoJudicialTotalizadores": {
+    "quantidades": [
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 5,
+        "qtdParteAtiva": 1,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 6,
+        "tipo": "NUMERO DE PROCESSOS"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "CRIMINAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRIBUTARIO"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRABALHISTA"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "ELEITORAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "MILITAR"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 5,
+        "qtdParteAtiva": 1,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 6,
+        "tipo": "CIVEL / ADMINISTRATIVO"
+      }
+    ],
+    "valorTotal": 42165.15,
+    "valorTotalAtiva": 0,
+    "valorTotalOutrasPartes": 42165.15,
+    "valorTotalPassiva": 0
+  },
+  "relacionamentos": [
+    {
+      "cpf": "03196086461",
+      "descricao": "IRMAO",
+      "nome": "JOICY ANNE SILVA PEREIRA DOS ANJOS"
+    },
+    {
+      "cpf": "03033657656",
+      "descricao": "IRMAO",
+      "nome": "SANDRA MARCIA SILVA PEREIRA"
+    },
+    {
+      "cpf": "64584437653",
+      "descricao": "MAE",
+      "nome": "GLORIA SILVA PEREIRA"
+    }
+  ],
+  "servidorPublico": false,
+  "sexo": "MASCULINO",
+  "situacaoCpf": "REGULAR",
+  "situacaoEmpregaticia": "EMPREGADO",
+  "telefones": [
+    {
+      "numero": "3136534880"
+    },
+    {
+      "numero": "3136540537"
+    },
+    {
+      "numero": "31988045244"
+    }
+  ]
+}

@@ -1,0 +1,2583 @@
+{
+  "_id": "58766353000187",
+  "_metadata": {
+    "cepim": {
+      "noMatchFound": true
+    },
+    "datascience-activity-level-v2": {
+      "insertDate": "2021-04-23T17:50:03.159Z",
+      "lastUpdate": "2021-04-23T17:50:03Z",
+      "updatedAt": "2021-04-23T17:50:09.168Z"
+    },
+    "datascience-faturament-estim": {
+      "insertDate": "2021-06-02T05:23:36.88Z",
+      "lastUpdate": "2021-06-02T05:23:36Z",
+      "updatedAt": "2021-06-02T05:23:42.481Z"
+    },
+    "datascience-ris-mer-covid19": {
+      "insertDate": "2020-04-09T03:03:14.681Z",
+      "lastUpdate": "2020-04-09T03:03:14Z",
+      "updatedAt": "2020-04-09T06:18:43.852Z"
+    },
+    "empresa": {
+      "insertDate": "2021-05-24T22:26:28.812Z",
+      "lastUpdate": "2021-03-31T00:58:16Z",
+      "processingTimestamp": "2021-03-31T00:58:16Z",
+      "source": [
+        "rf-pj"
+      ],
+      "updatedAt": "2021-05-24T22:26:34.328Z"
+    },
+    "empresa-anvisa-autorizacao": {
+      "insertDate": "2020-05-14T13:45:05.622Z",
+      "lastUpdate": "2020-05-14T13:45:05Z",
+      "onDemandDate": "2020-05-14T13:41:22Z",
+      "processingTimestamp": "2020-05-14T13:45:05Z",
+      "source": [
+        "anvisa-autorizacoes"
+      ],
+      "updatedAt": "2020-05-14T13:45:10.926Z"
+    },
+    "empresa-banco-central": {
+      "noMatchFound": true
+    },
+    "empresa-capacidade-trab-remoto": {
+      "insertDate": "2020-05-18T21:07:23.133Z",
+      "lastUpdate": "2020-05-18T21:07:23Z",
+      "updatedAt": "2020-05-19T06:01:32.85Z"
+    },
+    "empresa-ceis": {
+      "insertDate": "2021-04-30T07:02:28.207Z",
+      "lastUpdate": "2021-04-30T07:02:28Z",
+      "noMatchFound": true,
+      "processingTimestamp": "2021-04-30T07:02:28Z",
+      "source": [
+        "ceis"
+      ],
+      "updatedAt": "2021-04-30T07:02:33.83Z"
+    },
+    "empresa-cnep": {
+      "noMatchFound": true
+    },
+    "empresa-comercio-exterior": {
+      "insertDate": "2021-06-03T16:44:37.113Z",
+      "lastUpdate": "2021-06-03T16:44:37Z",
+      "processingTimestamp": "2021-06-03T16:44:37Z",
+      "source": [
+        "rf-radar"
+      ],
+      "updatedAt": "2021-06-03T16:44:46.488Z"
+    },
+    "empresa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "empresa-mte-cnd": {
+      "insertDate": "2021-05-17T00:08:37.534Z",
+      "lastUpdate": "2021-05-17T00:08:37Z",
+      "processingTimestamp": "2021-05-17T00:08:37Z",
+      "source": [
+        "mte-cnd"
+      ],
+      "updatedAt": "2021-05-17T00:08:42.738Z"
+    },
+    "empresa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "empresa-pgfn-dau": {
+      "insertDate": "2021-05-30T18:15:00.911Z",
+      "lastUpdate": "2021-05-30T18:12:54Z",
+      "processingTimestamp": "2021-05-30T18:12:54Z",
+      "source": [
+        "pgfn-dau"
+      ],
+      "updatedAt": "2021-05-30T18:15:06.638Z"
+    },
+    "empresa-propensao-ecommerce": {
+      "insertDate": "2020-06-19T20:18:24.784Z",
+      "lastUpdate": "2020-06-19T20:18:24Z",
+      "updatedAt": "2020-06-19T22:08:39.839Z"
+    },
+    "empresa-registro-br": {
+      "insertDate": "2021-03-25T10:46:57.273Z",
+      "lastUpdate": "2020-08-20T23:18:07Z",
+      "processingTimestamp": "2020-08-20T23:18:07Z",
+      "source": [
+        "registro-br"
+      ],
+      "updatedAt": "2021-03-25T10:47:03.118Z"
+    },
+    "empresa-saude-tributaria": {
+      "insertDate": "2021-05-30T18:15:00.924Z",
+      "lastUpdate": "2021-05-30T18:12:54Z",
+      "processingTimestamp": "2021-05-30T18:12:54Z",
+      "source": [
+        "cnd-fgts",
+        "cnd-pgfn-cnpj",
+        "cnd-tst",
+        "pgfn-dau"
+      ],
+      "updatedAt": "2021-05-30T18:15:06.805Z"
+    },
+    "empresa-sicaf": {
+      "insertDate": "2019-11-26T11:16:25.851Z",
+      "lastUpdate": "2019-11-26T11:16:25Z",
+      "processingTimestamp": "2019-11-26T11:16:25Z",
+      "source": [
+        "sicaf"
+      ],
+      "updatedAt": "2019-11-26T20:21:25.772Z"
+    },
+    "empresa-transparencia-contratos": {
+      "insertDate": "2019-08-20T00:17:18.105Z",
+      "lastUpdate": "2019-07-08T22:42:22Z",
+      "processingTimestamp": "2019-07-08T22:42:22Z",
+      "source": [
+        "transparencia-contratos-federal"
+      ],
+      "updatedAt": "2019-08-20T00:17:40.696Z"
+    },
+    "empresas": {
+      "_metadata": {
+        "ceis": {
+          "processingTimestamp": "2021-05-20T03:00:00.000Z",
+          "source": [
+            "CEIS"
+          ]
+        },
+        "debitosPgfnDau": {
+          "processingTimestamp": "2021-05-05T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "empresas": {
+          "processingTimestamp": "2021-03-31T00:58:16Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "info-dhProcessamentoPgfnDau": {
+          "processingTimestamp": "2021-05-05T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-faixaDividaPgfnDau": {
+          "processingTimestamp": "2021-05-05T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-valorDividaFgtsPgfnDau": {
+          "processingTimestamp": "2021-05-05T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-valorDividaNaoPrevidenciariaPgfnDau": {
+          "processingTimestamp": "2021-05-05T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-valorDividaPgfnDau": {
+          "processingTimestamp": "2021-05-05T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-valorDividaPrevidenciariasPgfnDau": {
+          "processingTimestamp": "2021-05-05T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "nivelAtividade": {
+          "processingTimestamp": "2019-08-08T21:22:09Z",
+          "source": [
+            "MODELO NEOWAY"
+          ]
+        },
+        "simplesNacional": {
+          "processingTimestamp": "2020-03-25T12:31:28Z",
+          "source": [
+            "RF-PJ-SIMPLES"
+          ]
+        },
+        "sintegra": {
+          "processingTimestamp": "2021-04-13T03:00:00.000Z",
+          "source": [
+            "SINTEGRA-SP"
+          ]
+        }
+      },
+      "lastUpdate": "2021-05-29T06:36:56.66Z",
+      "updatedAt": "2021-05-29T06:36:56.671Z"
+    },
+    "exfuncionarios": {
+      "lastUpdate": "2021-04-10T16:47:19.969Z",
+      "processingTimestamp": "2021-03-09T03:00:00Z",
+      "source": [
+        "RAIS"
+      ],
+      "updatedAt": "2021-04-10T16:47:20.079Z"
+    },
+    "funcionarios": {
+      "lastUpdate": "2021-04-10T16:47:19.961Z",
+      "processingTimestamp": "2021-03-09T03:00:00Z",
+      "source": [
+        "RAIS"
+      ],
+      "updatedAt": "2021-04-10T16:47:20.21Z"
+    },
+    "model-analytics-empresa-mapeamento-edificios": {
+      "processingTimestamp": "2021-05-30T05:00:25.000Z",
+      "schemaID": "7917"
+    },
+    "model-analytics-empresa-porte": {
+      "processingTimestamp": "2021-03-21T05:00:10.000Z",
+      "schemaID": "3744"
+    },
+    "qsaUnificado": {
+      "lastUpdate": "2021-04-03T18:54:40.372Z",
+      "processingTimestamp": "2021-03-31T03:00:00Z",
+      "source": [
+        "JUCESP"
+      ],
+      "updatedAt": "2021-04-03T18:54:40.423Z"
+    },
+    "sintegra": {
+      "insertDate": "2021-04-13T22:46:33.859Z",
+      "lastUpdate": "2021-04-13T22:46:33Z",
+      "processingTimestamp": "2021-04-13T22:46:33Z",
+      "source": [
+        "cadesp-icms",
+        "sintegra-sefaz-go"
+      ],
+      "updatedAt": "2021-04-13T22:46:39.469Z"
+    },
+    "socios": {
+      "lastUpdate": "2021-04-03T18:54:40.364Z",
+      "processingTimestamp": "2021-03-31T03:00:00Z",
+      "source": [
+        "QSA RF PPD2"
+      ],
+      "updatedAt": "2021-04-03T18:54:40.563Z"
+    },
+    "sociosJunta": {
+      "lastUpdate": "2020-12-06T07:50:07.987Z",
+      "processingTimestamp": "2020-11-11T02:00:00Z",
+      "source": [
+        "JUCESP"
+      ],
+      "updatedAt": "2020-12-06T07:50:08.014Z"
+    }
+  },
+  "activityLevelV2": {
+    "activityLevel": "ALTO"
+  },
+  "beneficiarios": [
+    {
+      "documento": "61188743872",
+      "falecido": false,
+      "grau": 1,
+      "nome": "CARMEN LUCIA SALLES POSSI",
+      "participacao": 0
+    },
+    {
+      "documento": "04373820872",
+      "falecido": false,
+      "grau": 1,
+      "nome": "NELSON ROBERTO CUEVA",
+      "participacao": 0
+    }
+  ],
+  "beneficiariosJunta": [
+    {
+      "documento": "04373820872",
+      "falecido": false,
+      "grau": 1,
+      "nome": "NELSON ROBERTO CUEVA",
+      "participacao": 80
+    },
+    {
+      "documento": "61188743872",
+      "falecido": false,
+      "grau": 1,
+      "nome": "CARMEN LUCIA SALLES POSSI",
+      "participacao": 20
+    }
+  ],
+  "beneficiariosQsaUnificado": [
+    {
+      "documento": "04373820872",
+      "grau": 1,
+      "nome": "NELSON ROBERTO CUEVA",
+      "participacao": 80
+    },
+    {
+      "documento": "61188743872",
+      "grau": 1,
+      "nome": "CARMEN LUCIA SALLES POSSI",
+      "participacao": 20
+    }
+  ],
+  "capacidadeTrabalhoRemoto": {
+    "trabalhoRemoto": "MEDIA"
+  },
+  "cnaePrincipal": {
+    "codigo": "4689399",
+    "descricao": "COMERCIO ATACADISTA ESPECIALIZADO EM OUTROS PRODUTOS INTERMEDIARIOS NAO ESPECIFICADOS ANTERIORMENTE",
+    "ramoAtividade": "ATACADO",
+    "setor": "COMERCIO"
+  },
+  "cnaes": [
+    {
+      "codigo": "4689399",
+      "descricao": "COMERCIO ATACADISTA ESPECIALIZADO EM OUTROS PRODUTOS INTERMEDIARIOS NAO ESPECIFICADOS ANTERIORMENTE"
+    },
+    {
+      "codigo": "4649499",
+      "descricao": "COMERCIO ATACADISTA DE OUTROS EQUIPAMENTOS E ARTIGOS DE USO PESSOAL E DOMESTICO NAO ESPECIFICADOS ANTERIORMENTE"
+    },
+    {
+      "codigo": "4669999",
+      "descricao": "COMERCIO ATACADISTA DE OUTRAS MAQUINAS E EQUIPAMENTOS NAO ESPECIFICADOS ANTERIORMENTE, PARTES E PECAS"
+    },
+    {
+      "codigo": "7739001",
+      "descricao": "ALUGUEL DE MAQUINAS E EQUIPAMENTOS PARA EXTRACAO DE MINERIOS E PETROLEO, SEM OPERADOR"
+    },
+    {
+      "codigo": "7739099",
+      "descricao": "ALUGUEL DE OUTRAS MAQUINAS E EQUIPAMENTOS COMERCIAIS E INDUSTRIAIS NAO ESPECIFICADOS ANTERIORMENTE, SEM OPERADOR"
+    },
+    {
+      "codigo": "2869100",
+      "descricao": "FABRICACAO DE MAQUINAS E EQUIPAMENTOS PARA USO INDUSTRIAL ESPECIFICO NAO ESPECIFICADOS ANTERIORMENTE, PECAS E ACESSORIOS"
+    },
+    {
+      "codigo": "2814301",
+      "descricao": "FABRICACAO DE COMPRESSORES PARA USO INDUSTRIAL, PECAS E ACESSORIOS"
+    }
+  ],
+  "comercioExterior": {
+    "dataSituacao": "2006-05-19T00:00:00Z",
+    "habilitado": true,
+    "modalidade": "SEM INFORMACAO",
+    "operacoesAutorizadas": "IMPORTACAO E EXPORTACAO",
+    "situacaoHabilitacao": "DEFERIDA",
+    "submodalidade": "SEM INFORMACAO"
+  },
+  "crescimentoPorAnoRais": [
+    {
+      "ano": 2020,
+      "percentual": 0
+    },
+    {
+      "ano": 2019,
+      "percentual": -24.53
+    },
+    {
+      "ano": 2018,
+      "percentual": 10.42
+    },
+    {
+      "ano": 2017,
+      "percentual": 26.32
+    },
+    {
+      "ano": 2016,
+      "percentual": 22.58
+    },
+    {
+      "ano": 2015,
+      "percentual": 10.71
+    },
+    {
+      "ano": 2014,
+      "percentual": 21.74
+    },
+    {
+      "ano": 2013,
+      "percentual": 27.78
+    },
+    {
+      "ano": 2012,
+      "percentual": 5.88
+    },
+    {
+      "ano": 2011,
+      "percentual": 13.33
+    },
+    {
+      "ano": 2010,
+      "percentual": 66.67
+    }
+  ],
+  "datascienceRiscoMercadoCovid19": {
+    "riscoIndividual": "MEDIO",
+    "riscoSegmento": "MEDIO"
+  },
+  "detran": {
+    "totalVeiculosPesados": 0,
+    "totalVeiculosPesadosGrupo": 0
+  },
+  "empresa": {
+    "abertura": "1988-04-06T00:00:00Z",
+    "cnpj": "58766353000187",
+    "matriz": true,
+    "naturezaJuridica": {
+      "codigo": "2062",
+      "descricao": "SOCIEDADE EMPRESARIA LIMITADA"
+    },
+    "porte": "DEMAIS",
+    "razaoSocial": "HBR EQUIPAMENTOS LTDA",
+    "situacaoCadastral": {
+      "data": "2005-11-03T00:00:00Z",
+      "status": "ATIVA"
+    }
+  },
+  "empresa-porte": {
+    "empresaPorte": "MEDIA"
+  },
+  "empresaCeis": {
+    "sancoes": [
+      {
+        "complementoOrgao": "INCLUIDO AUTOMATICAMENTE PELO GERENCIAMENTO DE ORGAOS DO SISCOR",
+        "dataInformacao": "2020-12-23T00:00:00Z",
+        "descricaoFundamentacaoLegal": "ART 83 PELA INEXECUCAO TOTAL OU PARCIAL DO CONTRATO A EMPRESA PUBLICA OU A SOCIEDADE DE ECONOMIA MISTA PODERA GARANTIDA A PREVIA DEFESA APLICAR AO CONTRATADO AS SEGUINTES SANCOES III SUSPENSAO TEMPORARIA DE PARTICIPACAO EM LICITACAO E IMPEDIMENTO DE CONTRATAR COM A ENTIDADE SANCIONADORA POR PRAZO NAO SUPERIOR A 2 DOIS ANOS",
+        "orgaoSancionador": "PETROLEO BRASILEIRO S A",
+        "origemInformacao": "PETROLEO BRASILEIRO S A",
+        "periodoSancao": {
+          "final": "2022-12-23T00:00:00Z",
+          "inicio": "2020-12-23T00:00:00Z"
+        },
+        "processo": "PROTOCOLO N 022/2020",
+        "tipoSancao": "SUSPENSAO LEI DAS ESTATAIS",
+        "uf": "RJ"
+      }
+    ]
+  },
+  "empresaPgfnDau": {
+    "dividas": [
+      {
+        "inscricao": "8069804680605",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 21183.87
+      }
+    ],
+    "totalDividas": 21183.87
+  },
+  "empresaRegistroBr": {
+    "dominios": [
+      {
+        "alterado": "2019-08-29T00:00:00Z",
+        "criado": "2000-08-24T00:00:00Z",
+        "dominio": "HBRBRASIL.COM.BR",
+        "expiracao": "2020-08-24T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2018-06-08T00:00:00Z",
+        "criado": "2009-06-29T00:00:00Z",
+        "dominio": "HBRAIRDELIVERY.NET.BR",
+        "expiracao": "2019-06-29T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2020-07-10T00:00:00Z",
+        "criado": "2000-07-26T00:00:00Z",
+        "dominio": "HBRAIRDELIVERY.COM.BR",
+        "expiracao": "2021-07-26T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2019-09-11T00:00:00Z",
+        "criado": "2015-09-10T00:00:00Z",
+        "dominio": "HBR.NET.BR",
+        "expiracao": "2020-09-10T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2020-07-10T00:00:00Z",
+        "criado": "2010-08-03T00:00:00Z",
+        "dominio": "HBROILGAS.NET.BR",
+        "expiracao": "2021-08-03T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2020-06-13T00:00:00Z",
+        "criado": "2009-06-26T00:00:00Z",
+        "dominio": "AIRDELIVERY.NET.BR",
+        "expiracao": "2021-06-26T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2020-07-10T00:00:00Z",
+        "criado": "2010-08-03T00:00:00Z",
+        "dominio": "HBROILGAS.COM.BR",
+        "expiracao": "2021-08-03T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2018-06-28T00:00:00Z",
+        "criado": "2000-07-26T00:00:00Z",
+        "dominio": "AIRDELIVERY.COM.BR",
+        "expiracao": "2019-07-26T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2018-06-08T00:00:00Z",
+        "criado": "2009-06-29T00:00:00Z",
+        "dominio": "HBRAIREXPRESS.NET.BR",
+        "expiracao": "2019-06-29T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2020-06-13T00:00:00Z",
+        "criado": "2009-06-29T00:00:00Z",
+        "dominio": "HBRBRASIL.NET.BR",
+        "expiracao": "2021-06-29T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2020-06-13T00:00:00Z",
+        "criado": "2009-06-29T00:00:00Z",
+        "dominio": "HBRARCOMPRIMIDO.NET.BR",
+        "expiracao": "2021-06-29T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      },
+      {
+        "alterado": "2020-07-10T00:00:00Z",
+        "criado": "2000-07-26T00:00:00Z",
+        "dominio": "HBRAIREXPRESS.COM.BR",
+        "expiracao": "2021-07-26T00:00:00Z",
+        "responsavel": "LEANDRO MANOEL"
+      }
+    ]
+  },
+  "empresaSaudeTributaria": {
+    "cnds": [
+      {
+        "dataEmissao": "2020-07-13T16:23:02Z",
+        "dataValidade": "2021-02-08T00:00:00Z",
+        "descricaoSituacao": "CERTIDAO POSITIVA COM EFEITOS DE NEGATIVA EMITIDA",
+        "nome": "PGFN",
+        "numeroCertificacao": "53FADF3AD8845137"
+      },
+      {
+        "dataEmissao": "2021-02-04T00:00:00Z",
+        "dataValidade": "2021-08-02T00:00:00Z",
+        "descricaoSituacao": "CERTIDAO NEGATIVA DE DEBITOS EMITIDA",
+        "nome": "TST",
+        "numeroCertificacao": "49655432021"
+      },
+      {
+        "dataEmissao": "2021-04-01T00:00:00Z",
+        "dataValidade": "2021-04-20T00:00:00Z",
+        "descricaoSituacao": "CERTIDAO NEGATIVA DE DEBITOS EMITIDA",
+        "nome": "FGTS",
+        "numeroCertificacao": "2021032201070211399560"
+      }
+    ],
+    "health": "AMARELO"
+  },
+  "empresaSintegra": {
+    "inscricoes": [
+      {
+        "dataSituacaoCadastral": "1989-06-09T00:00:00Z",
+        "ie": "112401317113",
+        "regimeApuracao": "NORMAL REGIME PERIODICO DE APURACAO",
+        "situacaoCadastral": "ATIVA",
+        "uf": "SP"
+      }
+    ]
+  },
+  "empresaTransparenciaContratos": {
+    "contratos": [
+      {
+        "dataFimVigencia": "2017-08-24T00:00:00Z",
+        "dataInicioVigencia": "2017-06-16T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "55412017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 155039.93,
+        "vigenciaMeses": 2
+      },
+      {
+        "dataFimVigencia": "2017-07-20T00:00:00Z",
+        "dataInicioVigencia": "2017-06-20T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "64692017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 31874.21,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-08-30T00:00:00Z",
+        "dataInicioVigencia": "2017-07-02T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "122892017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 29990.01,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-08-25T00:00:00Z",
+        "dataInicioVigencia": "2017-07-06T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "110372017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 83690.97,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2013-02-08T00:00:00Z",
+        "dataInicioVigencia": "2013-01-09T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "574172012",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 124419.3,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2013-03-22T00:00:00Z",
+        "dataInicioVigencia": "2013-02-20T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "235432013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 16204.2,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2013-04-25T00:00:00Z",
+        "dataInicioVigencia": "2013-03-26T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "531612013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 26323,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2013-09-28T00:00:00Z",
+        "dataInicioVigencia": "2013-05-15T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "25152013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 293193.23,
+        "vigenciaMeses": 4
+      },
+      {
+        "dataFimVigencia": "2013-06-25T00:00:00Z",
+        "dataInicioVigencia": "2013-05-26T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "606882013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 26323.51,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2013-06-18T00:00:00Z",
+        "dataInicioVigencia": "2013-05-19T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "246372013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 11686.27,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2013-09-24T00:00:00Z",
+        "dataInicioVigencia": "2013-08-25T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "504982013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 66994.5,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2013-09-10T00:00:00Z",
+        "dataInicioVigencia": "2013-08-11T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "64982013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 6417.04,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2013-10-31T00:00:00Z",
+        "dataInicioVigencia": "2013-09-01T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "770692013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 21536.96,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2013-11-02T00:00:00Z",
+        "dataInicioVigencia": "2013-10-19T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "531542014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 28800,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2013-12-23T00:00:00Z",
+        "dataInicioVigencia": "2013-11-23T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "692382013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 2056.32,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2013-12-09T00:00:00Z",
+        "dataInicioVigencia": "2013-11-09T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "582002013",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 11686.27,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-01-23T00:00:00Z",
+        "dataInicioVigencia": "2013-12-24T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "322942014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 54340.17,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-01-16T00:00:00Z",
+        "dataInicioVigencia": "2013-12-17T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "261892014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 373,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-02-12T00:00:00Z",
+        "dataInicioVigencia": "2014-01-13T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "642902014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 1548,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-01-31T00:00:00Z",
+        "dataInicioVigencia": "2014-01-01T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "250442014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 2760,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-03-11T00:00:00Z",
+        "dataInicioVigencia": "2014-02-09T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "853142014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 6252.04,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-04-15T00:00:00Z",
+        "dataInicioVigencia": "2014-03-16T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "291412014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 14820.04,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-03-19T00:00:00Z",
+        "dataInicioVigencia": "2014-03-12T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "514932014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 67500,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-05-19T00:00:00Z",
+        "dataInicioVigencia": "2014-04-19T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "335472014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 5400,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-04-07T00:00:00Z",
+        "dataInicioVigencia": "2014-04-05T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "64852014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 1360.29,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-06-13T00:00:00Z",
+        "dataInicioVigencia": "2014-05-14T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "339102014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 4097.59,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-05-22T00:00:00Z",
+        "dataInicioVigencia": "2014-05-20T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "525272014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 4860,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-07-01T00:00:00Z",
+        "dataInicioVigencia": "2014-06-01T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "873092014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 12499.96,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-06-14T00:00:00Z",
+        "dataInicioVigencia": "2014-06-10T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "946882014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 19800,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-08-18T00:00:00Z",
+        "dataInicioVigencia": "2014-07-19T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "913442014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 103464.41,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-08-18T00:00:00Z",
+        "dataInicioVigencia": "2014-07-19T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "748242014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 775983.06,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-08-18T00:00:00Z",
+        "dataInicioVigencia": "2014-07-19T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "505832014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 5283.82,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-08-01T00:00:00Z",
+        "dataInicioVigencia": "2014-07-02T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "656232014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 36000,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-08-01T00:00:00Z",
+        "dataInicioVigencia": "2014-07-02T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "668652014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 72000,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-01-07T00:00:00Z",
+        "dataInicioVigencia": "2014-08-11T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "957622014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 54680,
+        "vigenciaMeses": 4
+      },
+      {
+        "dataFimVigencia": "2014-12-29T00:00:00Z",
+        "dataInicioVigencia": "2014-08-19T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "90162014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 147249.99,
+        "vigenciaMeses": 4
+      },
+      {
+        "dataFimVigencia": "2014-08-21T00:00:00Z",
+        "dataInicioVigencia": "2014-08-20T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "817002014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 17140,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-11-10T00:00:00Z",
+        "dataInicioVigencia": "2014-09-12T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "655892014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 158400,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-10-20T00:00:00Z",
+        "dataInicioVigencia": "2014-09-20T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "432802014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 12479.99,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-10-13T00:00:00Z",
+        "dataInicioVigencia": "2014-09-13T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "202882014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 14026.34,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-10-06T00:00:00Z",
+        "dataInicioVigencia": "2014-09-06T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "950192014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 50001.86,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2015-08-17T00:00:00Z",
+        "dataInicioVigencia": "2014-10-23T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "409362014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 148008.26,
+        "vigenciaMeses": 9
+      },
+      {
+        "dataFimVigencia": "2014-11-24T00:00:00Z",
+        "dataInicioVigencia": "2014-10-25T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "870642014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 31616,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2014-12-19T00:00:00Z",
+        "dataInicioVigencia": "2014-11-19T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "171272014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 7549.35,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-12-02T00:00:00Z",
+        "dataInicioVigencia": "2014-11-02T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "406212014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 24570.03,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2014-11-21T00:00:00Z",
+        "dataInicioVigencia": "2014-11-21T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "21762014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 28900
+      },
+      {
+        "dataFimVigencia": "2015-01-20T00:00:00Z",
+        "dataInicioVigencia": "2014-12-21T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "287672014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 124225.31,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-01-13T00:00:00Z",
+        "dataInicioVigencia": "2014-12-14T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "303742014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 41240.17,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-04-29T00:00:00Z",
+        "dataInicioVigencia": "2015-03-30T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "372302015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 33696.2,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-04-24T00:00:00Z",
+        "dataInicioVigencia": "2015-03-25T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "85482015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 4363.68,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-05-22T00:00:00Z",
+        "dataInicioVigencia": "2015-04-22T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "898492015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 82226.53,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2015-05-11T00:00:00Z",
+        "dataInicioVigencia": "2015-04-11T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "400662015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 146331.33,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2015-06-11T00:00:00Z",
+        "dataInicioVigencia": "2015-05-12T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "576592014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 298000,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-07-20T00:00:00Z",
+        "dataInicioVigencia": "2015-06-20T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "381242015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 8727.46,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2015-08-01T00:00:00Z",
+        "dataInicioVigencia": "2015-07-02T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "510442015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 147477.95,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-07-25T00:00:00Z",
+        "dataInicioVigencia": "2015-07-20T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "354982015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 22870.01,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-07-18T00:00:00Z",
+        "dataInicioVigencia": "2015-07-11T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "23752015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 11928,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-03-02T00:00:00Z",
+        "dataInicioVigencia": "2015-08-24T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "836582015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 76440.1,
+        "vigenciaMeses": 6
+      },
+      {
+        "dataFimVigencia": "2015-09-28T00:00:00Z",
+        "dataInicioVigencia": "2015-08-29T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "276442015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 8594.07,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-09-21T00:00:00Z",
+        "dataInicioVigencia": "2015-08-22T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "989622015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 1698.94,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-11-26T00:00:00Z",
+        "dataInicioVigencia": "2015-11-27T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "563242015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 62520,
+        "vigenciaMeses": 11
+      },
+      {
+        "dataFimVigencia": "2015-12-22T00:00:00Z",
+        "dataInicioVigencia": "2015-11-22T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "552992015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 5728.23,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2015-12-11T00:00:00Z",
+        "dataInicioVigencia": "2015-11-11T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "718932014",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 111188,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2016-01-25T00:00:00Z",
+        "dataInicioVigencia": "2015-12-26T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "412492015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 245125.99,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-01-01T00:00:00Z",
+        "dataInicioVigencia": "2015-12-03T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "647572015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 27893.99,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2015-12-22T00:00:00Z",
+        "dataInicioVigencia": "2015-12-21T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "912062015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 11969.99,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2017-07-01T00:00:00Z",
+        "dataInicioVigencia": "2017-06-02T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "394752017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 76905,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-03-29T00:00:00Z",
+        "dataInicioVigencia": "2016-02-16T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "796242015",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 34616.09,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2016-03-01T00:00:00Z",
+        "dataInicioVigencia": "2016-03-01T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "396202016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 6330.01
+      },
+      {
+        "dataFimVigencia": "2017-03-16T00:00:00Z",
+        "dataInicioVigencia": "2016-04-01T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "221722016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 50699.99,
+        "vigenciaMeses": 11
+      },
+      {
+        "dataFimVigencia": "2016-10-14T00:00:00Z",
+        "dataInicioVigencia": "2016-04-18T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "528562016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 18750.02,
+        "vigenciaMeses": 5
+      },
+      {
+        "dataFimVigencia": "2016-07-25T00:00:00Z",
+        "dataInicioVigencia": "2016-06-25T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "840732016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 194334.68,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2016-08-26T00:00:00Z",
+        "dataInicioVigencia": "2016-07-27T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "522402016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 4663.36,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-08-17T00:00:00Z",
+        "dataInicioVigencia": "2016-07-09T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "148242016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 34424.81,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2016-08-15T00:00:00Z",
+        "dataInicioVigencia": "2016-07-16T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "992362016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 485471.6,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-08-08T00:00:00Z",
+        "dataInicioVigencia": "2016-07-09T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "620522016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 82305.6,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-10-20T00:00:00Z",
+        "dataInicioVigencia": "2016-08-22T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "441872016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 115824.29,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2016-08-13T00:00:00Z",
+        "dataInicioVigencia": "2016-08-08T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "445562016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 47954.26,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-10-07T00:00:00Z",
+        "dataInicioVigencia": "2016-09-07T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "601672016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 657877.27,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2016-10-31T00:00:00Z",
+        "dataInicioVigencia": "2016-10-01T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "289302016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 13505.98,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2016-12-30T00:00:00Z",
+        "dataInicioVigencia": "2016-11-30T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "311372016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 1790.04,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-01-25T00:00:00Z",
+        "dataInicioVigencia": "2016-12-26T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "162272016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 4545.07,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2017-01-06T00:00:00Z",
+        "dataInicioVigencia": "2016-12-07T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "334702016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 26306.07,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2017-01-06T00:00:00Z",
+        "dataInicioVigencia": "2016-12-07T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "407312016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 665.9,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2017-03-27T00:00:00Z",
+        "dataInicioVigencia": "2017-02-25T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "520342017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 20044.32,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-03-24T00:00:00Z",
+        "dataInicioVigencia": "2017-02-22T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "950952016",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 8524.95,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-03-20T00:00:00Z",
+        "dataInicioVigencia": "2017-02-18T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "222352017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 25409.02,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-05-18T00:00:00Z",
+        "dataInicioVigencia": "2017-03-20T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "723992017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 159979.92,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-03-30T00:00:00Z",
+        "dataInicioVigencia": "2017-03-01T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "324302017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 4856,
+        "vigenciaMeses": 0
+      },
+      {
+        "dataFimVigencia": "2017-05-29T00:00:00Z",
+        "dataInicioVigencia": "2017-04-29T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "237532017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 2910.22,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-05-26T00:00:00Z",
+        "dataInicioVigencia": "2017-04-26T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "125892017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 9326.69,
+        "vigenciaMeses": 1
+      },
+      {
+        "dataFimVigencia": "2017-04-13T00:00:00Z",
+        "dataInicioVigencia": "2017-04-13T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "380512017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 158400
+      },
+      {
+        "dataFimVigencia": "2017-06-05T00:00:00Z",
+        "dataInicioVigencia": "2017-05-06T00:00:00Z",
+        "esfera": "FEDERAL",
+        "numeroContrato": "498942017",
+        "orgao": "PETROBRAS HOLDING",
+        "ufMunicipioOrigem": "FEDERAL",
+        "valorFinal": 19891.86,
+        "vigenciaMeses": 0
+      }
+    ],
+    "modalidadesContratacao": [
+      {
+        "quantidade": 93,
+        "tipo": "SEM INFORMACAO"
+      }
+    ],
+    "quantidadeContratos": 93,
+    "valorTotal": 6557758.8900000015
+  },
+  "empresasColigadas": [
+    {
+      "cnae": "ADMINISTRACAO DE CARTOES DE CREDITO",
+      "cnpj": "20058990000126",
+      "dataAbertura": "2014-04-09T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "AAA ADMINISTRADORA DE CARTOES DE CREDITO E BENEFICIOS LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "ALUGUEL DE IMOVEIS PROPRIOS",
+      "cnpj": "22535402000123",
+      "dataAbertura": "2015-05-27T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "COLUMBUS ADMINISTRACAO DE BENS E PARTICIPACOES LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "GESTAO E ADMINISTRACAO DA PROPRIEDADE IMOBILIARIA",
+      "cnpj": "12910269000194",
+      "dataAbertura": "2010-10-22T02:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "DONA MATILDE NEGOCIOS E PARTICIPACOES S S LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "ATIVIDADES DE APOIO A EXTRACAO DE PETROLEO E GAS NATURAL",
+      "cnpj": "11188870000152",
+      "dataAbertura": "2009-07-23T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "ENER TRATAMEMTO DE GASES E EQUIPAMENTOS LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "COMERCIO ATACADISTA DE MAQUINAS E EQUIPAMENTOS PARA USO INDUSTRIAL, PARTES E PECAS",
+      "cnpj": "06344350000151",
+      "dataAbertura": "2004-06-22T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "HBR MAQUINAS E EQUIPAMENTOS LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "INCORPORACAO DE EMPREENDIMENTOS IMOBILIARIOS",
+      "cnpj": "18250770000158",
+      "dataAbertura": "2013-06-06T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "JAD ADMINISTRACAO DE BENS E PARTICIPACOES LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "INCORPORACAO DE EMPREENDIMENTOS IMOBILIARIOS",
+      "cnpj": "20653083000125",
+      "dataAbertura": "2014-07-17T03:00:00Z",
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "razaoSocial": "PCP EMPREENDIMENTOS IMOBILIARIOS LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "INCORPORACAO DE EMPREENDIMENTOS IMOBILIARIOS",
+      "cnpj": "20401761000162",
+      "dataAbertura": "2014-06-06T03:00:00Z",
+      "municipio": "FORTALEZA",
+      "razaoSocial": "PMM EMPREENDIMENTOS IMOBILIARIOS SPE LTDA",
+      "uf": "CE"
+    },
+    {
+      "cnae": "FABRICACAO DE MAQUINAS E APARELHOS DE REFRIGERACAO E VENTILACAO PARA USO INDUSTRIAL E COMERCIAL, PECAS E ACESSORIOS",
+      "cnpj": "54250048000187",
+      "dataAbertura": "1985-02-28T03:00:00Z",
+      "municipio": "GUARULHOS",
+      "razaoSocial": "SANTANA REFRIGERACAO E INSTRUMENTACAO LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "PREPARACAO DE DOCUMENTOS E SERVICOS ESPECIALIZADOS DE APOIO ADMINISTRATIVO NAO ESPECIFICADOS ANTERIORMENTE",
+      "cnpj": "23342052000141",
+      "dataAbertura": "2015-09-24T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "SOLAR CAATINGA LTDA",
+      "uf": "SP"
+    }
+  ],
+  "endereco": {
+    "bairro": "JARDIM GILDA MARIA",
+    "bairroOriginal": "JARDIM GILDA MARIA",
+    "cep": "05550000",
+    "cepRestritoFlag": false,
+    "enderecoResidencial": false,
+    "logradouro": "RUA MARCO GIANNINI",
+    "maisRecenteNoEndereco": false,
+    "mesoRegiao": "METROPOLITANA DE SAO PAULO",
+    "microRegiao": "SAO PAULO",
+    "municipio": "SAO PAULO",
+    "municipioFronteirico": "MUNICIPIO NAO FRONTEIRICO",
+    "municipioOriginal": "SAO PAULO",
+    "numero": "280",
+    "precisao": "SEM INFORMACAO",
+    "regiao": "SUDESTE",
+    "uf": "SP"
+  },
+  "exfuncionarios": [
+    {
+      "anoMesDesligamento": "05-2019",
+      "cpf": "08435291804",
+      "dataAdmissao": "2003-01-13T02:00:00Z",
+      "dataNascimento": "1964-04-04T03:00:00Z",
+      "nome": "AILTON TRECCO JUNIOR"
+    },
+    {
+      "anoMesDesligamento": "10-2019",
+      "cpf": "34776352800",
+      "dataAdmissao": "2018-12-10T02:00:00Z",
+      "dataNascimento": "1999-09-19T03:00:00Z",
+      "nome": "ALEXSANDRO RIBEIRO DOS SANTOS JUNIOR"
+    },
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "37805501807",
+      "dataAdmissao": "2007-03-13T03:00:00Z",
+      "dataNascimento": "1990-07-14T03:00:00Z",
+      "nome": "ALINE SALES DO NASCIMENTO"
+    },
+    {
+      "anoMesDesligamento": "04-2019",
+      "cpf": "15789703852",
+      "dataAdmissao": "2016-03-21T03:00:00Z",
+      "dataNascimento": "1976-01-12T03:00:00Z",
+      "nome": "ANDRE FRANQUEIRA"
+    },
+    {
+      "anoMesDesligamento": "02-2017",
+      "cpf": "28981264899",
+      "dataAdmissao": "2011-09-19T03:00:00Z",
+      "dataNascimento": "1980-10-06T03:00:00Z",
+      "nome": "ANDRE LUIZ FERREIRA RONQUIM"
+    },
+    {
+      "anoMesDesligamento": "07-2019",
+      "cpf": "34302087854",
+      "dataAdmissao": "2016-02-01T02:00:00Z",
+      "dataNascimento": "1989-05-10T03:00:00Z",
+      "nome": "CAIO CESAR BRUNHERA"
+    },
+    {
+      "anoMesDesligamento": "03-2019",
+      "cpf": "36515883862",
+      "dataAdmissao": "2017-01-10T02:00:00Z",
+      "dataNascimento": "1994-09-05T03:00:00Z",
+      "nome": "CAMILA CRISTINA VIEIRA MAFRA"
+    },
+    {
+      "anoMesDesligamento": "07-2018",
+      "cpf": "05549141825",
+      "dataAdmissao": "2015-03-04T03:00:00Z",
+      "dataNascimento": "1961-01-27T03:00:00Z",
+      "nome": "CLAUDIO NORIO FUJII"
+    },
+    {
+      "anoMesDesligamento": "08-2019",
+      "cpf": "45000145860",
+      "dataAdmissao": "2014-05-19T03:00:00Z",
+      "dataNascimento": "1995-08-08T03:00:00Z",
+      "nome": "DANIELA APARECIDA ALVES DO CARMO"
+    },
+    {
+      "anoMesDesligamento": "02-2019",
+      "cpf": "32513843843",
+      "dataAdmissao": "2018-11-01T02:00:00Z",
+      "dataNascimento": "1984-01-17T03:00:00Z",
+      "nome": "DANIELA NASCIMENTO GONCALVES"
+    },
+    {
+      "anoMesDesligamento": "10-2018",
+      "cpf": "16823715812",
+      "dataAdmissao": "2018-05-02T03:00:00Z",
+      "dataNascimento": "1972-12-22T03:00:00Z",
+      "nome": "EVANDRO AGRIPINO DE PADUA"
+    },
+    {
+      "anoMesDesligamento": "07-2019",
+      "cpf": "24664535848",
+      "dataAdmissao": "2010-05-24T03:00:00Z",
+      "dataNascimento": "1975-10-20T03:00:00Z",
+      "nome": "FABIANA MARTINS CARREIRA"
+    },
+    {
+      "anoMesDesligamento": "04-2018",
+      "cpf": "26384780836",
+      "dataAdmissao": "2017-05-02T03:00:00Z",
+      "dataNascimento": "1975-04-16T03:00:00Z",
+      "nome": "FABIO TEODORIO COELHO"
+    },
+    {
+      "anoMesDesligamento": "03-2019",
+      "cpf": "18359266816",
+      "dataAdmissao": "2014-01-02T02:00:00Z",
+      "dataNascimento": "1974-06-06T03:00:00Z",
+      "nome": "FERNANDO ANTONIO GUEDES MOLINA JUNIOR"
+    },
+    {
+      "anoMesDesligamento": "10-2018",
+      "cpf": "06864917851",
+      "dataAdmissao": "2017-11-16T02:00:00Z",
+      "dataNascimento": "1966-04-15T03:00:00Z",
+      "nome": "HOMERO CARVALHO GUBEL"
+    },
+    {
+      "anoMesDesligamento": "09-2019",
+      "cpf": "35091220895",
+      "dataAdmissao": "2018-06-04T03:00:00Z",
+      "dataNascimento": "1991-12-18T02:00:00Z",
+      "nome": "JONATHAS DA SILVA GOMES"
+    },
+    {
+      "anoMesDesligamento": "10-2019",
+      "cpf": "12091416711",
+      "dataAdmissao": "2018-06-04T03:00:00Z",
+      "dataNascimento": "1986-09-05T03:00:00Z",
+      "nome": "JULIANA AFFONSO ALBUQUERQUE"
+    },
+    {
+      "anoMesDesligamento": "08-2019",
+      "cpf": "45057216805",
+      "dataAdmissao": "2016-06-13T03:00:00Z",
+      "dataNascimento": "1996-11-11T02:00:00Z",
+      "nome": "JULIANA FERREIRA RONQUIM"
+    },
+    {
+      "anoMesDesligamento": "09-2019",
+      "cpf": "44113654808",
+      "dataAdmissao": "2018-01-10T02:00:00Z",
+      "dataNascimento": "1996-05-02T03:00:00Z",
+      "nome": "LAYSSA NUNES DOS SANTOS"
+    },
+    {
+      "anoMesDesligamento": "09-2018",
+      "cpf": "40976761807",
+      "dataAdmissao": "2017-09-04T03:00:00Z",
+      "dataNascimento": "1992-05-23T03:00:00Z",
+      "nome": "LEONARDO DE VASCONCELOS ALLIL"
+    },
+    {
+      "anoMesDesligamento": "09-2017",
+      "cpf": "07601768848",
+      "dataAdmissao": "2017-04-03T03:00:00Z",
+      "dataNascimento": "1965-07-07T03:00:00Z",
+      "nome": "MAURICIO ARTUR STANKEVICIUS SILVERIO"
+    },
+    {
+      "anoMesDesligamento": "02-2019",
+      "cpf": "44000080881",
+      "dataAdmissao": "2017-07-10T03:00:00Z",
+      "dataNascimento": "1995-01-22T02:00:00Z",
+      "nome": "MAYARA ZADRA"
+    },
+    {
+      "anoMesDesligamento": "04-2018",
+      "cpf": "21327802856",
+      "dataAdmissao": "2010-10-13T03:00:00Z",
+      "dataNascimento": "1981-05-14T03:00:00Z",
+      "nome": "MICHELLE GOMES ALCANTARA"
+    },
+    {
+      "anoMesDesligamento": "09-2019",
+      "cpf": "29391062822",
+      "dataAdmissao": "2010-12-01T02:00:00Z",
+      "dataNascimento": "1980-09-14T03:00:00Z",
+      "nome": "PAULO ROBERTO HONDA"
+    },
+    {
+      "anoMesDesligamento": "12-2019",
+      "cpf": "88310990863",
+      "dataAdmissao": "2002-03-01T03:00:00Z",
+      "dataNascimento": "1957-08-20T03:00:00Z",
+      "nome": "PEDRO LUIZ PONTILHO"
+    },
+    {
+      "anoMesDesligamento": "01-2019",
+      "cpf": "11392362709",
+      "dataAdmissao": "2018-11-21T02:00:00Z",
+      "dataNascimento": "1985-08-13T03:00:00Z",
+      "nome": "PEDRO SOLANO DA ROCHA"
+    },
+    {
+      "anoMesDesligamento": "09-2018",
+      "cpf": "18557088841",
+      "dataAdmissao": "2018-07-02T03:00:00Z",
+      "dataNascimento": "1973-09-01T03:00:00Z",
+      "nome": "ROBERTA PITTERI COUTO"
+    },
+    {
+      "anoMesDesligamento": "05-2019",
+      "cpf": "37135236572",
+      "dataAdmissao": "2018-01-02T02:00:00Z",
+      "dataNascimento": "1974-11-12T03:00:00Z",
+      "nome": "UIRAN ODILON DOS REIS SOUSA"
+    },
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "42366048840",
+      "dataAdmissao": "2017-08-01T03:00:00Z",
+      "dataNascimento": "1997-11-28T02:00:00Z",
+      "nome": "VINICIUS DOS SANTOS CARVALHO"
+    }
+  ],
+  "exportacao": [
+    {
+      "ano": 2004,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2005,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2006,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2007,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2009,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2010,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2011,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2012,
+      "valor": "ENTRE R$ 5 E R$ 10 MILHOES"
+    },
+    {
+      "ano": 2014,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2016,
+      "valor": "ENTRE R$ 10 E R$ 50 MILHOES"
+    },
+    {
+      "ano": 2017,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    }
+  ],
+  "faturamentoEstimado": {
+    "faixaIndividual": "DE R$ 10.000.000,01 A R$ 30.000.000,00",
+    "individual": 22491301.3767
+  },
+  "filiais": [
+    {
+      "cnpj": "58766353000268",
+      "dataAbertura": "1996-01-19T02:00:00Z",
+      "municipio": "OSASCO",
+      "razaoSocial": "HBR EQUIPAMENTOS LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP"
+    },
+    {
+      "cnpj": "58766353000349",
+      "dataAbertura": "1999-07-22T03:00:00Z",
+      "municipio": "SANTANA DE PARNAIBA",
+      "razaoSocial": "HBR EQUIPAMENTOS LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP"
+    }
+  ],
+  "funcionarios": [
+    {
+      "cpf": "41162614838",
+      "dataAdmissao": "2009-06-01T03:00:00Z",
+      "dataNascimento": "1992-11-04T02:00:00Z",
+      "nome": "ANA PAULA THOME MARINS"
+    },
+    {
+      "cpf": "05460314550",
+      "dataAdmissao": "2018-07-10T03:00:00Z",
+      "dataNascimento": "1993-12-24T02:00:00Z",
+      "nome": "BRUNA MIRANDA MACHADO"
+    },
+    {
+      "cpf": "39412419821",
+      "dataAdmissao": "2016-02-01T02:00:00Z",
+      "dataNascimento": "1990-10-23T02:00:00Z",
+      "nome": "CAMILA DE OLIVEIRA RIBEIRO"
+    },
+    {
+      "cpf": "22427943886",
+      "dataAdmissao": "2019-07-01T03:00:00Z",
+      "dataNascimento": "1981-11-16T03:00:00Z",
+      "nome": "CAMILA RODOVALHO PEREIRA BENNACCHIO"
+    },
+    {
+      "cpf": "40499594886",
+      "dataAdmissao": "2013-08-01T03:00:00Z",
+      "dataNascimento": "1992-03-22T03:00:00Z",
+      "nome": "CAMILA SILVA SOARES"
+    },
+    {
+      "cpf": "75903350887",
+      "dataAdmissao": "1996-01-15T02:00:00Z",
+      "dataNascimento": "1913-12-05T03:06:28Z",
+      "nome": "CARMELINA DE QUADROS SALLES"
+    },
+    {
+      "cpf": "29422536812",
+      "dataAdmissao": "2017-04-05T03:00:00Z",
+      "dataNascimento": "1980-05-07T03:00:00Z",
+      "nome": "DANIELA CORREA DE CASTILHO"
+    },
+    {
+      "cpf": "29880899814",
+      "dataAdmissao": "2019-02-13T02:00:00Z",
+      "dataNascimento": "1981-07-26T03:00:00Z",
+      "nome": "DANIELA SOARES GOMES"
+    },
+    {
+      "cpf": "29485507852",
+      "dataAdmissao": "2007-04-01T03:00:00Z",
+      "dataNascimento": "1977-01-09T03:00:00Z",
+      "nome": "DARIO BELLO JUNIOR"
+    },
+    {
+      "cpf": "32518007873",
+      "dataAdmissao": "2010-04-08T03:00:00Z",
+      "dataNascimento": "1984-12-11T03:00:00Z",
+      "nome": "DJANINE EDUARDA DA SILVA"
+    },
+    {
+      "cpf": "18037741850",
+      "dataAdmissao": "2014-10-16T03:00:00Z",
+      "dataNascimento": "1975-07-31T03:00:00Z",
+      "nome": "DOUGLAS CRUZ LEITE"
+    },
+    {
+      "cpf": "14296940848",
+      "dataAdmissao": "2017-02-15T02:00:00Z",
+      "dataNascimento": "1975-01-29T03:00:00Z",
+      "nome": "DOUGLAS JUNQUEIRA"
+    },
+    {
+      "cpf": "41119143810",
+      "dataAdmissao": "2017-02-01T02:00:00Z",
+      "dataNascimento": "1991-10-28T02:00:00Z",
+      "nome": "EDVAN RODRIGUES DE SOUSA"
+    },
+    {
+      "cpf": "15684140807",
+      "dataAdmissao": "2015-02-02T02:00:00Z",
+      "dataNascimento": "1975-08-29T03:00:00Z",
+      "nome": "EZEQUIEL MARTINS"
+    },
+    {
+      "cpf": "39750053869",
+      "dataAdmissao": "2019-04-01T03:00:00Z",
+      "dataNascimento": "1991-02-26T03:00:00Z",
+      "nome": "FLAVIA MARINA EVANGELISTA MARQUES APOSTOLIDIS"
+    },
+    {
+      "cpf": "36182709847",
+      "dataAdmissao": "2013-03-20T03:00:00Z",
+      "dataNascimento": "1987-09-11T03:00:00Z",
+      "nome": "GABRIEL DE SOUZA MARCONDES"
+    },
+    {
+      "cpf": "38191982889",
+      "dataAdmissao": "2019-04-01T03:00:00Z",
+      "dataNascimento": "1990-02-04T02:00:00Z",
+      "nome": "GUILHERME JORGE BARIZZA"
+    },
+    {
+      "cpf": "07479615817",
+      "dataAdmissao": "2017-03-08T03:00:00Z",
+      "dataNascimento": "1965-02-17T02:00:00Z",
+      "nome": "HARUMI ITIKI NALESSIO"
+    },
+    {
+      "cpf": "40321313844",
+      "dataAdmissao": "2018-10-03T03:00:00Z",
+      "dataNascimento": "1993-08-31T03:00:00Z",
+      "nome": "JONATHAN DE ALMEIDA SOUSA"
+    },
+    {
+      "cpf": "51376342804",
+      "dataAdmissao": "2018-01-02T02:00:00Z",
+      "dataNascimento": "1947-09-28T03:00:00Z",
+      "nome": "JOSE RICARDO CARDOSO"
+    },
+    {
+      "cpf": "26878242835",
+      "dataAdmissao": "2013-08-19T03:00:00Z",
+      "dataNascimento": "1978-07-17T03:00:00Z",
+      "nome": "LAERCIO ROMERO RUBIO"
+    },
+    {
+      "cpf": "37499782808",
+      "dataAdmissao": "2018-11-14T02:00:00Z",
+      "dataNascimento": "1988-03-17T03:00:00Z",
+      "nome": "LARISSA RAFAELE AMARO ALVES"
+    },
+    {
+      "cpf": "17144154818",
+      "dataAdmissao": "2000-08-01T03:00:00Z",
+      "dataNascimento": "1974-04-24T03:00:00Z",
+      "nome": "LEANDRO CHAGAS DI PETTA"
+    },
+    {
+      "cpf": "30902433857",
+      "dataAdmissao": "2013-05-02T03:00:00Z",
+      "dataNascimento": "1984-10-23T03:00:00Z",
+      "nome": "LEONARDO BORGES CASTILHO"
+    },
+    {
+      "cpf": "47042862821",
+      "dataAdmissao": "2019-06-03T03:00:00Z",
+      "dataNascimento": "1996-10-16T02:00:00Z",
+      "nome": "LETICIA GOMES FERREIRA DIAS"
+    },
+    {
+      "cpf": "32634266804",
+      "dataAdmissao": "2013-04-01T03:00:00Z",
+      "dataNascimento": "1985-04-17T03:00:00Z",
+      "nome": "MARCEL GENNARI"
+    },
+    {
+      "cpf": "27655806420",
+      "dataAdmissao": "2003-01-01T02:00:00Z",
+      "dataNascimento": "1960-06-01T03:00:00Z",
+      "nome": "MARCIA MARIA DA SILVA GOMES"
+    },
+    {
+      "cpf": "18515534878",
+      "dataAdmissao": "2010-10-04T03:00:00Z",
+      "dataNascimento": "1976-08-12T03:00:00Z",
+      "nome": "MARIO RODRIGUES DA SILVA"
+    },
+    {
+      "cpf": "42552790801",
+      "dataAdmissao": "2016-08-15T03:00:00Z",
+      "dataNascimento": "1992-08-22T03:00:00Z",
+      "nome": "MAYARA FERREIRA ALMEIDA"
+    },
+    {
+      "cpf": "39430763857",
+      "dataAdmissao": "2015-03-02T03:00:00Z",
+      "dataNascimento": "1991-03-14T03:00:00Z",
+      "nome": "MONIQUE VASCONCELOS RAMALHO"
+    },
+    {
+      "cpf": "38054030894",
+      "dataAdmissao": "2014-02-13T02:00:00Z",
+      "dataNascimento": "1990-02-09T02:00:00Z",
+      "nome": "PAMELA SILVA NASCIMENTO"
+    },
+    {
+      "cpf": "27532332845",
+      "dataAdmissao": "2011-06-06T03:00:00Z",
+      "dataNascimento": "1979-04-06T03:00:00Z",
+      "nome": "REINALDO JOSE RIBEIRO FILHO"
+    },
+    {
+      "cpf": "23000809821",
+      "dataAdmissao": "2012-05-02T03:00:00Z",
+      "dataNascimento": "1987-08-06T03:00:00Z",
+      "nome": "RENATA MONTEIRO DE CARVALHO"
+    },
+    {
+      "cpf": "39338086852",
+      "dataAdmissao": "2017-01-03T02:00:00Z",
+      "dataNascimento": "1989-06-28T03:00:00Z",
+      "nome": "RENATO DA COSTA MANSO"
+    },
+    {
+      "cpf": "13014175803",
+      "dataAdmissao": "2010-11-01T02:00:00Z",
+      "dataNascimento": "1971-09-11T03:00:00Z",
+      "nome": "RICARDO CURIONI"
+    },
+    {
+      "cpf": "04846998819",
+      "dataAdmissao": "2014-04-01T03:00:00Z",
+      "dataNascimento": "1961-11-01T03:00:00Z",
+      "nome": "ROBERTO MARQUES DE LIMA"
+    },
+    {
+      "cpf": "33126355862",
+      "dataAdmissao": "2005-03-01T03:00:00Z",
+      "dataNascimento": "1986-03-23T03:00:00Z",
+      "nome": "SHIRLEY GOMES CAMILO"
+    },
+    {
+      "cpf": "36888700852",
+      "dataAdmissao": "2018-10-03T03:00:00Z",
+      "dataNascimento": "1987-08-05T03:00:00Z",
+      "nome": "VINICIUS DE ALMEIDA"
+    },
+    {
+      "cpf": "22352253810",
+      "dataAdmissao": "2016-08-03T03:00:00Z",
+      "dataNascimento": "1984-01-04T03:00:00Z",
+      "nome": "WILLIAM DA SILVA DANTAS"
+    },
+    {
+      "cpf": "14689414882",
+      "dataAdmissao": "2016-07-01T03:00:00Z",
+      "dataNascimento": "1971-03-20T03:00:00Z",
+      "nome": "WILLIAN MARQUES BEREKI"
+    }
+  ],
+  "importacao": [
+    {
+      "ano": 2001,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2002,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2003,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2004,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2005,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2006,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2007,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2008,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2009,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2010,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2011,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2012,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2013,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2014,
+      "valor": "ENTRE R$ 1 E R$ 5 MILHOES"
+    },
+    {
+      "ano": 2015,
+      "valor": "ENTRE R$ 5 E R$ 10 MILHOES"
+    },
+    {
+      "ano": 2016,
+      "valor": "ENTRE R$ 5 E R$ 10 MILHOES"
+    },
+    {
+      "ano": 2017,
+      "valor": "ATE R$ 1 MILHAO"
+    }
+  ],
+  "info": {
+    "idadeEmpresa": 33,
+    "numeroTelefoneRF": [
+      "1132940080"
+    ],
+    "passivelIss": true,
+    "possuiEmailContador": false,
+    "qsaDivergente": false
+  },
+  "inpiMarcas": [
+    {
+      "classe": "40 : 15",
+      "dataDeposito": "1999-10-04T02:00:00Z",
+      "marca": "AIR EXPRESS",
+      "numeroProcesso": "821693158"
+    },
+    {
+      "classe": "40 : 15",
+      "dataDeposito": "1999-10-04T02:00:00Z",
+      "marca": "AIR DELIVERY",
+      "numeroProcesso": "821693166"
+    },
+    {
+      "classe": "NCL(8) 37",
+      "dataDeposito": "2006-10-16T03:00:00Z",
+      "marca": "AIR DELIVERY",
+      "numeroProcesso": "828788413"
+    },
+    {
+      "classe": "07 : 15",
+      "dataDeposito": "1989-03-08T03:00:00Z",
+      "marca": "AR COMPRIMIDO PURO",
+      "numeroProcesso": "814733891"
+    },
+    {
+      "classe": "07 : 15",
+      "dataDeposito": "1989-03-08T03:00:00Z",
+      "marca": "AR COMPRIMIDO SECO",
+      "numeroProcesso": "814733905"
+    },
+    {
+      "classe": "40 : 15",
+      "dataDeposito": "1992-08-12T03:00:00Z",
+      "marca": "HBR",
+      "numeroProcesso": "816791228"
+    },
+    {
+      "classe": "37 : 41",
+      "dataDeposito": "1999-10-01T03:00:00Z",
+      "marca": "AIR DELIVERY",
+      "numeroProcesso": "821692038"
+    },
+    {
+      "classe": "37 : 35",
+      "dataDeposito": "1999-10-01T03:00:00Z",
+      "marca": "AIR EXPRESS",
+      "numeroProcesso": "821692046"
+    },
+    {
+      "classe": "NCL(10) 35",
+      "dataDeposito": "2013-04-01T03:00:00Z",
+      "marca": "HOLDING BRAZIL",
+      "numeroProcesso": "906056101"
+    },
+    {
+      "classe": "NCL(10) 35",
+      "dataDeposito": "2014-09-01T03:00:00Z",
+      "marca": "HBR HOLDING BRASIL",
+      "numeroProcesso": "908208936"
+    },
+    {
+      "classe": "07 : 15",
+      "dataDeposito": "1992-08-12T03:00:00Z",
+      "marca": "HBR",
+      "numeroProcesso": "816791236"
+    },
+    {
+      "classe": "NCL(10) 35",
+      "dataDeposito": "2013-04-01T03:00:00Z",
+      "marca": "HBR",
+      "numeroProcesso": "906056268"
+    }
+  ],
+  "mapeamentoEdificios": {
+    "edificioColetivo": true
+  },
+  "matriz": {
+    "quantidadeFilial": 0
+  },
+  "mteCnd": {
+    "codigo": "45YVB04",
+    "dataEmissao": "2021-05-16T00:00:00Z",
+    "situacaoDebito": "NAO CONSTAM",
+    "tipoCertidao": "NEGATIVA"
+  },
+  "natureza": {
+    "classificacao": "PRIVADO"
+  },
+  "potencialConsumo": {
+    "valorCapitalSocial": 255000
+  },
+  "processoJudicialTotalizadores": {
+    "quantidades": [
+      {
+        "qtdAtivos": 1,
+        "qtdOutrasPartes": 7,
+        "qtdParteAtiva": 11,
+        "qtdPartePassiva": 10,
+        "qtdTotal": 28,
+        "tipo": "NUMERO DE PROCESSOS"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 1,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 1,
+        "tipo": "CRIMINAL"
+      },
+      {
+        "qtdAtivos": 1,
+        "qtdOutrasPartes": 5,
+        "qtdParteAtiva": 7,
+        "qtdPartePassiva": 5,
+        "qtdTotal": 17,
+        "tipo": "TRIBUTARIO"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 5,
+        "qtdTotal": 5,
+        "tipo": "TRABALHISTA"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "ELEITORAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "MILITAR"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 2,
+        "qtdParteAtiva": 3,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 5,
+        "tipo": "CIVEL / ADMINISTRATIVO"
+      }
+    ],
+    "valorTotal": 18954709.51,
+    "valorTotalAtiva": 9738325.83,
+    "valorTotalOutrasPartes": 8956660.8,
+    "valorTotalPassiva": 259722.88
+  },
+  "propensaoEcommerce": {
+    "propensao": "MEDIA"
+  },
+  "qsaUnificado": [
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "NELSON ROBERTO CUEVA",
+      "participacaoSocietaria": 80,
+      "qualificacao": "SOCIO GERENTE"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "CARMEN LUCIA SALLES POSSI",
+      "participacaoSocietaria": 20,
+      "qualificacao": "SOCIO GERENTE"
+    }
+  ],
+  "sicaf": {
+    "situacao": "IDONEO",
+    "situacaoCadastral": "CREDENCIADO"
+  },
+  "simplesNacional": {
+    "optanteSimei": false,
+    "optanteSimples": false,
+    "simplesIrregular": false
+  },
+  "socios": [
+    {
+      "documento": "04373820872",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "NELSON ROBERTO CUEVA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "SOCIO ADMINISTRADOR"
+    },
+    {
+      "documento": "61188743872",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "CARMEN LUCIA SALLES POSSI",
+      "participacaoSocietaria": 0,
+      "qualificacao": "SOCIO ADMINISTRADOR"
+    }
+  ],
+  "sociosJunta": [
+    {
+      "documento": "61188743872",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "CARMEN LUCIA SALLES POSSI",
+      "participacaoSocietaria": 20,
+      "qualificacao": "SOCIO GERENTE"
+    },
+    {
+      "documento": "04373820872",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "NELSON ROBERTO CUEVA",
+      "participacaoSocietaria": 80,
+      "qualificacao": "SOCIO GERENTE"
+    }
+  ],
+  "telefones": [
+    {
+      "numero": "1136116022"
+    }
+  ],
+  "totalFuncionarios": {
+    "quantidade": 40,
+    "quantidadeGrupo": 40
+  },
+  "totalVeiculos": {
+    "acimaDezAnos": 0,
+    "ateUmAno": 0,
+    "entreCincoDezAnos": 0,
+    "entreDoisCincoAnos": 0,
+    "grupoAcimaDezAnos": 0,
+    "grupoAteUmAno": 0,
+    "grupoEntreCincoDezAnos": 0,
+    "grupoEntreDoisCincoAnos": 0
+  },
+  "cnjCnia": {
+    "processos": [
+      {
+        "numeroProcesso": 5,
+        "esfera": "sphere 5",
+        "descricaoOrgao": "descricao orgao 5",
+        "dataCadastramento": "2019-10-21T00:00:00Z",
+        "cargoFuncao": {
+          "uf": "Uf"
+        },
+        "ressarcimentoIntegralDano": {
+          "valor": 50
+        },
+        "assuntosRelacionados": [
+          "relatedIssues 5",
+          "relatedIssues 6"
+        ]
+      }
+    ]
+  },
+  "mteTrabalhoEscravo": {
+    "estabelecimentos": [
+      {
+        "anoAcaoFiscal": "2017",
+        "numeroTrabalhadoresEnvolvidos": 10,
+        "dataDecisaoProcedencia": "2018-10-21T00:00:00Z",
+        "estabelecimento": {
+          "logradouro": "logradouro 24",
+          "complemento": "complemento 24",
+          "municipio": "municipio 24"
+        }
+      }
+    ]
+  },
+  "bancoCentral": {
+    "acordaos": [
+      {
+        "numeroAcordaoCRSFN": 11,
+        "numeroProcesso": 19,
+        "numeroRecurso": 14,
+        "parte": "part 5",
+        "recurso": "recurso 5"
+      }
+    ]
+  },
+  "empresaCeis": {
+    "sancoes": [
+      {
+        "complementoOrgao": "complemento orgao 5",
+        "descricaoFundamentacaoLegal": "descricao fundamentacao legal 5",
+        "processo": "processo 2",
+        "orgaoSancionador": "orgao sancionador 5",
+        "origemInformacao": "origem informacao 5",
+        "tipoSancao": "tipo sancao 5",
+        "uf": "uf",
+        "dataInformacao": "2019-10-21T00:00:00Z",
+        "periodoSancao": {
+          "final": "2019-10-21T00:00:00Z",
+          "inicio": "2019-10-21T00:00:00Z"
+        }
+      }
+    ]
+  },
+  "cnep": {
+    "processos": [
+      {
+        "numeroProcesso": 1,
+        "orgaoSancionador": "orgao sancionador 5",
+        "tipoSancao": "tipo sancao 5",
+        "ufOrgaoSancionador": "uf orgao sancionador 5",
+        "valorMulta": 2000,
+        "dataFinalSancao": "2020-10-21T00:00:00Z",
+        "dataInicioSancao": "2020-10-21T00:00:00Z"
+      }
+    ]
+  },
+  "listaInternacional": [
+    {
+      "nome": "nome 5",
+      "dataProcessamento": "2017-10-21T00:00:00Z"
+    },
+    {
+      "nome": "nome 6",
+      "dataProcessamento": "2017-10-21T00:00:00Z"
+    }
+  ],
+  "proconInformacoes": {
+    "valorTotalMulta": 35,
+    "grupo": {
+      "nome": "Nome group 1",
+      "valorTotalMultas": 15,
+      "dataUltimaAtualizacao": "2015-10-21T00:00:00Z",
+      "partesGrupo": [
+        {
+          "cnpj": "656565",
+          "valorTotalMulta": 45
+        }
+      ]
+    },
+    "processos": [
+      {
+        "status": "status",
+        "numeroProcesso": 1,
+        "valorMulta": 26
+      }
+    ]
+  },
+  "atividadeFinanceira": {
+    "dataConsulta": "2015-10-21T00:00:00Z",
+    "dataHabilitacao": "2015-10-21T00:00:00Z",
+    "numeroHabilitacao": 12,
+    "segmentos": 45,
+    "situacaoHabilitacao": "situacao habilitacao"
+  }
+}

@@ -1,0 +1,28 @@
+apply plugin: 'java'
+
+jar {
+    setArchivesBaseName("captcha")
+    getArchiveVersion().set("0.0.1-SNAPSHOT")
+}
+
+sourceCompatibility = 16
+targetCompatibility = 16
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-beans:5.3.14'
+    implementation 'org.springframework:spring-context:5.3.14'
+    implementation files('libs/com.DeathByCaptcha.jar')
+    implementation files('libs/org.json.jar')
+    implementation files('libs/org.base64.jar')
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,1 @@
+alter table if exists tab_invoice add column if not exists cnpj varchar (255);

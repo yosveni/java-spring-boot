@@ -1,0 +1,1076 @@
+{
+  "_id": "12982578000170",
+  "_metadata": {
+    "cepim": {
+      "noMatchFound": true
+    },
+    "datascience-activity-level-v2": {
+      "insertDate": "2021-04-23T01:57:33.848Z",
+      "lastUpdate": "2021-04-23T01:57:33Z",
+      "updatedAt": "2021-04-23T01:57:39.486Z"
+    },
+    "datascience-faturament-estim": {
+      "insertDate": "2021-11-05T21:18:06.115Z",
+      "lastUpdate": "2021-11-05T21:18:06Z",
+      "updatedAt": "2021-11-05T21:18:12.175Z"
+    },
+    "datascience-ris-mer-covid19": {
+      "insertDate": "2020-04-09T07:06:05.288Z",
+      "lastUpdate": "2020-04-09T07:06:05Z",
+      "updatedAt": "2020-04-09T22:20:46.728Z"
+    },
+    "empresa": {
+      "lastUpdate": "2021-10-07T21:12:47Z",
+      "processingTimestamp": "2021-10-07T21:12:47Z",
+      "schemaID": "9242",
+      "sources": [
+        {
+          "id": "9d90899e2e6a28e923a0a300f9502e99",
+          "input": "eyJfaWQiOiI5ZDkwODk5ZTJlNmEyOGU5MjNhMGEzMDBmOTUwMmU5OSIsImNucGoiOiIxMjk4MjU3ODAwMDE3MCIsImZpZWxkcyI6ImV5SmZhV1FpT2lBaU9XUTVNRGc1T1dVeVpUWmhNamhsT1RJellUQmhNekF3WmprMU1ESmxPVGtpTENBaVkyNXdhaUk2SUNJeE1qazRNalUzT0RBd01ERTNNQ0lzSUNKcGJuTmxjblJsWkVKNVFYQnBJam9nZEhKMVpTd2dJbkJ5YVc5eWFYUjVSbXhoWnlJNklERXdmUT09IiwiaW5zZXJ0ZWRCeUFwaSI6dHJ1ZSwicHJpb3JpdHlGbGFnIjoxMH0=",
+          "processingId": "65e3c051-b374-46bb-bc64-d7016366212f",
+          "processingTimestamp": "2021-10-07T21:12:47Z",
+          "source": "Receita Federal"
+        }
+      ],
+      "sourcesNames": [
+        "Receita Federal"
+      ],
+      "startDate": "2021-08-21T06:53:58Z"
+    },
+    "empresa-balanco-financeiro": {
+      "insertDate": "2021-03-27T02:26:31.73Z",
+      "lastUpdate": "2021-03-27T02:26:31Z",
+      "processingTimestamp": "2021-03-27T02:26:31Z",
+      "source": [
+        "klooks"
+      ],
+      "updatedAt": "2021-03-27T02:26:37.289Z"
+    },
+    "empresa-banco-central": {
+      "noMatchFound": true
+    },
+    "empresa-capacidade-trab-remoto": {
+      "insertDate": "2020-05-18T18:11:34.632Z",
+      "lastUpdate": "2020-05-18T18:11:34Z",
+      "updatedAt": "2020-05-18T22:16:46.812Z"
+    },
+    "empresa-ceis": {
+      "noMatchFound": true
+    },
+    "empresa-cnep": {
+      "noMatchFound": true
+    },
+    "empresa-comercio-exterior": {
+      "insertDate": "2021-11-02T12:12:35.267Z",
+      "lastUpdate": "2021-11-02T12:12:35Z",
+      "processingTimestamp": "2021-11-02T12:12:35Z",
+      "source": [
+        "Receita Federal"
+      ],
+      "updatedAt": "2021-11-02T12:12:44.651Z"
+    },
+    "empresa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "empresa-inpi-patentes": {
+      "insertDate": "2019-01-11T15:50:16.169Z",
+      "lastUpdate": "2018-12-31T02:48:10Z",
+      "processingTimestamp": "2018-12-31T02:48:10Z",
+      "source": [
+        "Instituto Nacional da Propriedade Industrial - INPI"
+      ],
+      "updatedAt": "2019-02-01T21:04:53.466Z"
+    },
+    "empresa-inpi-programas": {
+      "insertDate": "2019-01-17T06:03:54.318Z",
+      "lastUpdate": "2019-01-17T06:03:54Z",
+      "processingTimestamp": "2019-01-17T06:03:54Z",
+      "source": [
+        "Instituto Nacional da Propriedade Industrial - INPI"
+      ],
+      "updatedAt": "2019-02-20T21:02:24.744Z"
+    },
+    "empresa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "empresa-pat-cadastro": {
+      "insertDate": "2021-03-22T00:09:44.414Z",
+      "lastUpdate": "2021-03-22T00:08:14Z",
+      "processingTimestamp": "2021-03-22T00:08:14Z",
+      "source": [
+        "Ministério da Economia/Trabalho"
+      ],
+      "updatedAt": "2021-03-22T00:09:50.235Z"
+    },
+    "empresa-porte": {
+      "processingTimestamp": "2021-03-21T05:00:10.000Z",
+      "schemaID": "3744"
+    },
+    "empresa-registro-br": {
+      "insertDate": "2021-03-24T22:16:26.527Z",
+      "lastUpdate": "2019-05-09T06:08:58Z",
+      "processingTimestamp": "2019-05-09T06:08:58Z",
+      "source": [
+        "Registro.BR"
+      ],
+      "updatedAt": "2021-03-24T22:16:32.621Z"
+    },
+    "empresa-saude-tributaria": {
+      "insertDate": "2021-11-02T00:03:20.625Z",
+      "lastUpdate": "2021-04-07T21:50:35Z",
+      "processingTimestamp": "2021-04-07T21:50:35Z",
+      "source": [
+        "cnd-fgts",
+        "cnd-pgfn-cnpj",
+        "cnd-tst"
+      ],
+      "updatedAt": "2021-11-02T00:03:26.294Z"
+    },
+    "empresaSintegra": {
+      "lastUpdate": "2021-10-02T01:45:02Z",
+      "processingTimestamp": "2021-10-02T01:45:02Z",
+      "schemaID": "8875",
+      "sources": [
+        {
+          "input": "eyJfaWQiOiIwMThjNjRjZmYzMmU0NWJjYjRhMzExNGY0MTI1ZWRhOSIsImNucGoiOiIxMjk4MjU3ODAwMDE3MCIsImluc2VydGVkQnlBcGkiOnRydWUsInByaW9yaXR5RmxhZyI6MTAsInJlcHJvY2Vzc2luZ0NvdW50QnlGbGFnIjoxfQ==",
+          "processingId": "8eaa95e3-5264-4397-b17e-447ba02b3d34",
+          "processingTimestamp": "2021-03-30T03:13:51Z",
+          "source": "Cadastro de Contribuintes do ICMS SP"
+        },
+        {
+          "id": "09a8a30880b8455761bca267dd105715",
+          "input": "eyJfaWQiOiIwOWE4YTMwODgwYjg0NTU3NjFiY2EyNjdkZDEwNTcxNSIsImNucGoiOiIxMjk4MjU3ODAwMDE3MCIsImZpZWxkcyI6ImV5SmZhV1FpT2lBaU1EbGhPR0V6TURnNE1HSTRORFUxTnpZeFltTmhNalkzWkdReE1EVTNNVFVpTENBaVkyNXdhaUk2SUNJeE1qazRNalUzT0RBd01ERTNNQ0lzSUNKd2NtbHZjbWwwZVVac1lXY2lPaUF4TUN3Z0luVm1Jam9nSWxOUUluMD0iLCJwcmlvcml0eUZsYWciOjEwLCJ1ZiI6IlNQIn0=",
+          "processingId": "3dd9923e-75a7-4ad4-a3bc-35a4e65bb12c",
+          "processingTimestamp": "2021-10-02T01:45:02Z",
+          "source": "Sintegra"
+        }
+      ],
+      "sourcesNames": [
+        "Cadastro de Contribuintes do ICMS SP",
+        "Sintegra"
+      ],
+      "startDate": "2021-10-02T01:45:02Z"
+    },
+    "empresas": {
+      "_metadata": {
+        "empresas": {
+          "processingTimestamp": "2021-08-21T06:53:58Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "nivelAtividade": {
+          "processingTimestamp": "2019-08-08T21:22:09Z",
+          "source": [
+            "MODELO NEOWAY"
+          ]
+        },
+        "simplesNacional": {
+          "processingTimestamp": "2020-05-13T15:42:49Z",
+          "source": [
+            "RF-PJ-SIMPLES"
+          ]
+        },
+        "sintegra": {
+          "processingTimestamp": "2021-06-30T03:00:00.000Z",
+          "source": [
+            "SINTEGRA-SP"
+          ]
+        }
+      },
+      "lastUpdate": "2021-10-20T01:40:42.943Z",
+      "updatedAt": "2021-10-20T01:40:42.95Z"
+    },
+    "entity-neoway-empresa": {
+      "lastUpdate": "2021-10-07T21:12:47Z",
+      "processingTimestamp": "2021-10-07T21:12:47Z",
+      "schemaID": "9242",
+      "sources": [
+        {
+          "id": "9d90899e2e6a28e923a0a300f9502e99",
+          "input": "eyJfaWQiOiI5ZDkwODk5ZTJlNmEyOGU5MjNhMGEzMDBmOTUwMmU5OSIsImNucGoiOiIxMjk4MjU3ODAwMDE3MCIsImZpZWxkcyI6ImV5SmZhV1FpT2lBaU9XUTVNRGc1T1dVeVpUWmhNamhsT1RJellUQmhNekF3WmprMU1ESmxPVGtpTENBaVkyNXdhaUk2SUNJeE1qazRNalUzT0RBd01ERTNNQ0lzSUNKcGJuTmxjblJsWkVKNVFYQnBJam9nZEhKMVpTd2dJbkJ5YVc5eWFYUjVSbXhoWnlJNklERXdmUT09IiwiaW5zZXJ0ZWRCeUFwaSI6dHJ1ZSwicHJpb3JpdHlGbGFnIjoxMH0=",
+          "processingId": "65e3c051-b374-46bb-bc64-d7016366212f",
+          "processingTimestamp": "2021-10-07T21:12:47Z",
+          "source": "Receita Federal"
+        }
+      ],
+      "sourcesNames": [
+        "Receita Federal"
+      ],
+      "startDate": "2021-08-21T06:53:58Z"
+    },
+    "exfuncionarios": {
+      "lastUpdate": "2021-10-10T07:55:46.19Z",
+      "processingTimestamp": "2021-08-24T03:00:00Z",
+      "source": [
+        "RAIS"
+      ],
+      "updatedAt": "2021-10-10T07:55:46.363Z"
+    },
+    "funcionarios": {
+      "lastUpdate": "2021-10-10T07:55:46.187Z",
+      "processingTimestamp": "2021-09-03T03:00:00Z",
+      "source": [
+        "RAIS"
+      ],
+      "updatedAt": "2021-10-10T07:55:46.334Z"
+    },
+    "mapeamentoEdificios": {
+      "processingTimestamp": "2021-10-17T22:00:49.000Z",
+      "schemaID": "7917"
+    },
+    "processoJudicialTotalizadores": {
+      "lastUpdate": "2021-10-13T18:04:02.296733679Z",
+      "processingTimestamp": "2021-10-13T18:04:02.296733679Z",
+      "schemaID": "5275",
+      "startDate": "2021-10-13T13:06:30Z"
+    },
+    "propensaoFechamento": {
+      "processingTimestamp": "2021-10-10T22:00:13.000Z",
+      "schemaID": "3774"
+    },
+    "qsaUnificado": {
+      "lastUpdate": "2021-10-20T01:40:42.941Z",
+      "processingTimestamp": "2021-10-07T03:00:00Z",
+      "source": [
+        "QSA RF"
+      ],
+      "updatedAt": "2021-10-20T01:40:42.994Z"
+    },
+    "simplesNacional": {
+      "lastUpdate": "2020-05-13T15:42:51Z",
+      "processingTimestamp": "2020-05-13T15:42:51Z",
+      "schemaID": "8911",
+      "sources": [
+        {
+          "id": "9d90899e2e6a28e923a0a300f9502e99",
+          "input": "eyJfaWQiOiI5ZDkwODk5ZTJlNmEyOGU5MjNhMGEzMDBmOTUwMmU5OSIsImNucGoiOiIxMjk4MjU3ODAwMDE3MCIsImluc2VydGVkQnlBcGkiOnRydWUsInByaW9yaXR5RmxhZyI6MTB9",
+          "processingId": "710e0e19-695c-4082-8f92-1a643cc79b6e",
+          "processingTimestamp": "2020-05-13T15:42:51Z",
+          "source": "Receita Federal",
+          "sourceURIs": [
+            "/rain-man/v3/download/neoway/rf-pj-simples/sources/rf-pj-simples/7192731f-8525-430e-9742-b5a8b9f8d985"
+          ]
+        }
+      ],
+      "sourcesNames": [
+        "Receita Federal"
+      ],
+      "startDate": "2020-05-13T15:42:51Z"
+    },
+    "socios": {
+      "lastUpdate": "2021-07-11T05:56:51.125Z",
+      "processingTimestamp": "2021-06-10T03:00:00Z",
+      "source": [
+        "QSA RF PPD2"
+      ],
+      "updatedAt": "2021-07-11T05:56:51.378Z"
+    },
+    "sociosJunta": {
+      "lastUpdate": "2021-02-27T02:54:29.579Z",
+      "updatedAt": "2021-02-27T02:54:29.584Z"
+    }
+  },
+  "activityLevelV2": {
+    "activityLevel": "MEDIO"
+  },
+  "beneficiarios": [
+    {
+      "documento": "30750549840",
+      "falecido": false,
+      "grau": 1,
+      "nome": "ANTONIO CARLOS ROSSINI JUNIOR",
+      "participacao": 0
+    },
+    {
+      "documento": "70632383100",
+      "falecido": false,
+      "grau": 1,
+      "nome": "FRANCISCO IGNACIO RABELLO JARDIM",
+      "participacao": 0
+    },
+    {
+      "documento": "35099853897",
+      "falecido": false,
+      "grau": 1,
+      "nome": "LUCAS FREDERICO ALBRECHT DE ALMEIDA",
+      "participacao": 0
+    },
+    {
+      "documento": "06339946690",
+      "falecido": false,
+      "grau": 1,
+      "nome": "MATHEUS NANI COSTA",
+      "participacao": 0
+    },
+    {
+      "documento": "04511754683",
+      "falecido": false,
+      "grau": 1,
+      "nome": "RENATO HENRIQUE GARCIA CARVALHO",
+      "participacao": 0
+    }
+  ],
+  "beneficiariosQsaUnificado": [
+    {
+      "documento": "30750549840",
+      "grau": 1,
+      "nome": "ANTONIO CARLOS ROSSINI JUNIOR",
+      "participacao": 0
+    },
+    {
+      "documento": "70632383100",
+      "grau": 1,
+      "nome": "FRANCISCO IGNACIO RABELLO JARDIM",
+      "participacao": 0
+    },
+    {
+      "documento": "35099853897",
+      "grau": 1,
+      "nome": "LUCAS FREDERICO ALBRECHT DE ALMEIDA",
+      "participacao": 0
+    },
+    {
+      "documento": "06339946690",
+      "grau": 1,
+      "nome": "MATHEUS NANI COSTA",
+      "participacao": 0
+    },
+    {
+      "documento": "04511754683",
+      "grau": 1,
+      "nome": "RENATO HENRIQUE GARCIA CARVALHO",
+      "participacao": 0
+    }
+  ],
+  "capacidadeTrabalhoRemoto": {
+    "trabalhoRemoto": "ALTA"
+  },
+  "cnaePrincipal": {
+    "codigo": "6202300",
+    "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS",
+    "ramoAtividade": "INDUSTRIA DIGITAL",
+    "setor": "SERVICOS"
+  },
+  "cnaes": [
+    {
+      "codigo": "6202300",
+      "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS"
+    },
+    {
+      "codigo": "2631100",
+      "descricao": "FABRICACAO DE EQUIPAMENTOS TRANSMISSORES DE COMUNICACAO PECAS E ACESSORIOS"
+    },
+    {
+      "codigo": "9512600",
+      "descricao": "REPARACAO E MANUTENCAO DE EQUIPAMENTOS DE COMUNICACAO"
+    },
+    {
+      "codigo": "6209100",
+      "descricao": "SUPORTE TECNICO MANUTENCAO E OUTROS SERVICOS EM TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "codigo": "7490104",
+      "descricao": "ATIVIDADES DE INTERMEDIACAO E AGENCIAMENTO DE SERVICOS E NEGOCIOS EM GERAL EXCETO IMOBILIARIOS"
+    },
+    {
+      "codigo": "6203100",
+      "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR NAO CUSTOMIZAVEIS"
+    },
+    {
+      "codigo": "6319400",
+      "descricao": "PORTAIS PROVEDORES DE CONTEUDO E OUTROS SERVICOS DE INFORMACAO NA INTERNET"
+    },
+    {
+      "codigo": "6201501",
+      "descricao": "DESENVOLVIMENTO DE PROGRAMAS DE COMPUTADOR SOB ENCOMENDA"
+    },
+    {
+      "codigo": "4751201",
+      "descricao": "COMERCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMATICA"
+    },
+    {
+      "codigo": "7739099",
+      "descricao": "ALUGUEL DE OUTRAS MAQUINAS E EQUIPAMENTOS COMERCIAIS E INDUSTRIAIS NAO ESPECIFICADOS ANTERIORMENTE SEM OPERADOR"
+    }
+  ],
+  "comercioExterior": {
+    "dataSituacao": "2016-03-30T00:00:00Z",
+    "habilitado": true,
+    "modalidade": "PESSOA FISICA E",
+    "operacoesAutorizadas": "IMPORTACAO E EXPORTACAO",
+    "situacaoHabilitacao": "DEFERIDA",
+    "submodalidade": "LIMITADA ATE US 50 000"
+  },
+  "crescimentoPorAnoRais": [
+    {
+      "ano": 2020,
+      "percentual": 28.57
+    },
+    {
+      "ano": 2019,
+      "percentual": 0
+    },
+    {
+      "ano": 2018,
+      "percentual": 40
+    },
+    {
+      "ano": 2017,
+      "percentual": 66.67
+    },
+    {
+      "ano": 2016,
+      "percentual": 50
+    },
+    {
+      "ano": 2015,
+      "percentual": 100
+    }
+  ],
+  "datascienceRiscoMercadoCovid19": {
+    "riscoIndividual": "MEDIO",
+    "riscoSegmento": "MEDIO"
+  },
+  "detran": {
+    "totalVeiculosPesados": 0,
+    "totalVeiculosPesadosGrupo": 0
+  },
+  "empresa": {
+    "abertura": "2010-11-25T12:00:00Z",
+    "cnpj": "12982578000170",
+    "matriz": true,
+    "naturezaJuridica": {
+      "codigo": "2054",
+      "descricao": "SOCIEDADE ANONIMA FECHADA"
+    },
+    "nomeFantasia": "NEXXTO",
+    "porte": "DEMAIS",
+    "razaoSocial": "NEXXTO SERVICOS EM TECNOLOGIA DA INFORMACAO SA",
+    "situacaoCadastral": {
+      "data": "2010-11-25T12:00:00Z",
+      "status": "ATIVA"
+    }
+  },
+  "empresa-porte": {
+    "empresaPorte": "PEQUENA"
+  },
+  "empresaBalancoFinanceiro": {
+    "indicadoresFinanceiros": [
+      {
+        "margemEBIT": -14.097
+      },
+      {
+        "margemEBIT": -12.548
+      },
+      {
+        "margemEBIT": 7.127
+      },
+      {
+        "margemEBIT": 63.734
+      },
+      {
+        "margemEBIT": -58.66
+      }
+    ]
+  },
+  "empresaInpiPatentes": {
+    "pedidos": [
+      {
+        "dataDeposito": "2016-02-16T00:00:00Z",
+        "dataPublicacao": "2017-08-22T00:00:00Z",
+        "depositante": "NEXXTO SERVICOS EM TECNOLOGIA DA INFORMACAO S A BR SP",
+        "inventores": [
+          {
+            "inventor": "ANTONIO CARLOS ROSSINI JUNIOR"
+          },
+          {
+            "inventor": "LUCAS FREDERICO ALBRECHT DE ALMEIDA"
+          },
+          {
+            "inventor": "MATHEUS NANI COSTA"
+          }
+        ],
+        "numeroPedido": "BR 10 2016 003266 0 A2",
+        "procurador": "ALBERTO LUIS CAMELIER DA SILVA",
+        "titulo": "SISTEMA E METODO PARA GESTAO E CONTROLE DE ATIVOS EM TEMPO REAL"
+      }
+    ]
+  },
+  "empresaInpiProgramas": {
+    "processos": [
+      {
+        "autores": [
+          {
+            "autor": "MATHEUS NANI COSTA"
+          }
+        ],
+        "dataDeposito": "2014-11-06T00:00:00Z",
+        "numeroProcesso": "BR5120140013278",
+        "procurador": "GILBERTO DE CARVALHO",
+        "titulo": "ARTIS AUTOMATIC REAL TIME INFORMATION SYSTEM"
+      }
+    ]
+  },
+  "empresaRegistroBr": {
+    "dominios": [
+      {
+        "alterado": "2018-07-16T00:00:00Z",
+        "criado": "2015-07-16T00:00:00Z",
+        "dominio": "NEXXTO.COM.BR",
+        "expiracao": "2019-07-16T00:00:00Z",
+        "responsavel": "LUCAS FREDERICO ALBRECHT DE ALMEIDA"
+      }
+    ]
+  },
+  "empresaSaudeTributaria": {
+    "health": "CINZA"
+  },
+  "empresaSintegra": {
+    "inscricoes": [
+      {
+        "ie": "146813983118",
+        "regimeApuracao": "NORMAL REGIME PERIODICO DE APURACAO",
+        "situacaoCadastral": "HABILITADA",
+        "uf": "SP"
+      }
+    ]
+  },
+  "empresasColigadas": [
+    {
+      "cnae": "SERVICOS DE ENGENHARIA",
+      "cnpj": "06945415000114",
+      "dataAbertura": "2004-07-30T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "ACR & JR ENGENHARIA LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "ATIVIDADES DE INTERMEDIACAO E AGENCIAMENTO DE SERVICOS E NEGOCIOS EM GERAL, EXCETO IMOBILIARIOS",
+      "cnpj": "33042462000120",
+      "dataAbertura": "2019-03-15T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "AGROFY BRASIL ATIVIDADES DE INTERNET LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "PORTAIS, PROVEDORES DE CONTEUDO E OUTROS SERVICOS DE INFORMACAO NA INTERNET",
+      "cnpj": "23502561000194",
+      "dataAbertura": "2015-10-20T02:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "AGRONOW TECNOLOGIA SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "TRATAMENTO DE DADOS, PROVEDORES DE SERVICOS DE APLICACAO E SERVICOS DE HOSPEDAGEM NA INTERNET",
+      "cnpj": "21116762000128",
+      "dataAbertura": "2014-09-26T03:00:00Z",
+      "municipio": "CAMPINAS",
+      "razaoSocial": "AGROSMART SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS",
+      "cnpj": "26686815000160",
+      "dataAbertura": "2016-12-09T02:00:00Z",
+      "municipio": "LONDRINA",
+      "razaoSocial": "BART SOLUCOES DE TECNOLOGIA DIGITAL SA",
+      "uf": "PR"
+    },
+    {
+      "cnae": "FABRICACAO DE DEFENSIVOS AGRICOLAS",
+      "cnpj": "23255514000193",
+      "dataAbertura": "2015-09-11T03:00:00Z",
+      "municipio": "PIRACICABA",
+      "razaoSocial": "GENICA INOVACAO BIOTECNOLOGICA SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "cnpj": "22998899000116",
+      "dataAbertura": "2015-08-05T03:00:00Z",
+      "municipio": "BOTUCATU",
+      "razaoSocial": "GENOTYPING HOLDING SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "cnpj": "26571867000190",
+      "dataAbertura": "2016-11-21T02:00:00Z",
+      "municipio": "PIRACICABA",
+      "razaoSocial": "HORUS AERIAL SOLUTIONS HOLDING SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "OUTRAS ATIVIDADES DE PRESTACAO DE SERVICOS DE INFORMACAO NAO ESPECIFICADAS ANTERIORMENTE",
+      "cnpj": "22183303000120",
+      "dataAbertura": "2015-04-02T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "LUPEON SERVICOS E TECNOLOGIA SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "FABRICACAO DE MEDICAMENTOS ALOPATICOS PARA USO HUMANO",
+      "cnpj": "42063573000104",
+      "dataAbertura": "2021-05-24T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "NEOLAB SOLUCOES FARMACEUTICAS ESTEREIS DO BRASIL LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "FABRICACAO DE MEDICAMENTOS ALOPATICOS PARA USO HUMANO",
+      "cnpj": "56994502000130",
+      "dataAbertura": "1966-07-27T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "NOVARTIS BIOCIENCIAS SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "cnpj": "20504529000150",
+      "dataAbertura": "2014-06-26T03:00:00Z",
+      "municipio": "ENGENHEIRO COELHO",
+      "razaoSocial": "PROMIP HOLDING SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS",
+      "cnpj": "27310009000155",
+      "dataAbertura": "2017-03-14T03:00:00Z",
+      "municipio": "SUMARE",
+      "razaoSocial": "SPECLAB HOLDING SA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "ATIVIDADES DE ADMINISTRACAO DE FUNDOS POR CONTRATO OU COMISSAO",
+      "cnpj": "09594756000180",
+      "dataAbertura": "2008-04-22T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "SP VENTURES GESTORA DE RECURSOS LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "ATIVIDADES DE CONSULTORIA EM GESTAO EMPRESARIAL, EXCETO CONSULTORIA TECNICA ESPECIFICA",
+      "cnpj": "23855647000109",
+      "dataAbertura": "2013-12-12T02:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "SP VENTURES GESTORA DE RECURSOS SCP SA",
+      "uf": "SP"
+    }
+  ],
+  "endereco": {
+    "bairro": "PARAISO",
+    "bairroOriginal": "PARAISO",
+    "cep": "04002003",
+    "cepRestritoFlag": false,
+    "complemento": "CJ 123",
+    "enderecoResidencial": false,
+    "logradouro": "RUA MARIA FIGUEIREDO",
+    "maisRecenteNoEndereco": true,
+    "mesoRegiao": "METROPOLITANA DE SAO PAULO",
+    "microRegiao": "SAO PAULO",
+    "municipio": "SAO PAULO",
+    "municipioFronteirico": "MUNICIPIO NAO FRONTEIRICO",
+    "municipioOriginal": "SAO PAULO",
+    "numero": "595",
+    "precisao": "NA RUA",
+    "regiao": "SUDESTE",
+    "uf": "SP"
+  },
+  "exfuncionarios": [
+    {
+      "anoMesDesligamento": "08-2020",
+      "cpf": "40317097814",
+      "dataAdmissao": "2019-06-10T03:00:00Z",
+      "dataNascimento": "1992-09-03T03:00:00Z",
+      "nome": "ANA VIRGINIA MENOSSI GONCALVES"
+    },
+    {
+      "anoMesDesligamento": "08-2019",
+      "cpf": "10393181693",
+      "dataAdmissao": "2018-06-04T03:00:00Z",
+      "dataNascimento": "1992-12-11T02:00:00Z",
+      "nome": "ANNA DRUMOND COLARES MOREIRA"
+    },
+    {
+      "anoMesDesligamento": "11-2017",
+      "cpf": "37140327890",
+      "dataAdmissao": "2015-01-02T02:00:00Z",
+      "dataNascimento": "1986-12-21T02:00:00Z",
+      "nome": "EDUARDO MIRANDA STEINER"
+    },
+    {
+      "anoMesDesligamento": "06-2018",
+      "cpf": "42166733840",
+      "dataAdmissao": "2017-04-03T03:00:00Z",
+      "dataNascimento": "1992-09-30T03:00:00Z",
+      "nome": "GUILHERME OLIVEIRA ASSAD SALAM"
+    },
+    {
+      "anoMesDesligamento": "06-2019",
+      "cpf": "43216494802",
+      "dataAdmissao": "2018-09-17T03:00:00Z",
+      "dataNascimento": "1995-10-27T02:00:00Z",
+      "nome": "MARCUS VINICIUS ZANGIROLAMI"
+    },
+    {
+      "anoMesDesligamento": "08-2018",
+      "cpf": "22748756851",
+      "dataAdmissao": "2016-01-04T02:00:00Z",
+      "dataNascimento": "1991-12-05T02:00:00Z",
+      "nome": "RODRIGO MIDEA COELHO"
+    },
+    {
+      "anoMesDesligamento": "05-2019",
+      "cpf": "42730404848",
+      "dataAdmissao": "2019-03-18T03:00:00Z",
+      "dataNascimento": "1997-08-14T03:00:00Z",
+      "nome": "VINICIUS DE PIERI AVILA ARJONA"
+    }
+  ],
+  "faturamentoEstimado": {
+    "faixaIndividual": "DE R$ 1.500.000,01 A R$ 4.800.000,00",
+    "individual": 2058782.91
+  },
+  "funcionarios": [
+    {
+      "cpf": "46326349800",
+      "dataAdmissao": "2020-01-20T02:00:00Z",
+      "dataNascimento": "1998-09-08T03:00:00Z",
+      "nome": "ADRIELLI PEREIRA DOS SANTOS"
+    },
+    {
+      "cpf": "03785198167",
+      "dataAdmissao": "2020-08-19T03:00:00Z",
+      "dataNascimento": "1991-08-16T03:00:00Z",
+      "nome": "DEBORA BAHIA DUARTE DE BRITO"
+    },
+    {
+      "cpf": "39486623805",
+      "dataAdmissao": "2017-09-01T03:00:00Z",
+      "dataNascimento": "1993-09-12T03:00:00Z",
+      "nome": "FELIPE VALMORBIDA DELL OSO PRADO"
+    },
+    {
+      "cpf": "10619632682",
+      "dataAdmissao": "2019-07-08T03:00:00Z",
+      "dataNascimento": "1993-11-10T02:00:00Z",
+      "nome": "ISABELLA RIBEIRO ROCHA"
+    },
+    {
+      "cpf": "41892971860",
+      "dataAdmissao": "2015-02-02T02:00:00Z",
+      "dataNascimento": "1991-10-23T02:00:00Z",
+      "nome": "KAREN ALVES DE JESUS"
+    },
+    {
+      "cpf": "36844657803",
+      "dataAdmissao": "2017-04-03T03:00:00Z",
+      "dataNascimento": "1988-04-19T03:00:00Z",
+      "nome": "LUIZ FELIPE FRANCA AMADIO"
+    },
+    {
+      "cpf": "41551220814",
+      "dataAdmissao": "2018-01-09T02:00:00Z",
+      "dataNascimento": "1995-10-04T03:00:00Z",
+      "nome": "MATHEUS ISAIAS MELO"
+    },
+    {
+      "cpf": "10277143667",
+      "dataAdmissao": "2020-08-19T03:00:00Z",
+      "dataNascimento": "1989-02-24T03:00:00Z",
+      "nome": "NATHALIA APARECIDA PANICALI MARTINS"
+    },
+    {
+      "cpf": "31360821848",
+      "dataAdmissao": "2018-08-06T03:00:00Z",
+      "dataNascimento": "1984-05-19T03:00:00Z",
+      "nome": "THIAGO DE MELO MACEDO"
+    }
+  ],
+  "importacao": [
+    {
+      "ano": 2016,
+      "valor": "ATE US$ 1 MILHAO"
+    },
+    {
+      "ano": 2017,
+      "valor": "ATE US$ 1 MILHAO"
+    }
+  ],
+  "info": {
+    "emailRF": "ANTONIO.ROSSINI@NEXXTO.COM",
+    "idadeEmpresa": 10,
+    "numeroTelefoneRF": [
+      "1130713012"
+    ],
+    "passivelIss": true,
+    "possuiEmailContador": false,
+    "qsaDivergente": false
+  },
+  "inpiMarcas": [
+    {
+      "classe": "NCL(9) 42",
+      "dataDeposito": "2011-05-17T03:00:00Z",
+      "marca": "RFIDEAS",
+      "numeroProcesso": "903650827"
+    },
+    {
+      "classe": "NCL(10) 09",
+      "dataDeposito": "2013-11-29T02:00:00Z",
+      "marca": "ARTIS",
+      "numeroProcesso": "907072615"
+    },
+    {
+      "classe": "NCL(10) 09",
+      "dataDeposito": "2013-11-29T02:00:00Z",
+      "marca": "RFIDEAS",
+      "numeroProcesso": "907072631"
+    },
+    {
+      "classe": "NCL(10) 42",
+      "dataDeposito": "2013-11-29T02:00:00Z",
+      "marca": "RFIDEAS",
+      "numeroProcesso": "907072690"
+    },
+    {
+      "classe": "NCL(10) 09",
+      "dataDeposito": "2015-09-14T03:00:00Z",
+      "marca": "NEXXTO",
+      "numeroProcesso": "909985014"
+    },
+    {
+      "classe": "NCL(10) 42",
+      "dataDeposito": "2015-09-14T03:00:00Z",
+      "marca": "NEXXTO",
+      "numeroProcesso": "909985200"
+    },
+    {
+      "classe": "NCL(10) 45",
+      "dataDeposito": "2015-09-14T03:00:00Z",
+      "marca": "NEXXTO",
+      "numeroProcesso": "909985251"
+    },
+    {
+      "classe": "NCL(10) 09",
+      "dataDeposito": "2016-02-25T03:00:00Z",
+      "marca": "ATIVIS",
+      "numeroProcesso": "910678529"
+    },
+    {
+      "classe": "NCL(10) 42",
+      "dataDeposito": "2016-02-25T03:00:00Z",
+      "marca": "ATIVIS",
+      "numeroProcesso": "910678650"
+    }
+  ],
+  "mapeamentoEdificios": {
+    "edificioColetivo": true,
+    "tipoEdificio": "CONDOMINIO"
+  },
+  "matriz": {
+    "quantidadeFilial": 0
+  },
+  "natureza": {
+    "classificacao": "PRIVADO"
+  },
+  "patCadastro": {
+    "dataExercicio": "2015-01-20T00:00:00Z",
+    "modalidades": [
+      {
+        "cnpjPrestadora": "47866934000174",
+        "modalidade": "REFEICAO CONVENIO",
+        "prestadora": "TICKET SERVICOS S A",
+        "trabalhadoresAcima5sm": 5,
+        "trabalhadoresAte5sm": 0,
+        "trabalhadoresBeneficiados": 5
+      }
+    ],
+    "numeroInscricao": "2157187",
+    "refeicoesFornecidas": [
+      {
+        "qtdRefeicaoFornecida": 5,
+        "tipoRefeicaoFornecida": "ALMOCO"
+      }
+    ],
+    "responsavel": {
+      "cpf": "35099853897",
+      "email": "LUCAS.ALMEIDA@RFIDEAS.COM.BR",
+      "nome": "LUCAS FREDERICO ALBRECHT DE ALMEIDA"
+    },
+    "situacaoCadastral": "ATIVA",
+    "totalTrabalhadores": 5
+  },
+  "potencialConsumo": {
+    "valorCapitalSocial": 203518
+  },
+  "processoJudicialTotalizadores": {
+    "quantidades": [
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 2,
+        "qtdParteAtiva": 2,
+        "qtdPartePassiva": 1,
+        "qtdTotal": 5,
+        "tipo": "NUMERO DE PROCESSOS"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "CRIMINAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRIBUTARIO"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRABALHISTA"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "ELEITORAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "MILITAR"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 2,
+        "qtdParteAtiva": 2,
+        "qtdPartePassiva": 1,
+        "qtdTotal": 5,
+        "tipo": "CIVEL / ADMINISTRATIVO"
+      }
+    ],
+    "valorTotal": 62957.94,
+    "valorTotalAtiva": 11792.25,
+    "valorTotalOutrasPartes": 50000,
+    "valorTotalPassiva": 1165.69
+  },
+  "propensaoFechamento": {
+    "propensaoEmpresa": "MUITO BAIXA"
+  },
+  "qsaUnificado": [
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "RENATO HENRIQUE GARCIA CARVALHO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "CONSELHEIRO DE ADMINISTRACAO"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "MATHEUS NANI COSTA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "ANTONIO CARLOS ROSSINI JUNIOR",
+      "participacaoSocietaria": 0,
+      "qualificacao": "PRESIDENTE"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "LUCAS FREDERICO ALBRECHT DE ALMEIDA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "FRANCISCO IGNACIO RABELLO JARDIM",
+      "participacaoSocietaria": 0,
+      "qualificacao": "CONSELHEIRO DE ADMINISTRACAO"
+    }
+  ],
+  "simplesNacional": {
+    "optanteSimei": false,
+    "optanteSimples": false
+  },
+  "socios": [
+    {
+      "documento": "30750549840",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "ANTONIO CARLOS ROSSINI JUNIOR",
+      "participacaoSocietaria": 0,
+      "qualificacao": "PRESIDENTE"
+    },
+    {
+      "documento": "70632383100",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "FRANCISCO IGNACIO RABELLO JARDIM",
+      "participacaoSocietaria": 0,
+      "qualificacao": "CONSELHEIRO DE ADMINISTRACAO"
+    },
+    {
+      "documento": "35099853897",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "LUCAS FREDERICO ALBRECHT DE ALMEIDA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "documento": "06339946690",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "MATHEUS NANI COSTA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "documento": "04511754683",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "RENATO HENRIQUE GARCIA CARVALHO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "CONSELHEIRO DE ADMINISTRACAO"
+    }
+  ],
+  "telefones": [
+    {
+      "numero": "1123615198"
+    }
+  ],
+  "totalFuncionarios": {
+    "quantidade": 9,
+    "quantidadeGrupo": 9
+  },
+  "totalVeiculos": {
+    "acimaDezAnos": 0,
+    "ateUmAno": 0,
+    "entreCincoDezAnos": 0,
+    "entreDoisCincoAnos": 0,
+    "grupoAcimaDezAnos": 0,
+    "grupoAteUmAno": 0,
+    "grupoEntreCincoDezAnos": 0,
+    "grupoEntreDoisCincoAnos": 0
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "_id": "36129078000158",
+  "_metadata": {
+    "cepim": {
+      "noMatchFound": true
+    },
+    "datascience-activity-level-v2": {
+      "insertDate": "2021-03-16T01:21:35.746Z",
+      "lastUpdate": "2021-03-16T01:21:35Z",
+      "updatedAt": "2021-03-16T01:21:41.303Z"
+    },
+    "datascience-faturament-estim": {
+      "insertDate": "2021-04-06T17:22:25.935Z",
+      "lastUpdate": "2021-04-06T17:22:25Z",
+      "updatedAt": "2021-04-06T17:22:31.597Z"
+    },
+    "datascience-ris-mer-covid19": {
+      "insertDate": "2020-04-09T08:59:46.483Z",
+      "lastUpdate": "2020-04-09T08:59:46Z",
+      "updatedAt": "2020-04-10T01:23:49.378Z"
+    },
+    "empresa": {
+      "insertDate": "2021-03-04T12:53:20.61Z",
+      "lastUpdate": "2021-03-04T12:53:20Z",
+      "processingTimestamp": "2021-03-04T12:53:20Z",
+      "source": [
+        "rf-pj"
+      ],
+      "updatedAt": "2021-03-04T12:53:26.566Z"
+    },
+    "empresa-banco-central": {
+      "noMatchFound": true
+    },
+    "empresa-capacidade-trab-remoto": {
+      "insertDate": "2020-05-18T18:53:16.34Z",
+      "lastUpdate": "2020-05-18T18:53:16Z",
+      "updatedAt": "2020-05-18T23:56:21.947Z"
+    },
+    "empresa-ceis": {
+      "noMatchFound": true
+    },
+    "empresa-cnep": {
+      "noMatchFound": true
+    },
+    "empresa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "empresa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "empresas": {
+      "_metadata": {
+        "empresas": {
+          "processingTimestamp": "2021-03-04T12:53:20Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "nivelAtividade": {
+          "processingTimestamp": "2020-01-28T15:10:08Z",
+          "source": [
+            "MODELO NEOWAY"
+          ]
+        },
+        "simplesNacional": {
+          "processingTimestamp": "2020-05-24T11:24:26Z",
+          "source": [
+            "RF-PJ-SIMPLES"
+          ]
+        }
+      },
+      "lastUpdate": "2021-04-10T14:48:26.101Z",
+      "updatedAt": "2021-04-10T14:48:26.118Z"
+    },
+    "model-analytics-empresa-porte": {
+      "processingTimestamp": "2021-03-21T05:00:10.000Z",
+      "schemaID": "3744"
+    },
+    "model-analytics-empresa-propensao-fechamento": {
+      "processingTimestamp": "2021-03-07T05:00:37.000Z",
+      "schemaID": "3774"
+    },
+    "qsaUnificado": {
+      "lastUpdate": "2021-04-03T16:52:27.752Z",
+      "processingTimestamp": "2021-03-04T03:00:00Z",
+      "source": [
+        "QSA RF"
+      ],
+      "updatedAt": "2021-04-03T16:52:27.803Z"
+    },
+    "socios": {
+      "lastUpdate": "2021-03-27T12:55:19.517Z",
+      "processingTimestamp": "2021-03-04T03:00:00Z",
+      "source": [
+        "QSA RF PPD2"
+      ],
+      "updatedAt": "2021-03-27T12:55:19.626Z"
+    }
+  },
+  "activityLevelV2": {
+    "activityLevel": "BAIXO"
+  },
+  "beneficiarios": [
+    {
+      "documento": "24246324809",
+      "falecido": false,
+      "grau": 1,
+      "nome": "HECTOR RAFAEL BENITEZ GONZALEZ",
+      "participacao": 0
+    },
+    {
+      "documento": "05278493836",
+      "falecido": false,
+      "grau": 1,
+      "nome": "SUZEL CAGLIARI",
+      "participacao": 0
+    }
+  ],
+  "beneficiariosQsaUnificado": [
+    {
+      "documento": "24246324809",
+      "grau": 1,
+      "nome": "HECTOR RAFAEL BENITEZ GONZALEZ",
+      "participacao": 0
+    },
+    {
+      "documento": "05278493836",
+      "grau": 1,
+      "nome": "SUZEL CAGLIARI",
+      "participacao": 0
+    }
+  ],
+  "capacidadeTrabalhoRemoto": {
+    "trabalhoRemoto": "MEDIA"
+  },
+  "cnaePrincipal": {
+    "codigo": "6209100",
+    "descricao": "SUPORTE TECNICO, MANUTENCAO E OUTROS SERVICOS EM TECNOLOGIA DA INFORMACAO",
+    "ramoAtividade": "INDUSTRIA DIGITAL",
+    "setor": "SERVICOS"
+  },
+  "cnaes": [
+    {
+      "codigo": "6209100",
+      "descricao": "SUPORTE TECNICO MANUTENCAO E OUTROS SERVICOS EM TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "codigo": "6201502",
+      "descricao": "WEB DESIGN"
+    },
+    {
+      "codigo": "6202300",
+      "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS"
+    },
+    {
+      "codigo": "6203100",
+      "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR NAO CUSTOMIZAVEIS"
+    },
+    {
+      "codigo": "6311900",
+      "descricao": "TRATAMENTO DE DADOS PROVEDORES DE SERVICOS DE APLICACAO E SERVICOS DE HOSPEDAGEM NA INTERNET"
+    },
+    {
+      "codigo": "7490104",
+      "descricao": "ATIVIDADES DE INTERMEDIACAO E AGENCIAMENTO DE SERVICOS E NEGOCIOS EM GERAL EXCETO IMOBILIARIOS"
+    }
+  ],
+  "datascienceRiscoMercadoCovid19": {
+    "riscoIndividual": "ALTO",
+    "riscoSegmento": "MEDIO"
+  },
+  "detran": {
+    "totalVeiculosPesados": 0,
+    "totalVeiculosPesadosGrupo": 0
+  },
+  "empresa": {
+    "abertura": "2020-01-24T00:00:00Z",
+    "cnpj": "36129078000158",
+    "matriz": true,
+    "naturezaJuridica": {
+      "codigo": "2062",
+      "descricao": "SOCIEDADE EMPRESARIA LIMITADA"
+    },
+    "nomeFantasia": "PROCYON SOLUCOES TECNOLOGICAS",
+    "porte": "ME",
+    "razaoSocial": "PROCYON SOLUCOES TECNOLOGICAS LTDA",
+    "situacaoCadastral": {
+      "data": "2020-01-24T00:00:00Z",
+      "status": "ATIVA"
+    }
+  },
+  "empresa-porte": {
+    "empresaPorte": "MICRO"
+  },
+  "endereco": {
+    "bairro": "INGLESES DO RIO VERMELHO",
+    "bairroOriginal": "INGLESES DO RIO VERMELHO",
+    "cep": "88058694",
+    "cepRestritoFlag": false,
+    "enderecoResidencial": false,
+    "logradouro": "SERVIDAO ORLEANS",
+    "maisRecenteNoEndereco": true,
+    "mesoRegiao": "GRANDE FLORIANOPOLIS",
+    "microRegiao": "FLORIANOPOLIS",
+    "municipio": "FLORIANOPOLIS",
+    "municipioFronteirico": "MUNICIPIO NAO FRONTEIRICO",
+    "municipioOriginal": "FLORIANOPOLIS",
+    "numero": "212",
+    "precisao": "EXATA",
+    "regiao": "SUL",
+    "uf": "SC"
+  },
+  "faturamentoEstimado": {
+    "faixaIndividual": "DE R$ 81.000,01 A R$ 360.000,00",
+    "individual": 150750
+  },
+  "info": {
+    "emailRF": "HBENITEZ7004@GMAIL.COM",
+    "idadeEmpresa": 1,
+    "numeroTelefoneRF": [
+      "48991032331"
+    ],
+    "passivelIss": true,
+    "possuiEmailContador": false,
+    "qsaDivergente": false
+  },
+  "matriz": {
+    "quantidadeFilial": 0
+  },
+  "natureza": {
+    "classificacao": "PRIVADO"
+  },
+  "potencialConsumo": {
+    "valorCapitalSocial": 108000
+  },
+  "processoJudicialTotalizadores": {
+    "valorTotal": 0,
+    "valorTotalAtiva": 0,
+    "valorTotalOutrasPartes": 0,
+    "valorTotalPassiva": 0
+  },
+  "propensaoFechamento": {
+    "propensaoEmpresa": "MEDIA"
+  },
+  "qsaUnificado": [
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "SUZEL CAGLIARI",
+      "participacaoSocietaria": 0,
+      "qualificacao": "SOCIO ADMINISTRADOR"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "HECTOR RAFAEL BENITEZ GONZALEZ",
+      "participacaoSocietaria": 0,
+      "qualificacao": "SOCIO"
+    }
+  ],
+  "simplesNacional": {
+    "optanteSimei": false,
+    "optanteSimples": false,
+    "simplesIrregular": false
+  },
+  "socios": [
+    {
+      "documento": "05278493836",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "SUZEL CAGLIARI",
+      "participacaoSocietaria": 0,
+      "qualificacao": "SOCIO ADMINISTRADOR"
+    },
+    {
+      "documento": "24246324809",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "HECTOR RAFAEL BENITEZ GONZALEZ",
+      "participacaoSocietaria": 0,
+      "qualificacao": "SOCIO"
+    }
+  ],
+  "telefones": [
+    {
+      "numero": "48991207700"
+    },
+    {
+      "numero": "18996383580"
+    }
+  ],
+  "totalVeiculos": {
+    "acimaDezAnos": 0,
+    "ateUmAno": 0,
+    "entreCincoDezAnos": 0,
+    "entreDoisCincoAnos": 0,
+    "grupoAcimaDezAnos": 0,
+    "grupoAteUmAno": 0,
+    "grupoEntreCincoDezAnos": 0,
+    "grupoEntreDoisCincoAnos": 0
+  },
+  "cnjCnia": {
+    "processos": [
+      {
+        "numeroProcesso": 1,
+        "esfera": "sphere 1",
+        "descricaoOrgao": "descricao orgao",
+        "dataCadastramento": "2015-10-21T00:00:00Z",
+        "cargoFuncao": {
+          "uf": "Uf"
+        },
+        "ressarcimentoIntegralDano": {
+          "valor": 30
+        },
+        "assuntosRelacionados": [
+          "relatedIssues 12",
+          "relatedIssues 14"
+        ]
+      }
+    ]
+  },
+  "mteTrabalhoEscravo": {
+    "estabelecimentos": [
+      {
+        "anoAcaoFiscal": "2020",
+        "numeroTrabalhadoresEnvolvidos": 10,
+        "dataDecisaoProcedencia": "2017-10-21T00:00:00Z",
+        "estabelecimento": {
+          "logradouro": "logradouro 1",
+          "complemento": "complemento 1",
+          "municipio": "municipio"
+        }
+      }
+    ]
+  },
+  "bancoCentral": {
+    "acordaos": [
+      {
+        "numeroAcordaoCRSFN": 18,
+        "numeroProcesso": 15,
+        "numeroRecurso": 20,
+        "parte": "part 2",
+        "recurso": "recurso 2"
+      }
+    ]
+  },
+  "empresaCeis": {
+    "sancoes": [
+      {
+        "complementoOrgao": "complemento orgao 1",
+        "descricaoFundamentacaoLegal": "descricao fundamentacao legal 1",
+        "processo": "processo 2",
+        "orgaoSancionador": "orgao sancionador 2",
+        "origemInformacao": "origem informacao 2",
+        "tipoSancao": "tipo sancao",
+        "uf": "uf",
+        "dataInformacao": "2018-10-21T00:00:00Z",
+        "periodoSancao": {
+          "final": "2018-10-21T00:00:00Z",
+          "inicio": "2018-10-21T00:00:00Z"
+        }
+      }
+    ]
+  },
+  "cnep": {
+    "processos": [
+      {
+        "numeroProcesso": 1,
+        "orgaoSancionador": "orgao sancionador 2",
+        "tipoSancao": "tipo sancao 2",
+        "ufOrgaoSancionador": "uf orgao sancionador 2",
+        "valorMulta": 6000,
+        "dataFinalSancao": "2018-10-21T00:00:00Z",
+        "dataInicioSancao": "2018-10-21T00:00:00Z"
+      }
+    ]
+  },
+  "listaInternacional": [
+    {
+      "nome": "nome 3",
+      "dataProcessamento": "2015-10-21T00:00:00Z"
+    },
+    {
+      "nome": "nome 4",
+      "dataProcessamento": "2015-10-21T00:00:00Z"
+    }
+  ],
+  "proconInformacoes": {
+    "valorTotalMulta": 35,
+    "grupo": {
+      "nome": "Nome group 1",
+      "valorTotalMultas": 15,
+      "dataUltimaAtualizacao": "2015-10-21T00:00:00Z",
+      "partesGrupo": [
+        {
+          "cnpj": "656565",
+          "valorTotalMulta": 45
+        }
+      ]
+    },
+    "processos": [
+      {
+        "status": "status",
+        "numeroProcesso": 1,
+        "valorMulta": 26
+      }
+    ]
+  },
+  "atividadeFinanceira": {
+    "dataConsulta": "2015-10-21T00:00:00Z",
+    "dataHabilitacao": "2015-10-21T00:00:00Z",
+    "numeroHabilitacao": 12,
+    "segmentos": 45,
+    "situacaoHabilitacao": "situacao habilitacao"
+  }
+}

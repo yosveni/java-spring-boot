@@ -1,0 +1,15 @@
+<code_scheme name="Default" version="173">
+    <JavaCodeStyleSettings>
+        <option name="REPLACE_INSTANCEOF_AND_CAST" value="true"/>
+        <option name="ALIGN_MULTILINE_TEXT_BLOCKS" value="true"/>
+        <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="50"/>
+        <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="50"/>
+    </JavaCodeStyleSettings>
+    <codeStyleSettings language="JAVA">
+        <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1"/>
+        <option name="BLANK_LINES_BEFORE_CLASS_END" value="1"/>
+        <option name="ALIGN_MULTILINE_ASSIGNMENT" value="true"/>
+        <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true"/>
+        <option name="ENUM_CONSTANTS_WRAP" value="2"/>
+    </codeStyleSettings>
+</code_scheme>

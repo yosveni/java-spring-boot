@@ -1,0 +1,1 @@
+C:\API\WinSW-x64 stop

@@ -1,0 +1,410 @@
+{
+  "_id": "01869613830",
+  "_metadata": {
+    "model-analytics-pessoa-renda-estimada": {
+      "processingTimestamp": "2020-10-04T05:00:30.000Z",
+      "schemaID": "3091"
+    },
+    "pessoa-banco-central": {
+      "noMatchFound": true
+    },
+    "pessoa-ceis": {
+      "noMatchFound": true
+    },
+    "pessoa-cnep": {
+      "noMatchFound": true
+    },
+    "pessoa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "pessoa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "pessoa-pgfn-dau": {
+      "insertDate": "2021-02-28T00:04:29.944Z",
+      "lastUpdate": "2021-02-28T00:04:29Z",
+      "processingTimestamp": "2021-02-28T00:04:29Z",
+      "source": [
+        "pgfn-dau"
+      ],
+      "updatedAt": "2021-02-28T00:04:35.467Z"
+    },
+    "pessoas": {
+      "_metadata": {
+        "debitosPgfnDau": {
+          "processingTimestamp": "2021-02-28",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "dhProcessamentoPgfnDau": {
+          "processingTimestamp": "2021-02-28",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "faixaDividaPgfnDau": {
+          "processingTimestamp": "2021-02-28",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "participacaoSocietaria": {
+          "processingTimestamp": "2020-06-18T00:00:00.000Z",
+          "source": [
+            "JUCESP"
+          ]
+        },
+        "participacaoSocietariaRF": {
+          "processingTimestamp": "2021-02-27T00:00:00.000Z",
+          "source": [
+            "QSA RF ANTIGO",
+            "QSA RF"
+          ]
+        },
+        "participacaoSocietariaUnico": {
+          "processingTimestamp": "2021-02-05T00:00:00.000Z",
+          "source": [
+            "JUCESP",
+            "QSA FILE"
+          ]
+        },
+        "pessoas": {
+          "processingTimestamp": "2020-03-03T06:50:04Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "valorDividaFgtsPgfnDau": {
+          "processingTimestamp": "2021-02-28",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "valorDividaNaoPrevidenciariaPgfnDau": {
+          "processingTimestamp": "2021-02-28",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "valorDividaPgfnDau": {
+          "processingTimestamp": "2021-02-28",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "valorDividaPrevidenciariasPgfnDau": {
+          "processingTimestamp": "2021-02-28",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "veiculos": {
+          "processingTimestamp": "2015-07-20T00:00:00.000Z",
+          "source": [
+            "DENATRAN_UPDATED"
+          ]
+        }
+      },
+      "lastUpdate": "2021-03-27T16:51:26.32Z",
+      "updatedAt": "2021-03-27T16:51:27.106Z"
+    }
+  },
+  "cafir": {
+    "areaTotal": 0,
+    "numeroImoveisCondomino": 0,
+    "numeroImoveisTitular": 0
+  },
+  "cpf": "01869613830",
+  "cpfDataInscricao": "anterior a 10/11/1990",
+  "cpfMae": "21333136803",
+  "dataNascimento": "1959-10-07T12:00:00Z",
+  "endereco": {
+    "bairro": "CAMPOS ELISEOS",
+    "cep": "01203002",
+    "logradouro": "RUA CONSELHEIRO NEBIAS",
+    "municipio": "SAO PAULO",
+    "numero": "1654",
+    "uf": "SP"
+  },
+  "faixaDividaPgfnDau": "DE R$20.000,01 ATE R$200.000,00",
+  "falecido": false,
+  "falecidoConfirmado": false,
+  "idade": 61,
+  "incomePrediction": {
+    "incomeInterval": "DE 954,01 A 1.908"
+  },
+  "nome": "JOSE ALEIXO PIGARI",
+  "nomeMae": "APPARECIDA DOVIDIO PIGARI",
+  "participacaoSocietaria": [
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "07560707000100",
+      "dataAbertura": "2005-06-20T00:00:00Z",
+      "dataEntrada": "2005-06-20T00:00:00Z",
+      "descricaoCnae": "COMERCIO VAREJISTA DE MOVEIS",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "TITULAR",
+      "ramoAtividade": "VAREJO",
+      "razaoSocial": "JOSE ALEIXO PIGARI",
+      "situacao": "INAPTA",
+      "uf": "SP",
+      "valorParticipacao": 100
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "11509123000179",
+      "dataAbertura": "2010-01-22T00:00:00Z",
+      "dataEntrada": "2010-01-22T00:00:00Z",
+      "descricaoCnae": "ALUGUEL DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORARIO, EXCETO ANDAIMES",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO E ADMINISTRADOR",
+      "ramoAtividade": "SERVICOS ADMINISTRATIVOS",
+      "razaoSocial": "PIGARI EVENTOS E PRODUCOES LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 95
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "02269766000100",
+      "dataAbertura": "1997-11-18T00:00:00Z",
+      "dataEntrada": "1997-11-18T00:00:00Z",
+      "municipio": "URANIA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO GERENTE",
+      "razaoSocial": "M J L L PIGARI LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 25
+    }
+  ],
+  "participacaoSocietariaRF": [
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "07560707000100",
+      "dataAbertura": "2005-06-20T00:00:00Z",
+      "descricaoCnae": "COMERCIO VAREJISTA DE MOVEIS",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO-ADMINISTRADOR",
+      "ramoAtividade": "VAREJO",
+      "razaoSocial": "JOSE ALEIXO PIGARI",
+      "situacao": "INAPTA",
+      "uf": "SP",
+      "valorParticipacao": 100
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "20328176000184",
+      "dataAbertura": "2014-05-27T00:00:00Z",
+      "dataEntrada": "2014-05-27T00:00:00Z",
+      "descricaoCnae": "INSTALACAO DE PORTAS, JANELAS, TETOS, DIVISORIAS E ARMARIOS EMBUTIDOS DE QUALQUER MATERIAL",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO-ADMINISTRADOR",
+      "ramoAtividade": "INDUSTRIA DA CONSTRUCAO",
+      "razaoSocial": "PIGARI CENOGRAFIA LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "11509123000179",
+      "dataAbertura": "2010-01-22T00:00:00Z",
+      "dataEntrada": "2010-01-22T00:00:00Z",
+      "descricaoCnae": "ALUGUEL DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORARIO, EXCETO ANDAIMES",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO-ADMINISTRADOR",
+      "ramoAtividade": "SERVICOS ADMINISTRATIVOS",
+      "razaoSocial": "PIGARI EVENTOS E PRODUCOES LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "02269766000100",
+      "dataAbertura": "1997-11-18T00:00:00Z",
+      "dataEntrada": "1997-11-18T00:00:00Z",
+      "municipio": "URANIA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO-ADMINISTRADOR",
+      "razaoSocial": "M J L L PIGARI LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 25
+    }
+  ],
+  "participacaoSocietariaUnico": [
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "11509123000179",
+      "dataAbertura": "2010-01-22T00:00:00Z",
+      "dataPrimeiraCaptura": "2020-06-18T00:00:00Z",
+      "descricaoCnae": "ALUGUEL DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORARIO, EXCETO ANDAIMES",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO E ADMINISTRADOR",
+      "ramoAtividade": "SERVICOS ADMINISTRATIVOS",
+      "razaoSocial": "PIGARI EVENTOS E PRODUCOES LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 95
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "07560707000100",
+      "dataAbertura": "2005-06-20T00:00:00Z",
+      "dataPrimeiraCaptura": "2019-03-30T00:00:00Z",
+      "descricaoCnae": "COMERCIO VAREJISTA DE MOVEIS",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "TITULAR",
+      "ramoAtividade": "VAREJO",
+      "razaoSocial": "JOSE ALEIXO PIGARI",
+      "situacao": "INAPTA",
+      "uf": "SP",
+      "valorParticipacao": 100
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "20328176000184",
+      "dataAbertura": "2014-05-27T00:00:00Z",
+      "dataPrimeiraCaptura": "2021-02-05T00:00:00Z",
+      "descricaoCnae": "INSTALACAO DE PORTAS, JANELAS, TETOS, DIVISORIAS E ARMARIOS EMBUTIDOS DE QUALQUER MATERIAL",
+      "municipio": "SAO PAULO",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO ADMINISTRADOR",
+      "ramoAtividade": "INDUSTRIA DA CONSTRUCAO",
+      "razaoSocial": "PIGARI CENOGRAFIA LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 0
+    },
+    {
+      "capitalSocialEmpresa": 0,
+      "cnpj": "02269766000100",
+      "dataAbertura": "1997-11-18T00:00:00Z",
+      "dataPrimeiraCaptura": "2019-10-19T00:00:00Z",
+      "municipio": "URANIA",
+      "participacaoCapitalSocial": 0,
+      "qualificacao": "SOCIO GERENTE",
+      "razaoSocial": "M J L L PIGARI LTDA",
+      "situacao": "BAIXADA",
+      "uf": "SP",
+      "valorParticipacao": 25
+    }
+  ],
+  "pessoaPgfnDau": {
+    "dividas": [
+      {
+        "inscricao": "8041911011103",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 24438.74
+      },
+      {
+        "inscricao": "8041204090238",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 17302.52
+      },
+      {
+        "inscricao": "8041100186255",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 30168.63
+      }
+    ],
+    "totalDividas": 71909.89
+  },
+  "processoJudicialTotalizadores": {
+    "quantidades": [
+      {
+        "qtdAtivos": 3,
+        "qtdOutrasPartes": 17,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 6,
+        "qtdTotal": 23,
+        "tipo": "NUMERO DE PROCESSOS"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 1,
+        "qtdTotal": 1,
+        "tipo": "CRIMINAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRIBUTARIO"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRABALHISTA"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "ELEITORAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "MILITAR"
+      },
+      {
+        "qtdAtivos": 3,
+        "qtdOutrasPartes": 17,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 5,
+        "qtdTotal": 22,
+        "tipo": "CIVEL / ADMINISTRATIVO"
+      }
+    ],
+    "valorTotal": 937221.4,
+    "valorTotalAtiva": 0,
+    "valorTotalOutrasPartes": 51977.23,
+    "valorTotalPassiva": 885244.17
+  },
+  "quantidadeEmpresasParticipacaoQsaUnico": 4,
+  "relacionamentos": [
+    {
+      "cpf": "21333136803",
+      "descricao": "MAE",
+      "nome": "APPARECIDA DOVIDIO PIGARI"
+    }
+  ],
+  "servidorPublico": false,
+  "sexo": "MASCULINO",
+  "situacaoCpf": "REGULAR",
+  "situacaoEmpregaticia": "SEM VINCULO",
+  "telefones": [
+    {
+      "numero": "1138262198"
+    },
+    {
+      "numero": "11972288474"
+    },
+    {
+      "numero": "11984333215"
+    }
+  ]
+}

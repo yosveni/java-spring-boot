@@ -1,0 +1,332 @@
+{
+  "_id": "37380728000104",
+  "_metadata": {
+    "cepim": {
+      "noMatchFound": true
+    },
+    "datascience-activity-level-v2": {
+      "insertDate": "2021-11-24T12:48:50.157Z",
+      "lastUpdate": "2021-11-24T12:48:50Z",
+      "updatedAt": "2021-11-24T12:48:55.773Z"
+    },
+    "datascience-faturament-estim": {
+      "insertDate": "2021-11-09T14:46:59.102Z",
+      "lastUpdate": "2021-11-09T14:46:59Z",
+      "updatedAt": "2021-11-09T14:47:04.863Z"
+    },
+    "empresa": {
+      "lastUpdate": "2021-10-21T01:56:58Z",
+      "processingTimestamp": "2021-10-21T01:56:58Z",
+      "schemaID": "9242",
+      "sources": [
+        {
+          "id": "c3249147725146bdab2d68f084febcf7",
+          "input": "eyJfaWQiOiJjMzI0OTE0NzcyNTE0NmJkYWIyZDY4ZjA4NGZlYmNmNyIsImNucGoiOiIzNzM4MDcyODAwMDEwNCIsImZpZWxkcyI6ImV5SmZhV1FpT2lBaVl6TXlORGt4TkRjM01qVXhORFppWkdGaU1tUTJPR1l3T0RSbVpXSmpaamNpTENBaVkyNXdhaUk2SUNJek56TTRNRGN5T0RBd01ERXdOQ0lzSUNKcGJuTmxjblJsWkVKNVFYQnBJam9nZEhKMVpTd2dJbkJ5YVc5eWFYUjVSbXhoWnlJNklERXdmUT09IiwiaW5zZXJ0ZWRCeUFwaSI6dHJ1ZSwicHJpb3JpdHlGbGFnIjoxMH0=",
+          "processingId": "f5744d2a-f46a-4540-bded-a69879abbd7b",
+          "processingTimestamp": "2021-10-21T01:56:58Z",
+          "source": "Receita Federal"
+        }
+      ],
+      "sourcesNames": [
+        "Receita Federal"
+      ],
+      "startDate": "2021-10-21T01:56:58Z"
+    },
+    "empresa-banco-central": {
+      "noMatchFound": true
+    },
+    "empresa-ceis": {
+      "noMatchFound": true
+    },
+    "empresa-cnep": {
+      "noMatchFound": true
+    },
+    "empresa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "empresa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "empresa-porte": {
+      "processingTimestamp": "2021-11-07T15:00:46.000Z",
+      "schemaID": "7914"
+    },
+    "empresa-saude-tributaria": {
+      "insertDate": "2021-11-03T22:56:43.156Z",
+      "lastUpdate": "2021-11-03T22:56:43Z",
+      "processingTimestamp": "2021-11-03T22:56:43Z",
+      "updatedAt": "2021-11-03T22:56:49.568Z"
+    },
+    "empresas": {
+      "_metadata": {
+        "empresas": {
+          "processingTimestamp": "2021-10-21T01:56:58Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "simplesNacional": {
+          "processingTimestamp": "2021-02-12T13:00:50Z",
+          "source": [
+            "RF-PJ-ARQUIVO"
+          ]
+        }
+      },
+      "lastUpdate": "2021-11-20T19:16:32.541Z",
+      "updatedAt": "2021-11-20T19:16:32.593Z"
+    },
+    "entity-neoway-empresa": {
+      "lastUpdate": "2021-10-21T01:56:58Z",
+      "processingTimestamp": "2021-10-21T01:56:58Z",
+      "schemaID": "9242",
+      "sources": [
+        {
+          "id": "c3249147725146bdab2d68f084febcf7",
+          "input": "eyJfaWQiOiJjMzI0OTE0NzcyNTE0NmJkYWIyZDY4ZjA4NGZlYmNmNyIsImNucGoiOiIzNzM4MDcyODAwMDEwNCIsImZpZWxkcyI6ImV5SmZhV1FpT2lBaVl6TXlORGt4TkRjM01qVXhORFppWkdGaU1tUTJPR1l3T0RSbVpXSmpaamNpTENBaVkyNXdhaUk2SUNJek56TTRNRGN5T0RBd01ERXdOQ0lzSUNKcGJuTmxjblJsWkVKNVFYQnBJam9nZEhKMVpTd2dJbkJ5YVc5eWFYUjVSbXhoWnlJNklERXdmUT09IiwiaW5zZXJ0ZWRCeUFwaSI6dHJ1ZSwicHJpb3JpdHlGbGFnIjoxMH0=",
+          "processingId": "f5744d2a-f46a-4540-bded-a69879abbd7b",
+          "processingTimestamp": "2021-10-21T01:56:58Z",
+          "source": "Receita Federal"
+        }
+      ],
+      "sourcesNames": [
+        "Receita Federal"
+      ],
+      "startDate": "2021-10-21T01:56:58Z"
+    },
+    "mapeamentoEdificios": {
+      "processingTimestamp": "2021-11-07T15:00:46.000Z",
+      "schemaID": "7917"
+    },
+    "propensaoFechamento": {
+      "processingTimestamp": "2021-11-07T15:00:46.000Z",
+      "schemaID": "3774"
+    },
+    "qsaUnificado": {
+      "lastUpdate": "2021-11-20T19:16:32.538Z",
+      "processingTimestamp": "2021-10-21T02:00:00Z",
+      "source": [
+        "QSA RF"
+      ],
+      "updatedAt": "2021-11-20T19:16:32.566Z"
+    },
+    "socios": {
+      "lastUpdate": "2021-11-20T19:16:32.53Z",
+      "processingTimestamp": "2021-10-21T02:00:00Z",
+      "source": [
+        "QSA RF"
+      ],
+      "updatedAt": "2021-11-20T19:16:32.593Z"
+    }
+  },
+  "activityLevelV2": {
+    "activityLevel": "MEDIO"
+  },
+  "beneficiarios": [
+    {
+      "documento": "22427865800",
+      "falecido": false,
+      "grau": 1,
+      "nome": "RENATO HERSZENHAUT",
+      "participacao": 100
+    }
+  ],
+  "beneficiariosQsaUnificado": [
+    {
+      "documento": "22427865800",
+      "grau": 1,
+      "nome": "RENATO HERSZENHAUT",
+      "participacao": 100
+    }
+  ],
+  "cnaePrincipal": {
+    "codigo": "6202300",
+    "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS",
+    "ramoAtividade": "INDUSTRIA DIGITAL",
+    "setor": "SERVICOS"
+  },
+  "cnaes": [
+    {
+      "codigo": "6202300",
+      "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZAVEIS"
+    },
+    {
+      "codigo": "6203100",
+      "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR NAO CUSTOMIZAVEIS"
+    },
+    {
+      "codigo": "6204000",
+      "descricao": "CONSULTORIA EM TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "codigo": "6209100",
+      "descricao": "SUPORTE TECNICO MANUTENCAO E OUTROS SERVICOS EM TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "codigo": "6319400",
+      "descricao": "PORTAIS PROVEDORES DE CONTEUDO E OUTROS SERVICOS DE INFORMACAO NA INTERNET"
+    },
+    {
+      "codigo": "6462000",
+      "descricao": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS"
+    },
+    {
+      "codigo": "6619302",
+      "descricao": "CORRESPONDENTES DE INSTITUICOES FINANCEIRAS"
+    },
+    {
+      "codigo": "7020400",
+      "descricao": "ATIVIDADES DE CONSULTORIA EM GESTAO EMPRESARIAL EXCETO CONSULTORIA TECNICA ESPECIFICA"
+    },
+    {
+      "codigo": "7490104",
+      "descricao": "ATIVIDADES DE INTERMEDIACAO E AGENCIAMENTO DE SERVICOS E NEGOCIOS EM GERAL EXCETO IMOBILIARIOS"
+    },
+    {
+      "codigo": "8291100",
+      "descricao": "ATIVIDADES DE COBRANCAS E INFORMACOES CADASTRAIS"
+    }
+  ],
+  "detran": {
+    "totalVeiculosPesados": 0,
+    "totalVeiculosPesadosGrupo": 0
+  },
+  "empresa": {
+    "abertura": "2020-06-10T12:00:00Z",
+    "cnpj": "37380728000104",
+    "matriz": true,
+    "naturezaJuridica": {
+      "codigo": "2062",
+      "descricao": "SOCIEDADE EMPRESARIA LIMITADA"
+    },
+    "nomeFantasia": "LINKAPITAL TECNOLOGIA FINANCEIRA",
+    "porte": "DEMAIS",
+    "razaoSocial": "LINKAPITAL TECNOLOGIA E SERVICOS FINANCEIROS LTDA",
+    "situacaoCadastral": {
+      "data": "2020-06-10T12:00:00Z",
+      "status": "ATIVA"
+    }
+  },
+  "empresa-porte": {
+    "empresaPorte": "MEDIA"
+  },
+  "empresaSaudeTributaria": {
+    "health": "CINZA"
+  },
+  "empresasColigadas": [
+    {
+      "cnae": "DESENVOLVIMENTO DE PROGRAMAS DE COMPUTADOR SOB ENCOMENDA",
+      "cnpj": "36131243000106",
+      "dataAbertura": "2020-01-24T02:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "ADAMA NETWORKS DESENVOLVIMENTO DE SOFTWARE LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS EM GERAL",
+      "cnpj": "01851735000191",
+      "dataAbertura": "1997-05-07T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "BAID NHER COMERCIO IMPORTACAO E EXPORTACAO LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "COMPRA E VENDA DE IMOVEIS PROPRIOS",
+      "cnpj": "07787645000165",
+      "dataAbertura": "2005-11-25T02:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "B H SUPPLY EMPREENDIMENTOS MOBILIARIOS E IMOBILIARIOS E PARTICIPACOES LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "SERVICOS COMBINADOS DE ESCRITORIO E APOIO ADMINISTRATIVO",
+      "cnpj": "28635162000115",
+      "dataAbertura": "2017-09-13T03:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "EMUNAH ICP APOIO ADMINISTRATIVO LTDA",
+      "uf": "SP"
+    }
+  ],
+  "endereco": {
+    "bairro": "VILA NOVA CONCEICAO",
+    "bairroOriginal": "VILA NOVA CONCEICAO",
+    "cep": "04505001",
+    "cepRestritoFlag": false,
+    "complemento": "SL 16 A 1",
+    "enderecoResidencial": false,
+    "logradouro": "AVENIDA SANTO AMARO",
+    "maisRecenteNoEndereco": true,
+    "mesoRegiao": "METROPOLITANA DE SAO PAULO",
+    "microRegiao": "SAO PAULO",
+    "municipio": "SAO PAULO",
+    "municipioFronteirico": "MUNICIPIO NAO FRONTEIRICO",
+    "municipioOriginal": "SAO PAULO",
+    "numero": "811",
+    "precisao": "REGIAO",
+    "regiao": "SUDESTE",
+    "uf": "SP"
+  },
+  "faturamentoEstimado": {
+    "faixaIndividual": "DE R$ 4.800.000,01 A R$ 10.000.000,00",
+    "individual": 5732913.0625
+  },
+  "info": {
+    "emailRF": "RENATO@LINKAPITAL.COM.BR",
+    "idadeEmpresa": 1,
+    "numeroTelefoneRF": [
+      "11968675046"
+    ],
+    "passivelIss": true,
+    "possuiEmailContador": false,
+    "qsaDivergente": false
+  },
+  "mapeamentoEdificios": {
+    "edificioColetivo": true,
+    "tipoEdificio": "CONDOMINIO"
+  },
+  "matriz": {
+    "quantidadeFilial": 0
+  },
+  "natureza": {
+    "classificacao": "PRIVADO"
+  },
+  "potencialConsumo": {
+    "valorCapitalSocial": 2919371
+  },
+  "propensaoFechamento": {
+    "propensaoEmpresa": "BAIXA"
+  },
+  "qsaUnificado": [
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "RENATO HERSZENHAUT",
+      "participacaoSocietaria": 100,
+      "qualificacao": "SOCIO ADMINISTRADOR"
+    }
+  ],
+  "socios": [
+    {
+      "documento": "22427865800",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "RENATO HERSZENHAUT",
+      "participacaoSocietaria": 100,
+      "qualificacao": "SOCIO ADMINISTRADOR"
+    }
+  ],
+  "telefones": [
+    {
+      "numero": "11968675046"
+    }
+  ],
+  "totalVeiculos": {
+    "acimaDezAnos": 0,
+    "ateUmAno": 0,
+    "entreCincoDezAnos": 0,
+    "entreDoisCincoAnos": 0,
+    "grupoAcimaDezAnos": 0,
+    "grupoAteUmAno": 0,
+    "grupoEntreCincoDezAnos": 0,
+    "grupoEntreDoisCincoAnos": 0
+  }
+}

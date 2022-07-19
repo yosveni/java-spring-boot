@@ -1,0 +1,968 @@
+{
+  "_id": "19256652000110",
+  "_metadata": {
+    "cepim": {
+      "noMatchFound": true
+    },
+    "datascience-activity-level-v2": {
+      "insertDate": "2020-10-07T10:00:08.291Z",
+      "lastUpdate": "2020-10-07T10:00:08Z",
+      "updatedAt": "2020-10-09T08:27:45.838Z"
+    },
+    "datascience-faturament-estim": {
+      "insertDate": "2021-01-26T15:40:13.531Z",
+      "lastUpdate": "2021-01-26T15:40:13Z",
+      "updatedAt": "2021-01-26T15:40:19.547Z"
+    },
+    "datascience-ris-mer-covid19": {
+      "insertDate": "2020-04-15T09:49:13.068Z",
+      "lastUpdate": "2020-04-15T09:49:13Z",
+      "updatedAt": "2020-04-16T23:52:12.982Z"
+    },
+    "empresa": {
+      "insertDate": "2021-01-22T00:50:05.699Z",
+      "lastUpdate": "2021-01-22T00:50:05Z",
+      "processingTimestamp": "2021-01-22T00:50:05Z",
+      "source": [
+        "rf-pj"
+      ],
+      "updatedAt": "2021-01-22T00:50:11.123Z"
+    },
+    "empresa-anvisa-autorizacao": {
+      "insertDate": "2019-12-05T15:49:38.713Z",
+      "lastUpdate": "2019-12-05T15:49:38Z",
+      "onDemandDate": "2019-12-05T15:48:41Z",
+      "processingTimestamp": "2019-12-05T15:49:38Z",
+      "source": [
+        "anvisa-autorizacoes"
+      ],
+      "updatedAt": "2019-12-05T15:49:44.693Z"
+    },
+    "empresa-banco-central": {
+      "noMatchFound": true
+    },
+    "empresa-capacidade-trab-remoto": {
+      "insertDate": "2020-05-18T17:33:28.28Z",
+      "lastUpdate": "2020-05-18T17:33:28Z",
+      "updatedAt": "2020-05-18T20:46:06.598Z"
+    },
+    "empresa-ceis": {
+      "noMatchFound": true
+    },
+    "empresa-cnep": {
+      "noMatchFound": true
+    },
+    "empresa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "empresa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "empresa-pgfn-dau": {
+      "insertDate": "2021-01-30T08:31:03.752Z",
+      "lastUpdate": "2021-01-30T08:31:03Z",
+      "processingTimestamp": "2021-01-30T08:31:03Z",
+      "source": [
+        "pgfn-dau"
+      ],
+      "updatedAt": "2021-01-30T08:31:09.166Z"
+    },
+    "empresa-registro-br": {
+      "insertDate": "2020-07-12T12:41:13.639Z",
+      "lastUpdate": "2020-07-12T12:41:13Z",
+      "processingTimestamp": "2020-07-12T12:41:13Z",
+      "source": [
+        "registro-br"
+      ],
+      "updatedAt": "2020-07-12T12:41:18.663Z"
+    },
+    "empresa-saude-tributaria": {
+      "insertDate": "2021-01-30T08:31:03.767Z",
+      "lastUpdate": "2021-01-30T08:31:03Z",
+      "processingTimestamp": "2021-01-30T08:31:03Z",
+      "source": [
+        "cnd-fgts",
+        "cnd-tst",
+        "cnd-pgfn-cnpj",
+        "pgfn-dau"
+      ],
+      "updatedAt": "2021-01-30T08:31:09.502Z"
+    },
+    "empresas": {
+      "_metadata": {
+        "debitosPgfnDau": {
+          "processingTimestamp": "2021-01-14T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "empresas": {
+          "processingTimestamp": "2020-12-21T12:49:53Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "info-dhProcessamentoPgfnDau": {
+          "processingTimestamp": "2021-01-14T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-faixaDividaPgfnDau": {
+          "processingTimestamp": "2021-01-14T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-valorDividaFgtsPgfnDau": {
+          "processingTimestamp": "2021-01-14T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-valorDividaNaoPrevidenciariaPgfnDau": {
+          "processingTimestamp": "2021-01-14T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-valorDividaPgfnDau": {
+          "processingTimestamp": "2021-01-14T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "info-valorDividaPrevidenciariasPgfnDau": {
+          "processingTimestamp": "2021-01-14T00:00:00Z",
+          "source": [
+            "PGFN DAU"
+          ]
+        },
+        "nivelAtividade": {
+          "processingTimestamp": "2019-08-08T21:22:09Z",
+          "source": [
+            "MODELO NEOWAY"
+          ]
+        },
+        "simplesNacional": {
+          "processingTimestamp": "2020-03-26T16:09:27Z",
+          "source": [
+            "RF-PJ-SIMPLES"
+          ]
+        }
+      },
+      "lastUpdate": "2021-01-29T23:57:52.97Z",
+      "updatedAt": "2021-01-29T23:57:52.974Z"
+    },
+    "exfuncionarios": {
+      "lastUpdate": "2021-01-09T22:04:51.462Z",
+      "processingTimestamp": "2020-08-30T03:00:00Z",
+      "source": [
+        "RAIS"
+      ],
+      "updatedAt": "2021-01-09T22:04:51.709Z"
+    },
+    "funcionarios": {
+      "lastUpdate": "2021-01-09T22:04:51.447Z",
+      "processingTimestamp": "2020-09-02T03:00:00Z",
+      "source": [
+        "RAIS"
+      ],
+      "updatedAt": "2021-01-09T22:04:51.455Z"
+    },
+    "model-analytics-empresa-mapeamento-edificios": {
+      "processingTimestamp": "2020-09-20T05:00:06.000Z",
+      "schemaID": "2099"
+    },
+    "model-analytics-empresa-porte": {
+      "processingTimestamp": "2020-10-11T05:00:08.000Z",
+      "schemaID": "1236"
+    },
+    "model-analytics-empresa-propensao-fechamento": {
+      "processingTimestamp": "2020-09-13T05:00:16.000Z",
+      "schemaID": "2092"
+    },
+    "qsaUnificado": {
+      "lastUpdate": "2020-12-12T10:00:21.991Z",
+      "processingTimestamp": "2020-11-19T02:00:00Z",
+      "source": [
+        "QSA RF"
+      ],
+      "updatedAt": "2020-12-12T10:00:22.019Z"
+    },
+    "socios": {
+      "lastUpdate": "2021-01-16T06:40:50.094Z",
+      "processingTimestamp": "2020-12-21T02:00:00Z",
+      "source": [
+        "QSA RF PPD2",
+        "QSA RF - FILE"
+      ],
+      "updatedAt": "2021-01-16T06:40:50.195Z"
+    },
+    "sociosJunta": {
+      "lastUpdate": "2020-12-06T01:33:17.133Z",
+      "processingTimestamp": "2020-11-24T02:00:00Z",
+      "source": [
+        "JUCESP"
+      ],
+      "updatedAt": "2020-12-06T01:33:17.139Z"
+    }
+  },
+  "activityLevelV2": {
+    "activityLevel": "BAIXO"
+  },
+  "beneficiarios": [
+    {
+      "documento": "66065194549",
+      "falecido": false,
+      "grau": 1,
+      "nome": "CARLOS ALBERTO ARRUDA SILVA",
+      "participacao": 0
+    },
+    {
+      "documento": "31095428896",
+      "falecido": false,
+      "grau": 1,
+      "nome": "LAYSA VALERIA DE MACEDO",
+      "participacao": 0
+    },
+    {
+      "documento": "89781155515",
+      "falecido": false,
+      "grau": 1,
+      "nome": "MARCOS PAULO ARRUDA SILVA",
+      "participacao": 0
+    },
+    {
+      "documento": "03810746681",
+      "falecido": false,
+      "grau": 1,
+      "nome": "PAULO ROBERTO RODRIGUES DA SILVA FILHO",
+      "participacao": 0
+    }
+  ],
+  "beneficiariosJunta": [
+    {
+      "documento": "66065194549",
+      "falecido": false,
+      "grau": 1,
+      "nome": "CARLOS ALBERTO ARRUDA SILVA",
+      "participacao": 0
+    },
+    {
+      "documento": "07858826859",
+      "falecido": false,
+      "grau": 1,
+      "nome": "CELSO KASURRITO SATO",
+      "participacao": 0
+    },
+    {
+      "documento": "11129828840",
+      "falecido": false,
+      "grau": 1,
+      "nome": "FERNANDO KENICHI TAKANO",
+      "participacao": 0
+    },
+    {
+      "documento": "31095428896",
+      "falecido": false,
+      "grau": 1,
+      "nome": "LAYSA VALERIA DE MACEDO",
+      "participacao": 0
+    },
+    {
+      "documento": "18279131850",
+      "falecido": false,
+      "grau": 1,
+      "nome": "MARCOS ELIAS DOS SANTOS",
+      "participacao": 0
+    },
+    {
+      "documento": "89781155515",
+      "falecido": false,
+      "grau": 1,
+      "nome": "MARCOS PAULO ARRUDA SILVA",
+      "participacao": 0
+    }
+  ],
+  "beneficiariosQsaUnificado": [
+    {
+      "documento": "66065194549",
+      "grau": 1,
+      "nome": "CARLOS ALBERTO ARRUDA SILVA",
+      "participacao": 0
+    },
+    {
+      "documento": "31095428896",
+      "grau": 1,
+      "nome": "LAYSA VALERIA DE MACEDO",
+      "participacao": 0
+    },
+    {
+      "documento": "89781155515",
+      "grau": 1,
+      "nome": "MARCOS PAULO ARRUDA SILVA",
+      "participacao": 0
+    },
+    {
+      "documento": "03810746681",
+      "grau": 1,
+      "nome": "PAULO ROBERTO RODRIGUES DA SILVA FILHO",
+      "participacao": 0
+    }
+  ],
+  "capacidadeTrabalhoRemoto": {
+    "trabalhoRemoto": "ALTA"
+  },
+  "cnaePrincipal": {
+    "codigo": "8291100",
+    "descricao": "ATIVIDADES DE COBRANCAS E INFORMACOES CADASTRAIS",
+    "ramoAtividade": "SERVICOS ADMINISTRATIVOS",
+    "setor": "SERVICOS"
+  },
+  "cnaes": [
+    {
+      "codigo": "8291100",
+      "descricao": "ATIVIDADES DE COBRANCAS E INFORMACOES CADASTRAIS"
+    },
+    {
+      "codigo": "6201501",
+      "descricao": "DESENVOLVIMENTO DE PROGRAMAS DE COMPUTADOR SOB ENCOMENDA"
+    },
+    {
+      "codigo": "6209100",
+      "descricao": "SUPORTE TECNICO, MANUTENCAO E OUTROS SERVICOS EM TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "codigo": "6311900",
+      "descricao": "TRATAMENTO DE DADOS, PROVEDORES DE SERVICOS DE APLICACAO E SERVICOS DE HOSPEDAGEM NA INTERNET"
+    },
+    {
+      "codigo": "6462000",
+      "descricao": "HOLDINGS DE INSTITUICOES NAO FINANCEIRAS"
+    },
+    {
+      "codigo": "7490104",
+      "descricao": "ATIVIDADES DE INTERMEDIACAO E AGENCIAMENTO DE SERVICOS E NEGOCIOS EM GERAL, EXCETO IMOBILIARIOS"
+    }
+  ],
+  "crescimentoPorAnoRais": [
+    {
+      "ano": 2020,
+      "percentual": 0
+    },
+    {
+      "ano": 2019,
+      "percentual": -50
+    },
+    {
+      "ano": 2018,
+      "percentual": -60
+    },
+    {
+      "ano": 2017,
+      "percentual": 25
+    },
+    {
+      "ano": 2016,
+      "percentual": 100
+    },
+    {
+      "ano": 2015,
+      "percentual": 100
+    }
+  ],
+  "datascienceRiscoMercadoCovid19": {
+    "riscoIndividual": "MEDIO",
+    "riscoSegmento": "MEDIO"
+  },
+  "detran": {
+    "totalVeiculosPesados": 0,
+    "totalVeiculosPesadosGrupo": 0
+  },
+  "empresa": {
+    "abertura": "2013-11-14T00:00:00Z",
+    "cnpj": "19256652000110",
+    "matriz": true,
+    "naturezaJuridica": {
+      "codigo": "2054",
+      "descricao": "SOCIEDADE ANONIMA FECHADA"
+    },
+    "porte": "DEMAIS",
+    "razaoSocial": "MONETO INSTITUICAO DE PAGAMENTOS SA",
+    "situacaoCadastral": {
+      "data": "2013-11-14T00:00:00Z",
+      "status": "ATIVA"
+    }
+  },
+  "empresa-porte": {
+    "empresaPorte": "MEDIA"
+  },
+  "empresaPgfnDau": {
+    "dividas": [
+      {
+        "inscricao": "8072004511019",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 10208.34
+      },
+      {
+        "inscricao": "8022002566006",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 2174.67
+      },
+      {
+        "inscricao": "8022011920798",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 1608.21
+      },
+      {
+        "inscricao": "8061916942746",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 18521.15
+      },
+      {
+        "inscricao": "8062005249256",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 2670.73
+      },
+      {
+        "inscricao": "8022009980100",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 2583.15
+      },
+      {
+        "inscricao": "8072001301005",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 3541.81
+      },
+      {
+        "inscricao": "157956890",
+        "natureza": "DIVIDA PREVIDENCIARIA",
+        "valorInscricaoDevido": 97040.43
+      },
+      {
+        "inscricao": "157956903",
+        "natureza": "DIVIDA PREVIDENCIARIA",
+        "valorInscricaoDevido": 23030.95
+      },
+      {
+        "inscricao": "8062022644168",
+        "natureza": "DIVIDA TRIBUTARIA NAO PREVIDENCIARIA",
+        "valorInscricaoDevido": 5999.93
+      }
+    ],
+    "totalDividas": 167379.37
+  },
+  "empresaRegistroBr": {
+    "dominios": [
+      {
+        "alterado": "2020-01-30T00:00:00Z",
+        "criado": "2016-01-29T00:00:00Z",
+        "dominio": "MONETO.COM.BR",
+        "expiracao": "2023-01-29T00:00:00Z",
+        "responsavel": "MARCOS PAULO ARRUDA SILVA"
+      }
+    ]
+  },
+  "empresaSaudeTributaria": {
+    "cnds": [
+      {
+        "dataEmissao": "2020-07-28T00:00:00Z",
+        "dataValidade": "2021-01-23T00:00:00Z",
+        "descricaoSituacao": "CERTIDAO NEGATIVA DE DEBITOS EMITIDA",
+        "nome": "TST",
+        "numeroCertificacao": "173265272020"
+      },
+      {
+        "dataEmissao": "2021-01-06T00:00:00Z",
+        "dataValidade": "2021-01-26T00:00:00Z",
+        "descricaoSituacao": "CERTIDAO NEGATIVA DE DEBITOS EMITIDA",
+        "nome": "FGTS",
+        "numeroCertificacao": "2020122803551792894147"
+      },
+      {
+        "descricaoSituacao": "INFORMACOES INSUFICIENTES PARA EMISSAO DE CERTIDAO",
+        "nome": "PGFN"
+      }
+    ],
+    "health": "AMARELO"
+  },
+  "empresasColigadas": [
+    {
+      "cnae": "SUPORTE TECNICO, MANUTENCAO E OUTROS SERVICOS EM TECNOLOGIA DA INFORMACAO",
+      "cnpj": "22336464000106",
+      "dataAbertura": "2015-04-27T03:00:00Z",
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "razaoSocial": "ARR MC CONSULTORIA E GESTAO LTDA",
+      "uf": "SP"
+    },
+    {
+      "cnae": "SUPORTE TECNICO, MANUTENCAO E OUTROS SERVICOS EM TECNOLOGIA DA INFORMACAO",
+      "cnpj": "28906293000190",
+      "dataAbertura": "2017-10-20T02:00:00Z",
+      "municipio": "SAO PAULO",
+      "razaoSocial": "PAULO ROBERTO RODRIGUES DA SILVA FILHO",
+      "uf": "SP"
+    },
+    {
+      "cnae": "ATIVIDADES DE COBRANCAS E INFORMACOES CADASTRAIS",
+      "cnpj": "37461807000131",
+      "dataAbertura": "2020-06-19T03:00:00Z",
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "razaoSocial": "TUSTA TECNOLOGIA E SERVICOS EM PAGAMENTOS LTDA",
+      "uf": "SP"
+    }
+  ],
+  "endereco": {
+    "bairro": "PARQUE RESIDENCIAL AQUARIUS",
+    "bairroOriginal": "PARQUE RESIDENCIAL AQUARIUS",
+    "cep": "12246020",
+    "cepRestritoFlag": false,
+    "complemento": "SL 105 E 106",
+    "enderecoResidencial": false,
+    "logradouro": "RUA DOS PIQUIROES",
+    "maisRecenteNoEndereco": true,
+    "mesoRegiao": "VALE DO PARAIBA PAULISTA",
+    "microRegiao": "SAO JOSE DOS CAMPOS",
+    "municipio": "SAO JOSE DOS CAMPOS",
+    "municipioFronteirico": "MUNICIPIO NAO FRONTEIRICO",
+    "municipioOriginal": "SAO JOSE DOS CAMPOS",
+    "numero": "40",
+    "precisao": "EXATA",
+    "regiao": "SUDESTE",
+    "uf": "SP"
+  },
+  "exfuncionarios": [
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "06011027628",
+      "dataAdmissao": "2016-12-12T02:00:00Z",
+      "dataNascimento": "1982-05-07T03:00:00Z",
+      "nome": "ANA MARIA COURA DE CASTRO"
+    },
+    {
+      "anoMesDesligamento": "07-2019",
+      "cpf": "32701281857",
+      "dataAdmissao": "2015-12-01T02:00:00Z",
+      "dataNascimento": "1986-01-22T02:00:00Z",
+      "nome": "DAYANA CRISTINA DOS SANTOS MARTINS"
+    },
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "40264330803",
+      "dataAdmissao": "2018-06-01T03:00:00Z",
+      "dataNascimento": "1991-01-26T02:00:00Z",
+      "nome": "DEMAR ALLAN DE MOURA"
+    },
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "38771457879",
+      "dataAdmissao": "2018-05-16T03:00:00Z",
+      "dataNascimento": "1989-09-29T03:00:00Z",
+      "nome": "DIEGO TEIXEIRA DE ABREU"
+    },
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "22697681833",
+      "dataAdmissao": "2018-05-21T03:00:00Z",
+      "dataNascimento": "1984-05-22T03:00:00Z",
+      "nome": "ELAINE SOUZA SILVA"
+    },
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "39938119840",
+      "dataAdmissao": "2016-10-17T02:00:00Z",
+      "dataNascimento": "1991-03-21T03:00:00Z",
+      "nome": "KAROLINE SILVA SIVIERO"
+    },
+    {
+      "anoMesDesligamento": "07-2018",
+      "cpf": "31095465821",
+      "dataAdmissao": "2017-01-02T02:00:00Z",
+      "dataNascimento": "1994-06-02T03:00:00Z",
+      "nome": "LANA BEATRICE MACEDO CORREA"
+    },
+    {
+      "anoMesDesligamento": "06-2018",
+      "cpf": "31095428896",
+      "dataAdmissao": "2015-01-10T02:00:00Z",
+      "dataNascimento": "1988-05-11T03:00:00Z",
+      "nome": "LAYSA VALERIA DE MACEDO"
+    },
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "36221134803",
+      "dataAdmissao": "2018-09-03T03:00:00Z",
+      "dataNascimento": "1994-09-17T03:00:00Z",
+      "nome": "RAFAELA APARECIDA DOS SANTOS"
+    },
+    {
+      "anoMesDesligamento": "11-2018",
+      "cpf": "10962987832",
+      "dataAdmissao": "2018-05-15T03:00:00Z",
+      "dataNascimento": "1981-09-30T03:00:00Z",
+      "nome": "REGIS TAKESHI SEKI"
+    },
+    {
+      "anoMesDesligamento": "08-2018",
+      "cpf": "31613952805",
+      "dataAdmissao": "2018-06-07T03:00:00Z",
+      "dataNascimento": "1988-06-02T03:00:00Z",
+      "nome": "VANESSA FERNANDES DE OLIVEIRA"
+    }
+  ],
+  "faturamentoEstimado": {
+    "faixaIndividual": "DE R$ 360.000,01 A R$ 1.500.000,00",
+    "individual": 1489363.6914000001
+  },
+  "funcionarios": [
+    {
+      "cpf": "27720842804",
+      "dataAdmissao": "2018-06-11T03:00:00Z",
+      "dataNascimento": "1979-03-18T03:00:00Z",
+      "nome": "EMERSON JOSE DE OLIVEIRA LEITE"
+    }
+  ],
+  "info": {
+    "emailRF": "FINANCEIRO@MONETO.COM.BR",
+    "idadeEmpresa": 7,
+    "numeroTelefoneRF": [
+      "1232939402"
+    ],
+    "passivelIss": true,
+    "possuiEmailContador": false,
+    "qsaDivergente": true
+  },
+  "mapeamentoEdificios": {
+    "edificioColetivo": true,
+    "tipoEdificio": "CONDOMINIO"
+  },
+  "matriz": {
+    "quantidadeFilial": 0
+  },
+  "natureza": {
+    "classificacao": "PRIVADO"
+  },
+  "potencialConsumo": {
+    "valorCapitalSocial": 3621
+  },
+  "processoJudicialTotalizadores": {
+    "quantidades": [
+      {
+        "qtdAtivos": 11,
+        "qtdOutrasPartes": 88,
+        "qtdParteAtiva": 3,
+        "qtdPartePassiva": 146,
+        "qtdTotal": 237,
+        "tipo": "NUMERO DE PROCESSOS"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 1,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 1,
+        "tipo": "CRIMINAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "TRIBUTARIO"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 1,
+        "qtdTotal": 1,
+        "tipo": "TRABALHISTA"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "ELEITORAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "MILITAR"
+      },
+      {
+        "qtdAtivos": 11,
+        "qtdOutrasPartes": 87,
+        "qtdParteAtiva": 3,
+        "qtdPartePassiva": 145,
+        "qtdTotal": 235,
+        "tipo": "CIVEL / ADMINISTRATIVO"
+      }
+    ],
+    "valorTotal": 9069120.2,
+    "valorTotalAtiva": 58520.13,
+    "valorTotalOutrasPartes": 3688803.68,
+    "valorTotalPassiva": 5321796.39
+  },
+  "propensaoFechamento": {
+    "propensaoEmpresa": "MUITO BAIXA"
+  },
+  "qsaUnificado": [
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "PAULO ROBERTO RODRIGUES DA SILVA FILHO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "LAYSA VALERIA DE MACEDO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "CARLOS ALBERTO ARRUDA SILVA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "MARCOS PAULO ARRUDA SILVA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "PRESIDENTE"
+    }
+  ],
+  "simplesNacional": {
+    "optanteSimei": false,
+    "optanteSimples": false,
+    "simplesIrregular": false
+  },
+  "socios": [
+    {
+      "documento": "66065194549",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "CARLOS ALBERTO ARRUDA SILVA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "documento": "31095428896",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "LAYSA VALERIA DE MACEDO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "documento": "89781155515",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "MARCOS PAULO ARRUDA SILVA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "PRESIDENTE"
+    },
+    {
+      "documento": "03810746681",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "PAULO ROBERTO RODRIGUES DA SILVA FILHO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    }
+  ],
+  "sociosJunta": [
+    {
+      "documento": "18279131850",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "MARCOS ELIAS DOS SANTOS",
+      "participacaoSocietaria": 0,
+      "qualificacao": "CONSELHEIRO ADMINISTRATIVO"
+    },
+    {
+      "documento": "66065194549",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "CARLOS ALBERTO ARRUDA SILVA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR"
+    },
+    {
+      "documento": "89781155515",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "MARCOS PAULO ARRUDA SILVA",
+      "participacaoSocietaria": 0,
+      "qualificacao": "PRESIDENTE DO CONSELHO ADMINISTRATIVO"
+    },
+    {
+      "documento": "07858826859",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "CELSO KASURRITO SATO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "CONSELHEIRO ADMINISTRATIVO"
+    },
+    {
+      "documento": "31095428896",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "LAYSA VALERIA DE MACEDO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "DIRETOR OPERACIONAL"
+    },
+    {
+      "documento": "11129828840",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "FERNANDO KENICHI TAKANO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "CONSELHEIRO ADMINISTRATIVO"
+    }
+  ],
+  "telefones": [
+    {
+      "numero": "1232939402"
+    }
+  ],
+  "totalFuncionarios": {
+    "quantidade": 1,
+    "quantidadeGrupo": 1
+  },
+  "totalVeiculos": {
+    "acimaDezAnos": 0,
+    "ateUmAno": 0,
+    "entreCincoDezAnos": 0,
+    "entreDoisCincoAnos": 0,
+    "grupoAcimaDezAnos": 0,
+    "grupoAteUmAno": 0,
+    "grupoEntreCincoDezAnos": 0,
+    "grupoEntreDoisCincoAnos": 0
+  },
+  "cnjCnia": {
+    "processos": [
+      {
+        "numeroProcesso": 5,
+        "esfera": "sphere 5",
+        "descricaoOrgao": "descricao orgao 5",
+        "dataCadastramento": "2019-10-21T00:00:00Z",
+        "cargoFuncao": {
+          "uf": "Uf"
+        },
+        "ressarcimentoIntegralDano": {
+          "valor": 50
+        },
+        "assuntosRelacionados": [
+          "relatedIssues 5",
+          "relatedIssues 6"
+        ]
+      }
+    ]
+  },
+  "mteTrabalhoEscravo": {
+    "estabelecimentos": [
+      {
+        "anoAcaoFiscal": "2017",
+        "numeroTrabalhadoresEnvolvidos": 10,
+        "dataDecisaoProcedencia": "2018-10-21T00:00:00Z",
+        "estabelecimento": {
+          "logradouro": "logradouro 24",
+          "complemento": "complemento 24",
+          "municipio": "municipio 24"
+        }
+      }
+    ]
+  },
+  "bancoCentral": {
+    "acordaos": [
+      {
+        "numeroAcordaoCRSFN": 11,
+        "numeroProcesso": 19,
+        "numeroRecurso": 14,
+        "parte": "part 5",
+        "recurso": "recurso 5"
+      }
+    ]
+  },
+  "empresaCeis": {
+    "sancoes": [
+      {
+        "complementoOrgao": "complemento orgao 5",
+        "descricaoFundamentacaoLegal": "descricao fundamentacao legal 5",
+        "processo": "processo 2",
+        "orgaoSancionador": "orgao sancionador 5",
+        "origemInformacao": "origem informacao 5",
+        "tipoSancao": "tipo sancao 5",
+        "uf": "uf",
+        "dataInformacao": "2019-10-21T00:00:00Z",
+        "periodoSancao": {
+          "final": "2019-10-21T00:00:00Z",
+          "inicio": "2019-10-21T00:00:00Z"
+        }
+      }
+    ]
+  },
+  "cnep": {
+    "processos": [
+      {
+        "numeroProcesso": 1,
+        "orgaoSancionador": "orgao sancionador 5",
+        "tipoSancao": "tipo sancao 5",
+        "ufOrgaoSancionador": "uf orgao sancionador 5",
+        "valorMulta": 2000,
+        "dataFinalSancao": "2020-10-21T00:00:00Z",
+        "dataInicioSancao": "2020-10-21T00:00:00Z"
+      }
+    ]
+  },
+  "listaInternacional": [
+    {
+      "nome": "nome 5",
+      "dataProcessamento": "2017-10-21T00:00:00Z"
+    },
+    {
+      "nome": "nome 6",
+      "dataProcessamento": "2017-10-21T00:00:00Z"
+    }
+  ],
+  "proconInformacoes": {
+    "valorTotalMulta": 35,
+    "grupo": {
+      "nome": "Nome group 1",
+      "valorTotalMultas": 15,
+      "dataUltimaAtualizacao": "2015-10-21T00:00:00Z",
+      "partesGrupo": [
+        {
+          "cnpj": "656565",
+          "valorTotalMulta": 45
+        }
+      ]
+    },
+    "processos": [
+      {
+        "status": "status",
+        "numeroProcesso": 1,
+        "valorMulta": 26
+      }
+    ]
+  },
+  "atividadeFinanceira": {
+    "dataConsulta": "2015-10-21T00:00:00Z",
+    "dataHabilitacao": "2015-10-21T00:00:00Z",
+    "numeroHabilitacao": 12,
+    "segmentos": 45,
+    "situacaoHabilitacao": "situacao habilitacao"
+  }
+}

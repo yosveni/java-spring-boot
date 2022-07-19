@@ -1,0 +1,279 @@
+{
+  "_id": "41720647000175",
+  "_metadata": {
+    "cepim": {
+      "noMatchFound": true
+    },
+    "datascience-activity-level-v2": {
+      "insertDate": "2021-05-04T08:20:39.344Z",
+      "lastUpdate": "2021-05-04T08:20:39Z",
+      "updatedAt": "2021-05-04T08:20:44.787Z"
+    },
+    "datascience-faturament-estim": {
+      "insertDate": "2021-06-02T05:08:56.946Z",
+      "lastUpdate": "2021-06-02T05:08:56Z",
+      "updatedAt": "2021-06-02T05:09:02.622Z"
+    },
+    "empresa": {
+      "insertDate": "2021-05-27T14:02:58.743Z",
+      "lastUpdate": "2021-04-28T16:18:04Z",
+      "processingTimestamp": "2021-04-28T16:18:04Z",
+      "source": [
+        "rf-pj"
+      ],
+      "updatedAt": "2021-05-27T14:03:04.093Z"
+    },
+    "empresa-banco-central": {
+      "noMatchFound": true
+    },
+    "empresa-ceis": {
+      "noMatchFound": true
+    },
+    "empresa-cnep": {
+      "noMatchFound": true
+    },
+    "empresa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "empresa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "empresas": {
+      "_metadata": {
+        "empresas": {
+          "processingTimestamp": "2021-04-28T16:18:04Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "nivelAtividade": {
+          "processingTimestamp": "2021-04-29T15:15:35Z",
+          "source": [
+            "MODELO NEOWAY"
+          ]
+        }
+      },
+      "lastUpdate": "2021-06-05T12:27:17.9Z",
+      "updatedAt": "2021-06-05T15:53:19.411Z"
+    },
+    "model-analytics-empresa-porte": {
+      "processingTimestamp": "2021-05-02T05:00:35.000Z",
+      "schemaID": "3744"
+    },
+    "socios": {
+      "lastUpdate": "2021-06-05T12:27:17.879Z",
+      "processingTimestamp": "2021-04-28T03:00:00Z",
+      "source": [
+        "QSA RF PPD2"
+      ],
+      "updatedAt": "2021-06-05T15:08:14.272Z"
+    }
+  },
+  "activityLevelV2": {
+    "activityLevel": "MEDIO"
+  },
+  "cnaePrincipal": {
+    "codigo": "8219999",
+    "descricao": "PREPARACAO DE DOCUMENTOS E SERVICOS ESPECIALIZADOS DE APOIO ADMINISTRATIVO NAO ESPECIFICADOS ANTERIORMENTE",
+    "ramoAtividade": "SERVICOS ADMINISTRATIVOS",
+    "setor": "SERVICOS"
+  },
+  "cnaes": [
+    {
+      "codigo": "8219999",
+      "descricao": "PREPARACAO DE DOCUMENTOS E SERVICOS ESPECIALIZADOS DE APOIO ADMINISTRATIVO NAO ESPECIFICADOS ANTERIORMENTE"
+    },
+    {
+      "codigo": "6190699",
+      "descricao": "OUTRAS ATIVIDADES DE TELECOMUNICACOES NAO ESPECIFICADAS ANTERIORMENTE"
+    },
+    {
+      "codigo": "8599603",
+      "descricao": "TREINAMENTO EM INFORMATICA"
+    }
+  ],
+  "detran": {
+    "totalVeiculosPesados": 0,
+    "totalVeiculosPesadosGrupo": 0
+  },
+  "empresa": {
+    "abertura": "2021-04-27T00:00:00Z",
+    "cnpj": "41720647000175",
+    "matriz": true,
+    "naturezaJuridica": {
+      "codigo": "2135",
+      "descricao": "EMPRESARIO INDIVIDUAL"
+    },
+    "nomeFantasia": "VERYNET",
+    "porte": "ME",
+    "razaoSocial": "OSMANIS DEL RISCO FERRAL MEI",
+    "situacaoCadastral": {
+      "data": "2021-04-27T00:00:00Z",
+      "status": "ATIVA"
+    }
+  },
+  "empresa-porte": {
+    "empresaPorte": "MEI"
+  },
+  "endereco": {
+    "bairro": "INGLESES DO RIO VERMELHO",
+    "bairroOriginal": "INGLESES DO RIO VERMELHO",
+    "cep": "88058455",
+    "cepRestritoFlag": false,
+    "complemento": "AP 202",
+    "enderecoResidencial": true,
+    "logradouro": "RUA QUADRANGULAR",
+    "maisRecenteNoEndereco": true,
+    "mesoRegiao": "GRANDE FLORIANOPOLIS",
+    "microRegiao": "FLORIANOPOLIS",
+    "municipio": "FLORIANOPOLIS",
+    "municipioFronteirico": "MUNICIPIO NAO FRONTEIRICO",
+    "municipioOriginal": "FLORIANOPOLIS",
+    "numero": "67",
+    "precisao": "REGIAO",
+    "regiao": "SUL",
+    "uf": "SC"
+  },
+  "faturamentoEstimado": {
+    "faixaIndividual": "ATE R$ 81.000,00",
+    "individual": 40500
+  },
+  "info": {
+    "emailRF": "ODELRISCO1990@GMAIL.COM",
+    "idadeEmpresa": 0,
+    "numeroTelefoneRF": [
+      "48999112109"
+    ],
+    "passivelIss": true,
+    "possuiEmailContador": false,
+    "qsaDivergente": false
+  },
+  "matriz": {
+    "quantidadeFilial": 0
+  },
+  "natureza": {
+    "classificacao": "PRIVADO"
+  },
+  "potencialConsumo": {
+    "valorCapitalSocial": 5000
+  },
+  "processoJudicialTotalizadores": {
+    "valorTotal": 0,
+    "valorTotalAtiva": 0,
+    "valorTotalOutrasPartes": 0,
+    "valorTotalPassiva": 0
+  },
+  "simplesNacional": {
+    "simplesIrregular": false
+  },
+  "socios": [
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "OSMANIS DEL RISCO FERRAL",
+      "participacaoSocietaria": 0,
+      "qualificacao": "SOCIO-ADMINISTRADOR"
+    }
+  ],
+  "telefones": [
+    {
+      "numero": "48999112109"
+    }
+  ],
+  "totalVeiculos": {
+    "acimaDezAnos": 0,
+    "ateUmAno": 0,
+    "entreCincoDezAnos": 0,
+    "entreDoisCincoAnos": 0,
+    "grupoAcimaDezAnos": 0,
+    "grupoAteUmAno": 0,
+    "grupoEntreCincoDezAnos": 0,
+    "grupoEntreDoisCincoAnos": 0
+  },
+  "cnjCnia": {
+    "processos": [
+      {
+        "numeroProcesso": 5,
+        "esfera": "sphere 5",
+        "descricaoOrgao": "descricao orgao 5",
+        "dataCadastramento": "2019-10-21T00:00:00Z",
+        "cargoFuncao": {
+          "uf": "Uf"
+        },
+        "ressarcimentoIntegralDano": {
+          "valor": 50
+        },
+        "assuntosRelacionados": [
+          "relatedIssues 5",
+          "relatedIssues 6"
+        ]
+      }
+    ]
+  },
+  "mteTrabalhoEscravo": {
+    "estabelecimentos": [
+      {
+        "anoAcaoFiscal": "2017",
+        "numeroTrabalhadoresEnvolvidos": 10,
+        "dataDecisaoProcedencia": "2018-10-21T00:00:00Z",
+        "estabelecimento": {
+          "logradouro": "logradouro 24",
+          "complemento": "complemento 24",
+          "municipio": "municipio 24"
+        }
+      }
+    ]
+  },
+  "bancoCentral": {
+    "acordaos": [
+      {
+        "numeroAcordaoCRSFN": 11,
+        "numeroProcesso": 19,
+        "numeroRecurso": 14,
+        "parte": "part 5",
+        "recurso": "recurso 5"
+      }
+    ]
+  },
+  "empresaCeis": {
+    "sancoes": [
+      {
+        "complementoOrgao": "complemento orgao 5",
+        "descricaoFundamentacaoLegal": "descricao fundamentacao legal 5",
+        "processo": "processo 2",
+        "orgaoSancionador": "orgao sancionador 5",
+        "origemInformacao": "origem informacao 5",
+        "tipoSancao": "tipo sancao 5",
+        "uf": "uf",
+        "dataInformacao": "2019-10-21T00:00:00Z",
+        "periodoSancao": {
+          "final": "2019-10-21T00:00:00Z",
+          "inicio": "2019-10-21T00:00:00Z"
+        }
+      }
+    ]
+  },
+  "cnep": {
+    "processos": [
+      {
+        "numeroProcesso": 1,
+        "orgaoSancionador": "orgao sancionador 5",
+        "tipoSancao": "tipo sancao 5",
+        "ufOrgaoSancionador": "uf orgao sancionador 5",
+        "valorMulta": 2000,
+        "dataFinalSancao": "2020-10-21T00:00:00Z",
+        "dataInicioSancao": "2020-10-21T00:00:00Z"
+      }
+    ]
+  },
+  "listaInternacional": [
+    {
+      "nome": "nome 5",
+      "dataProcessamento": "2017-10-21T00:00:00Z"
+    },
+    {
+      "nome": "nome 6",
+      "dataProcessamento": "2017-10-21T00:00:00Z"
+    }
+  ]
+}

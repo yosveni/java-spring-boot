@@ -1,0 +1,1085 @@
+{
+  "_id": "45067428000190",
+  "_metadata": {
+    "cepim": {
+      "noMatchFound": true
+    },
+    "datascience-activity-level-v2": {
+      "insertDate": "2020-10-07T17:44:18.938Z",
+      "lastUpdate": "2020-10-07T17:44:18Z",
+      "updatedAt": "2020-10-09T19:06:04.957Z"
+    },
+    "datascience-faturament-estim": {
+      "insertDate": "2021-01-26T22:37:08.255Z",
+      "lastUpdate": "2021-01-26T22:37:08Z",
+      "updatedAt": "2021-01-26T22:37:14.302Z"
+    },
+    "datascience-ris-mer-covid19": {
+      "insertDate": "2020-04-14T19:29:58.235Z",
+      "lastUpdate": "2020-04-14T19:29:58Z",
+      "updatedAt": "2020-04-15T18:20:09.211Z"
+    },
+    "empresa": {
+      "insertDate": "2021-01-12T17:34:11.888Z",
+      "lastUpdate": "2021-01-12T17:34:11Z",
+      "processingTimestamp": "2021-01-12T17:34:11Z",
+      "source": [
+        "rf-pj"
+      ],
+      "updatedAt": "2021-01-12T17:34:17.896Z"
+    },
+    "empresa-banco-central": {
+      "noMatchFound": true
+    },
+    "empresa-capacidade-trab-remoto": {
+      "insertDate": "2020-05-18T18:59:44.262Z",
+      "lastUpdate": "2020-05-18T18:59:44Z",
+      "updatedAt": "2020-05-19T00:14:59.75Z"
+    },
+    "empresa-ceis": {
+      "noMatchFound": true
+    },
+    "empresa-cnep": {
+      "noMatchFound": true
+    },
+    "empresa-cvm-participantes": {
+      "noMatchFound": true
+    },
+    "empresa-mte-cnd": {
+      "insertDate": "2021-01-30T12:08:08.629Z",
+      "lastUpdate": "2021-01-30T12:08:08Z",
+      "processingTimestamp": "2021-01-30T12:08:08Z",
+      "source": [
+        "mte-cnd"
+      ],
+      "updatedAt": "2021-01-30T12:08:14.56Z"
+    },
+    "empresa-mte-trabalho-escravo": {
+      "noMatchFound": true
+    },
+    "empresa-saude-tributaria": {
+      "insertDate": "2020-12-13T18:56:53.476Z",
+      "lastUpdate": "2020-12-13T18:56:53Z",
+      "processingTimestamp": "2020-12-13T18:56:53Z",
+      "source": [
+        "cnd-fgts",
+        "cnd-pgfn-cnpj",
+        "cnd-tst"
+      ],
+      "updatedAt": "2020-12-13T18:56:59.193Z"
+    },
+    "empresa-veiculo-pesado": {
+      "insertDate": "2021-01-08T17:57:52.375Z",
+      "lastUpdate": "2020-12-29T02:24:39Z",
+      "processingTimestamp": "2020-12-29T02:24:39Z",
+      "source": [
+        "veiculo-pesado",
+        "veiculo-pesado-other"
+      ],
+      "updatedAt": "2021-01-08T17:57:58.224Z"
+    },
+    "empresas": {
+      "_metadata": {
+        "empresas": {
+          "processingTimestamp": "2021-01-12T17:34:11Z",
+          "source": [
+            "RECEITA FEDERAL"
+          ]
+        },
+        "licencasAmbientais": {
+          "processingTimestamp": "2020-10-20T02:00:00.000Z",
+          "source": [
+            "LICENCA-AMBIENTAL"
+          ]
+        },
+        "nivelAtividade": {
+          "processingTimestamp": "2019-08-08T21:22:09Z",
+          "source": [
+            "MODELO NEOWAY"
+          ]
+        },
+        "simplesNacional": {
+          "processingTimestamp": "2020-03-23T09:19:46Z",
+          "source": [
+            "RF-PJ-SIMPLES"
+          ]
+        },
+        "sintegra": {
+          "processingTimestamp": "2020-11-23T02:00:00.000Z",
+          "source": [
+            "SINTEGRA-SP"
+          ]
+        }
+      },
+      "lastUpdate": "2021-01-30T02:03:20.26Z",
+      "updatedAt": "2021-01-30T02:03:20.269Z"
+    },
+    "exfuncionarios": {
+      "lastUpdate": "2021-01-10T14:49:40.694Z",
+      "processingTimestamp": "2020-10-27T02:00:00Z",
+      "source": [
+        "RAIS"
+      ],
+      "updatedAt": "2021-01-10T14:49:40.878Z"
+    },
+    "funcionarios": {
+      "lastUpdate": "2020-11-09T11:55:23.829Z",
+      "processingTimestamp": "2020-10-28T02:00:00Z",
+      "source": [
+        "RAIS"
+      ],
+      "updatedAt": "2020-11-09T11:55:23.84Z"
+    },
+    "model-analytics-empresa-porte": {
+      "processingTimestamp": "2020-10-11T05:00:08.000Z",
+      "schemaID": "1236"
+    },
+    "model-analytics-empresa-propensao-fechamento": {
+      "processingTimestamp": "2020-09-13T05:00:16.000Z",
+      "schemaID": "2092"
+    },
+    "qsaUnificado": {
+      "lastUpdate": "2020-12-12T21:03:46.318Z",
+      "processingTimestamp": "2020-11-10T02:00:00Z",
+      "source": [
+        "JUCESP"
+      ],
+      "updatedAt": "2020-12-12T21:03:46.353Z"
+    },
+    "sintegra": {
+      "insertDate": "2021-01-24T00:04:29.312Z",
+      "lastUpdate": "2021-01-22T18:12:50Z",
+      "processingTimestamp": "2021-01-22T18:12:50Z",
+      "source": [
+        "cadesp-icms",
+        "sintegra-sefaz-go"
+      ],
+      "updatedAt": "2021-01-26T19:43:59.033Z"
+    },
+    "socios": {
+      "lastUpdate": "2021-01-16T14:28:30.045Z",
+      "processingTimestamp": "2021-01-12T02:00:00Z",
+      "source": [
+        "QSA RF PPD2"
+      ],
+      "updatedAt": "2021-01-16T14:28:30.279Z"
+    },
+    "sociosJunta": {
+      "lastUpdate": "2020-10-10T16:41:44.073Z",
+      "processingTimestamp": "2020-06-10T03:00:00Z",
+      "source": [
+        "JUCESP"
+      ],
+      "updatedAt": "2020-10-10T18:05:29.611Z"
+    }
+  },
+  "activityLevelV2": {
+    "activityLevel": "MEDIO"
+  },
+  "beneficiarios": [
+    {
+      "documento": "14041721814",
+      "falecido": false,
+      "grau": 1,
+      "nome": "ANDRE LUIS DOS SANTOS RIBEIRO",
+      "participacao": 0
+    }
+  ],
+  "beneficiariosJunta": [
+    {
+      "documento": "14041721814",
+      "falecido": false,
+      "grau": 1,
+      "nome": "ANDRE LUIS DOS SANTOS RIBEIRO",
+      "participacao": 100
+    }
+  ],
+  "beneficiariosQsaUnificado": [
+    {
+      "documento": "14041721814",
+      "grau": 1,
+      "nome": "ANDRE LUIS DOS SANTOS RIBEIRO",
+      "participacao": 100
+    }
+  ],
+  "capacidadeTrabalhoRemoto": {
+    "trabalhoRemoto": "BAIXA"
+  },
+  "cnaePrincipal": {
+    "codigo": "2229303",
+    "descricao": "FABRICACAO DE ARTEFATOS DE MATERIAL PLASTICO PARA USO NA CONSTRUCAO EXCETO TUBOS E ACESSORIOS",
+    "ramoAtividade": "QUIMICA-PETROQUIMICA",
+    "setor": "INDUSTRIA"
+  },
+  "cnaes": [
+    {
+      "codigo": "2229303",
+      "descricao": "FABRICACAO DE ARTEFATOS DE MATERIAL PLASTICO PARA USO NA CONSTRUCAO EXCETO TUBOS E ACESSORIOS"
+    },
+    {
+      "codigo": "2223400",
+      "descricao": "FABRICACAO DE TUBOS E ACESSORIOS DE MATERIAL PLASTICO PARA USO NA CONSTRUCAO"
+    },
+    {
+      "codigo": "4679699",
+      "descricao": "COMERCIO ATACADISTA DE MATERIAIS DE CONSTRUCAO EM GERAL"
+    },
+    {
+      "codigo": "4744099",
+      "descricao": "COMERCIO VAREJISTA DE MATERIAIS DE CONSTRUCAO EM GERAL"
+    }
+  ],
+  "crescimentoPorAnoRais": [
+    {
+      "ano": 2020,
+      "percentual": 0
+    },
+    {
+      "ano": 2019,
+      "percentual": 0
+    },
+    {
+      "ano": 2018,
+      "percentual": -3.03
+    },
+    {
+      "ano": 2017,
+      "percentual": 10
+    },
+    {
+      "ano": 2016,
+      "percentual": 3.45
+    },
+    {
+      "ano": 2015,
+      "percentual": 11.54
+    },
+    {
+      "ano": 2014,
+      "percentual": 8.33
+    },
+    {
+      "ano": 2013,
+      "percentual": 20
+    },
+    {
+      "ano": 2012,
+      "percentual": 33.33
+    },
+    {
+      "ano": 2011,
+      "percentual": 15.38
+    },
+    {
+      "ano": 2010,
+      "percentual": 30
+    }
+  ],
+  "datascienceRiscoMercadoCovid19": {
+    "riscoIndividual": "MEDIO",
+    "riscoSegmento": "ALTO"
+  },
+  "detran": {
+    "totalVeiculosPesados": 6,
+    "totalVeiculosPesadosGrupo": 6
+  },
+  "empresa": {
+    "abertura": "1974-05-24T00:00:00Z",
+    "cnpj": "45067428000190",
+    "matriz": true,
+    "naturezaJuridica": {
+      "codigo": "2305",
+      "descricao": "EMPRESA INDIVIDUAL DE RESPONSABILIDADE LIMITADA DE NATUREZA EMPRESARIA"
+    },
+    "porte": "DEMAIS",
+    "razaoSocial": "MADEX INDUSTRIA DE PLASTICOS EIRELI",
+    "situacaoCadastral": {
+      "data": "2002-11-16T00:00:00Z",
+      "status": "ATIVA"
+    }
+  },
+  "empresa-porte": {
+    "empresaPorte": "MEDIA"
+  },
+  "empresaSaudeTributaria": {
+    "cnds": [
+      {
+        "dataEmissao": "2020-12-13T15:56:50Z",
+        "dataValidade": "2021-06-11T00:00:00Z",
+        "descricaoSituacao": "CERTIDAO NEGATIVA DE DEBITOS EMITIDA",
+        "nome": "PGFN",
+        "numeroCertificacao": "820724B0AD78BAFF"
+      }
+    ],
+    "health": "VERDE"
+  },
+  "empresaSintegra": {
+    "inscricoes": [
+      {
+        "dataSituacaoCadastral": "1977-12-07T00:00:00Z",
+        "ie": "286031124117",
+        "regimeApuracao": "NORMAL REGIME PERIODICO DE APURACAO",
+        "situacaoCadastral": "ATIVA",
+        "uf": "SP"
+      }
+    ]
+  },
+  "endereco": {
+    "bairro": "VILA NOGUEIRA",
+    "bairroOriginal": "JARDIM CONCORDIA",
+    "cep": "09990090",
+    "cepRestritoFlag": true,
+    "enderecoResidencial": false,
+    "logradouro": "AVENIDA ROBERTO GORDON",
+    "maisRecenteNoEndereco": true,
+    "mesoRegiao": "METROPOLITANA DE SAO PAULO",
+    "microRegiao": "SAO PAULO",
+    "municipio": "DIADEMA",
+    "municipioFronteirico": "MUNICIPIO NAO FRONTEIRICO",
+    "municipioOriginal": "DIADEMA",
+    "numero": "42",
+    "precisao": "EXATA",
+    "regiao": "SUDESTE",
+    "uf": "SP"
+  },
+  "exfuncionarios": [
+    {
+      "anoMesDesligamento": "11-2019",
+      "cpf": "16227336491",
+      "dataAdmissao": "2014-10-01T03:00:00Z",
+      "dataNascimento": "1957-01-06T03:00:00Z",
+      "nome": "EDINALDO SEBASTIAO FRANCISCO"
+    },
+    {
+      "anoMesDesligamento": "08-2019",
+      "cpf": "39267409816",
+      "dataAdmissao": "2019-01-21T02:00:00Z",
+      "dataNascimento": "1990-10-02T03:00:00Z",
+      "nome": "ELENILTON SILVA BARROSO"
+    },
+    {
+      "anoMesDesligamento": "12-2019",
+      "cpf": "22175789870",
+      "dataAdmissao": "2019-04-12T03:00:00Z",
+      "dataNascimento": "1977-04-05T03:00:00Z",
+      "nome": "ELIEDE SILVA SANTOS"
+    },
+    {
+      "anoMesDesligamento": "03-2018",
+      "cpf": "45524904515",
+      "dataAdmissao": "2001-02-01T02:00:00Z",
+      "dataNascimento": "1967-10-07T03:00:00Z",
+      "nome": "ERNANDE SERGIO DOS SANTOS"
+    },
+    {
+      "anoMesDesligamento": "06-2019",
+      "cpf": "02825017469",
+      "dataAdmissao": "2010-08-11T03:00:00Z",
+      "dataNascimento": "1978-07-02T03:00:00Z",
+      "nome": "EVANDRO FERREIRA GOMES"
+    },
+    {
+      "anoMesDesligamento": "09-2019",
+      "cpf": "09012223482",
+      "dataAdmissao": "2012-04-02T03:00:00Z",
+      "dataNascimento": "1988-10-24T02:00:00Z",
+      "nome": "FABIO FERREIRA DA SILVA"
+    },
+    {
+      "anoMesDesligamento": "05-2018",
+      "cpf": "29735553880",
+      "dataAdmissao": "2017-05-02T03:00:00Z",
+      "dataNascimento": "1983-05-19T03:00:00Z",
+      "nome": "FERNANDA SILVA LUCENA"
+    },
+    {
+      "anoMesDesligamento": "02-2018",
+      "cpf": "00609839810",
+      "dataAdmissao": "2011-04-01T03:00:00Z",
+      "dataNascimento": "1957-02-10T03:00:00Z",
+      "nome": "FRANCISCO DE ASSIS ALVES"
+    },
+    {
+      "anoMesDesligamento": "05-2018",
+      "cpf": "06702284438",
+      "dataAdmissao": "2012-03-13T03:00:00Z",
+      "dataNascimento": "1986-01-07T02:00:00Z",
+      "nome": "GERLANIO PEREIRA DA SILVA SANTOS"
+    },
+    {
+      "anoMesDesligamento": "05-2019",
+      "cpf": "28315650491",
+      "dataAdmissao": "1994-01-05T02:00:00Z",
+      "dataNascimento": "1961-08-09T03:00:00Z",
+      "nome": "GILSON DA SILVA"
+    },
+    {
+      "anoMesDesligamento": "02-2019",
+      "cpf": "10863325475",
+      "dataAdmissao": "2018-03-19T03:00:00Z",
+      "dataNascimento": "1994-12-18T02:00:00Z",
+      "nome": "ISTOEFESON SENA BATISTA"
+    },
+    {
+      "anoMesDesligamento": "08-2018",
+      "cpf": "06940375830",
+      "dataAdmissao": "2007-02-01T02:00:00Z",
+      "dataNascimento": "1962-04-23T03:00:00Z",
+      "nome": "JOAO LIMA DE SOUZA"
+    },
+    {
+      "anoMesDesligamento": "12-2018",
+      "cpf": "33773304889",
+      "dataAdmissao": "2018-11-08T02:00:00Z",
+      "dataNascimento": "1985-10-29T03:00:00Z",
+      "nome": "JOSE NILTON DA SILVA FRANCISCO"
+    },
+    {
+      "anoMesDesligamento": "03-2019",
+      "cpf": "07125108695",
+      "dataAdmissao": "2015-04-01T03:00:00Z",
+      "dataNascimento": "1982-12-09T03:00:00Z",
+      "nome": "MARCUS VINICIUS RODRIGUES ARAUJO"
+    },
+    {
+      "anoMesDesligamento": "12-2019",
+      "cpf": "14003858816",
+      "dataAdmissao": "2018-08-14T03:00:00Z",
+      "dataNascimento": "1969-10-06T03:00:00Z",
+      "nome": "MARIA DAS DORES LOURENCO DA SILVA"
+    },
+    {
+      "anoMesDesligamento": "04-2018",
+      "cpf": "37319627809",
+      "dataAdmissao": "2017-03-07T03:00:00Z",
+      "dataNascimento": "1989-05-09T03:00:00Z",
+      "nome": "RAPHAEL FERREIRA RODRIGUES"
+    },
+    {
+      "anoMesDesligamento": "09-2018",
+      "cpf": "34155143828",
+      "dataAdmissao": "2016-03-21T03:00:00Z",
+      "dataNascimento": "1985-10-28T03:00:00Z",
+      "nome": "SIRLE SALES DOS SANTOS ORNELAS"
+    }
+  ],
+  "faturamentoEstimado": {
+    "faixaIndividual": "DE R$ 4.800.000,01 A R$ 10.000.000,00",
+    "individual": 6174625.75925
+  },
+  "funcionarios": [
+    {
+      "cpf": "28434078856",
+      "dataAdmissao": "2019-09-02T03:00:00Z",
+      "dataNascimento": "1980-08-12T03:00:00Z",
+      "nome": "ALEXSANDRO MELO SANTOS"
+    },
+    {
+      "cpf": "37826615836",
+      "dataAdmissao": "2010-01-19T02:00:00Z",
+      "dataNascimento": "1991-11-25T02:00:00Z",
+      "nome": "AMANDA CRISTINA FELIX DA SILVA"
+    },
+    {
+      "cpf": "09279089803",
+      "dataAdmissao": "2019-01-14T02:00:00Z",
+      "dataNascimento": "1967-08-07T03:00:00Z",
+      "nome": "ANTONIO FRANCISCO ALVES SILVA"
+    },
+    {
+      "cpf": "22805725832",
+      "dataAdmissao": "2019-12-02T02:00:00Z",
+      "dataNascimento": "1981-01-22T03:00:00Z",
+      "nome": "EDINOR DE ALMEIDA SILVA"
+    },
+    {
+      "cpf": "22769299875",
+      "dataAdmissao": "2019-08-27T03:00:00Z",
+      "dataNascimento": "1981-12-19T03:00:00Z",
+      "nome": "EDNOR SEVERO DOS SANTOS"
+    },
+    {
+      "cpf": "11522421483",
+      "dataAdmissao": "2018-11-08T02:00:00Z",
+      "dataNascimento": "1997-01-14T02:00:00Z",
+      "nome": "EDSON SANTOS CORREIA"
+    },
+    {
+      "cpf": "04338791810",
+      "dataAdmissao": "2012-04-20T03:00:00Z",
+      "dataNascimento": "1962-10-05T03:00:00Z",
+      "nome": "ELIAS VERISSIMO DA SILVA"
+    },
+    {
+      "cpf": "26137056805",
+      "dataAdmissao": "2004-03-11T03:00:00Z",
+      "dataNascimento": "1978-09-27T03:00:00Z",
+      "nome": "ERIVAN ALVES DE OLIVEIRA"
+    },
+    {
+      "cpf": "27691898835",
+      "dataAdmissao": "2015-03-02T03:00:00Z",
+      "dataNascimento": "1977-05-03T03:00:00Z",
+      "nome": "FRANCISCO DE ASSIS GOMES SILVA"
+    },
+    {
+      "cpf": "80982719353",
+      "dataAdmissao": "2013-04-10T03:00:00Z",
+      "dataNascimento": "1968-06-05T03:00:00Z",
+      "nome": "GERALDO LOPES DA SILVA"
+    },
+    {
+      "cpf": "40240667816",
+      "dataAdmissao": "2010-04-01T03:00:00Z",
+      "dataNascimento": "1990-07-27T03:00:00Z",
+      "nome": "GRACIANE SALES ROSA"
+    },
+    {
+      "cpf": "00760983895",
+      "dataAdmissao": "2007-05-21T03:00:00Z",
+      "dataNascimento": "1958-08-19T03:00:00Z",
+      "nome": "IDERICO PEDREIRA DE ALMEIDA"
+    },
+    {
+      "cpf": "10240840437",
+      "dataAdmissao": "2019-08-01T03:00:00Z",
+      "dataNascimento": "1992-10-08T03:00:00Z",
+      "nome": "JOSE ADILSON SANTOS DE SOUZA"
+    },
+    {
+      "cpf": "12434936822",
+      "dataAdmissao": "2018-03-01T03:00:00Z",
+      "dataNascimento": "1968-10-10T03:00:00Z",
+      "nome": "JOSE BEZERRA DE LIMA"
+    },
+    {
+      "cpf": "14041793807",
+      "dataAdmissao": "2011-04-01T03:00:00Z",
+      "dataNascimento": "1967-10-05T03:00:00Z",
+      "nome": "JOSE GEOVA CANDIDO MOREIRA"
+    },
+    {
+      "cpf": "04179413825",
+      "dataAdmissao": "1985-07-10T03:00:00Z",
+      "dataNascimento": "1960-08-08T03:00:00Z",
+      "nome": "JOSE NETO DE ARAUJO"
+    },
+    {
+      "cpf": "16354314845",
+      "dataAdmissao": "1995-03-23T03:00:00Z",
+      "dataNascimento": "1976-08-29T03:00:00Z",
+      "nome": "JOSE RONALDO VASCONCELOS"
+    },
+    {
+      "cpf": "01953731465",
+      "dataAdmissao": "2015-03-02T03:00:00Z",
+      "dataNascimento": "1974-04-09T03:00:00Z",
+      "nome": "JOSE SEVERO DOS SANTOS"
+    },
+    {
+      "cpf": "59155191487",
+      "dataAdmissao": "2018-03-01T03:00:00Z",
+      "dataNascimento": "1968-04-17T03:00:00Z",
+      "nome": "JOSE SIVALDO DA SILVA"
+    },
+    {
+      "cpf": "43254483812",
+      "dataAdmissao": "2019-11-13T02:00:00Z",
+      "dataNascimento": "1999-01-22T02:00:00Z",
+      "nome": "KELVIN FERREIRA CARNEIRO"
+    },
+    {
+      "cpf": "18359745897",
+      "dataAdmissao": "2013-04-03T03:00:00Z",
+      "dataNascimento": "1969-06-15T03:00:00Z",
+      "nome": "LUIZ LIMA HONORATO DE BRITO"
+    },
+    {
+      "cpf": "78069181400",
+      "dataAdmissao": "2018-01-03T02:00:00Z",
+      "dataNascimento": "1971-03-16T03:00:00Z",
+      "nome": "MARIVALDO JOAO DA SILVA"
+    },
+    {
+      "cpf": "06618508894",
+      "dataAdmissao": "2012-07-02T03:00:00Z",
+      "dataNascimento": "1964-04-18T03:00:00Z",
+      "nome": "NEIDE DA SILVA FERREIRA RODRIGUES"
+    },
+    {
+      "cpf": "32537956591",
+      "dataAdmissao": "1988-03-01T03:00:00Z",
+      "dataNascimento": "1966-07-22T03:00:00Z",
+      "nome": "NELSON JOSE DE OLIVEIRA"
+    },
+    {
+      "cpf": "62172816949",
+      "dataAdmissao": "2013-11-04T02:00:00Z",
+      "dataNascimento": "1964-10-16T03:00:00Z",
+      "nome": "NESIO CRISTOFOLI"
+    },
+    {
+      "cpf": "64448894487",
+      "dataAdmissao": "2009-08-06T03:00:00Z",
+      "dataNascimento": "1970-01-09T03:00:00Z",
+      "nome": "PAULO JORGE PAULINO DA CONCEICAO"
+    },
+    {
+      "cpf": "40834985870",
+      "dataAdmissao": "2014-09-11T03:00:00Z",
+      "dataNascimento": "1994-05-29T03:00:00Z",
+      "nome": "RAFAEL ALVES DE LIMA"
+    },
+    {
+      "cpf": "38681866893",
+      "dataAdmissao": "2013-04-01T03:00:00Z",
+      "dataNascimento": "1991-08-15T03:00:00Z",
+      "nome": "RENATA DE OLIVEIRA MARTINS"
+    },
+    {
+      "cpf": "37258298886",
+      "dataAdmissao": "2019-12-04T02:00:00Z",
+      "dataNascimento": "1991-05-24T03:00:00Z",
+      "nome": "RODRIGO DE OLIVEIRA MOREIRA"
+    },
+    {
+      "cpf": "32973425875",
+      "dataAdmissao": "2017-02-06T02:00:00Z",
+      "dataNascimento": "1987-02-16T03:00:00Z",
+      "nome": "ROMEU APARECIDO SOUZA DE OLIVEIRA"
+    },
+    {
+      "cpf": "14250196844",
+      "dataAdmissao": "1995-01-16T02:00:00Z",
+      "dataNascimento": "1974-05-17T03:00:00Z",
+      "nome": "VALDECIR MARTINS DOS SANTOS"
+    },
+    {
+      "cpf": "11440379483",
+      "dataAdmissao": "2012-10-01T03:00:00Z",
+      "dataNascimento": "1994-07-26T03:00:00Z",
+      "nome": "WIRES SANTOS CORREIA"
+    }
+  ],
+  "importacao": [
+    {
+      "ano": 2001,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2013,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2014,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2015,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2016,
+      "valor": "ATE R$ 1 MILHAO"
+    },
+    {
+      "ano": 2017,
+      "valor": "ATE R$ 1 MILHAO"
+    }
+  ],
+  "info": {
+    "emailRF": "NEIDE@MADEX.IND.BR",
+    "idadeEmpresa": 46,
+    "numeroTelefoneRF": [
+      "1128577772"
+    ],
+    "passivelIss": false,
+    "possuiEmailContador": false,
+    "qsaDivergente": false
+  },
+  "inpiMarcas": [
+    {
+      "classe": "20 : 99",
+      "dataDeposito": "1979-01-17T03:00:00Z",
+      "marca": "FLOREX",
+      "numeroProcesso": "007104880"
+    },
+    {
+      "classe": "NCL(8) 11",
+      "dataDeposito": "1987-11-03T02:00:00Z",
+      "marca": "MADEX",
+      "numeroProcesso": "813803179"
+    },
+    {
+      "classe": "17 : 10",
+      "dataDeposito": "1994-05-17T03:00:00Z",
+      "marca": "WALLREVEST",
+      "numeroProcesso": "817822003"
+    },
+    {
+      "classe": "19 : 10",
+      "dataDeposito": "1994-05-17T03:00:00Z",
+      "marca": "WALLREVEST",
+      "numeroProcesso": "817822011"
+    },
+    {
+      "classe": "NCL(10) 19",
+      "dataDeposito": "2013-03-26T03:00:00Z",
+      "marca": "MADEX",
+      "numeroProcesso": "906034329"
+    }
+  ],
+  "licencasAmbientais": [
+    {
+      "dataAtualizacao": "2020-10-20T02:00:00Z",
+      "dataEmissao": "2017-04-28T03:00:00Z",
+      "descricaoTipologia": "ARTEFATOS DE MATERIAL PLASTICO REFORCADOS OU NAO PARA A CONSTRUCAO C",
+      "municipio": "DIADEMA",
+      "numProcesso": "310106008",
+      "numeroTipologia": "CNAE 22229303001",
+      "situacao": "EMITIDA",
+      "tipo": "LICENCA DE OPERACAO",
+      "uf": "SP"
+    },
+    {
+      "dataAtualizacao": "2017-07-19T03:00:00Z",
+      "dataEmissao": "2017-04-28T03:00:00Z",
+      "descricaoTipologia": "ARTEFATOS DE MATERIAL PLASTICO REFORCADOS OU NAO PARA A CONSTRUCAO C",
+      "municipio": "DIADEMA",
+      "numProcesso": "310106008",
+      "numeroTipologia": "CNAE 22229303001",
+      "situacao": "EMITIDA",
+      "tipo": "LICENCA DE OPERACAO",
+      "uf": "SP"
+    },
+    {
+      "dataAtualizacao": "2020-10-20T02:00:00Z",
+      "dataEmissao": "2012-09-21T03:00:00Z",
+      "descricaoTipologia": "ARTEFATOS DE MATERIAL PLASTICO REFORCADOS OU NAO PARA A CONSTRUCAO C",
+      "municipio": "DIADEMA",
+      "numProcesso": "310106008",
+      "numeroTipologia": "CNAE 22229303001",
+      "situacao": "EMITIDA",
+      "tipo": "LICENCA DE OPERACAO",
+      "uf": "SP"
+    },
+    {
+      "dataAtualizacao": "2020-10-20T02:00:00Z",
+      "dataEmissao": "2008-09-01T03:00:00Z",
+      "descricaoTipologia": "ARTEFATOS DE MATERIAL PLASTICO REFORCADOS OU NAO PARA A CONSTRUCAO C",
+      "municipio": "DIADEMA",
+      "numProcesso": "310106008",
+      "numeroTipologia": "CNAE 22229303001",
+      "situacao": "EMITIDA",
+      "tipo": "LICENCA DE OPERACAO",
+      "uf": "SP"
+    }
+  ],
+  "matriz": {
+    "quantidadeFilial": 0
+  },
+  "mteCnd": {
+    "codigo": "3VVMUYR",
+    "dataEmissao": "2021-01-30T00:00:00Z",
+    "situacaoDebito": "NAO CONSTAM",
+    "tipoCertidao": "NEGATIVA"
+  },
+  "natureza": {
+    "classificacao": "PRIVADO"
+  },
+  "potencialConsumo": {
+    "valorCapitalSocial": 750000
+  },
+  "processoJudicialTotalizadores": {
+    "quantidades": [
+      {
+        "qtdAtivos": 5,
+        "qtdOutrasPartes": 53,
+        "qtdParteAtiva": 39,
+        "qtdPartePassiva": 20,
+        "qtdTotal": 112,
+        "tipo": "NUMERO DE PROCESSOS"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 2,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 2,
+        "tipo": "CRIMINAL"
+      },
+      {
+        "qtdAtivos": 1,
+        "qtdOutrasPartes": 21,
+        "qtdParteAtiva": 1,
+        "qtdPartePassiva": 3,
+        "qtdTotal": 25,
+        "tipo": "TRIBUTARIO"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 12,
+        "qtdTotal": 12,
+        "tipo": "TRABALHISTA"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "ELEITORAL"
+      },
+      {
+        "qtdAtivos": 0,
+        "qtdOutrasPartes": 0,
+        "qtdParteAtiva": 0,
+        "qtdPartePassiva": 0,
+        "qtdTotal": 0,
+        "tipo": "MILITAR"
+      },
+      {
+        "qtdAtivos": 4,
+        "qtdOutrasPartes": 32,
+        "qtdParteAtiva": 36,
+        "qtdPartePassiva": 5,
+        "qtdTotal": 73,
+        "tipo": "CIVEL / ADMINISTRATIVO"
+      }
+    ],
+    "valorTotal": 128123930.07,
+    "valorTotalAtiva": 802708.03,
+    "valorTotalOutrasPartes": 126589987.54,
+    "valorTotalPassiva": 731234.5
+  },
+  "propensaoFechamento": {
+    "propensaoEmpresa": "MUITO BAIXA"
+  },
+  "qsaUnificado": [
+    {
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "ANDRE LUIS DOS SANTOS RIBEIRO",
+      "participacaoSocietaria": 100,
+      "qualificacao": "TITULAR E ADMINISTRADOR"
+    }
+  ],
+  "simplesNacional": {
+    "optanteSimei": false,
+    "optanteSimples": false,
+    "simplesIrregular": false
+  },
+  "socios": [
+    {
+      "documento": "14041721814",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "ANDRE LUIS DOS SANTOS RIBEIRO",
+      "participacaoSocietaria": 0,
+      "qualificacao": "TITULAR PESSOA FISICA RESIDENTE OU DOMICILIADO NO BRASIL"
+    }
+  ],
+  "sociosJunta": [
+    {
+      "documento": "14041721814",
+      "falecido": false,
+      "nivelPep": "NAO IDENTIFICADO",
+      "nome": "ANDRE LUIS DOS SANTOS RIBEIRO",
+      "participacaoSocietaria": 100,
+      "qualificacao": "TITULAR E ADMINISTRADOR"
+    }
+  ],
+  "telefones": [
+    {
+      "numero": "1140712999"
+    },
+    {
+      "numero": "1140711683"
+    }
+  ],
+  "totalFuncionarios": {
+    "quantidade": 32,
+    "quantidadeGrupo": 32
+  },
+  "totalVeiculos": {
+    "acimaDezAnos": 0,
+    "ateUmAno": 0,
+    "entreCincoDezAnos": 6,
+    "entreDoisCincoAnos": 0,
+    "grupoAcimaDezAnos": 0,
+    "grupoAteUmAno": 0,
+    "grupoEntreCincoDezAnos": 6,
+    "grupoEntreDoisCincoAnos": 0
+  },
+  "veiculosPesados": [
+    {
+      "anoFabricacao": "2013",
+      "combustivel": "DIESEL",
+      "constaAntt": false,
+      "placa": "EWJ5652",
+      "renavam": "00708742947",
+      "uf": "SP"
+    },
+    {
+      "anoFabricacao": "2011",
+      "combustivel": "DIESEL",
+      "constaAntt": false,
+      "marcaModelo": "VOLKSWAGEN 24 250 CNC 6X2",
+      "placa": "ETS6674",
+      "renavam": "00463615654",
+      "tipo": "CAMINHAO",
+      "uf": "SP"
+    },
+    {
+      "anoFabricacao": "2010",
+      "combustivel": "DIESEL",
+      "constaAntt": false,
+      "marcaModelo": "VOLKSWAGEN 15 180 CNM",
+      "placa": "EIH7309",
+      "renavam": "00232586284",
+      "tipo": "CAMINHAO",
+      "uf": "SP"
+    },
+    {
+      "anoFabricacao": "2014",
+      "combustivel": "DIESEL",
+      "constaAntt": false,
+      "marcaModelo": "VW 24 280 CRM 6X2",
+      "placa": "FLU7612",
+      "renavam": "01144441576",
+      "tipo": "CAMINHAO"
+    },
+    {
+      "anoFabricacao": "2013",
+      "combustivel": "DIESEL",
+      "constaAntt": false,
+      "marcaModelo": "VOLKSWAGEN 24 280 CRM 6X2",
+      "placa": "EWJ5649",
+      "renavam": "01002818408",
+      "tipo": "CAMINHAO"
+    },
+    {
+      "anoFabricacao": "2013",
+      "combustivel": "DIESEL",
+      "constaAntt": false,
+      "placa": "EWJ5649 PROTOCOLO 518020160527319484 DESTAQUE AQUI BANCO DO BRASIL 00190 00009 0294104113500560 682171 4 77180000009009 001 9 LOCAL DE PAGAMENTO PAGAVEL EM QUALQUER BANCO VENCIMENTO 24 11 2018 NOME DO BENEFICIARIO CPF CNPJ INSTITUTO NACIONAL DE METROLOGIA QUALIDADE E TECNOLOGIA 00 662 270 0003 20 AGENCIA CODIGO 2234 9 333 025 7 DATA DO DOCUMENTO 14 11 2018 USO DO BANCO NR DOCUMENTO 294104113005606826 CARTEIRA 17 175 6 RECIBO DO SACADO LOCAL DE PAGAMENTO PAGAVEL EM QUALQUER BANCO DATA DO DOCUMENTO 14 11 2018 8 ESPECIE DOC DM ESPECIE R ACEITE N QUANTIDADE DATA DO PROCESSAMENTO 14 11 2018 VALOR INSTRUCOES DE RESPONSABILIDADE DO BENEFICIARIO A EXISTENCIA DE GRU DENTRO DO PRAZO PARA PAGAMENTO NAO EXIME O RESPONSAVEL DE APRESENTAR CERTIFICADO VALIDO NOSSO NUMERO 294104113005606826 VALOR DO DOCUMENTO 90 09 DESCONTO ABATIMENTO MORA MULTA JUROS QUANTIDADE 1 ENSAIO GUIA DE RECOLHIMENTO DA UNIAO GRU COBRANCA VALOR COBRADO NOME DO PAGADOR CPF CNPJ ENDERECO MADEX INDUSTRIA DE PLASTICO LTDA 45067428000190 AV ROBERTO GORDEN 42 JD CONCORDIA DIADEMA SP 09990090 SACADO AVALISTA MADEX INDUSTRIA DE PLASTICO LTDA 45067428000190 EWJ5649 AUTENTICACAO MECANICA PROTOCOLO 518020160527319484 CERTIFICADO PRELIMINAR P10134113 EWJ5649",
+      "renavam": "01002818408"
+    }
+  ],
+  "cnjCnia": {
+    "processos": [
+      {
+        "numeroProcesso": 1,
+        "esfera": "sphere 1",
+        "descricaoOrgao": "descricao orgao",
+        "dataCadastramento": "2015-10-21T00:00:00Z",
+        "cargoFuncao": {
+          "uf": "Uf"
+        },
+        "ressarcimentoIntegralDano": {
+          "valor": 30
+        },
+        "assuntosRelacionados": [
+          "relatedIssues 12",
+          "relatedIssues 14"
+        ]
+      }
+    ]
+  },
+  "mteTrabalhoEscravo": {
+    "estabelecimentos": [
+      {
+        "anoAcaoFiscal": "2020",
+        "numeroTrabalhadoresEnvolvidos": 10,
+        "dataDecisaoProcedencia": "2017-10-21T00:00:00Z",
+        "estabelecimento": {
+          "logradouro": "logradouro 1",
+          "complemento": "complemento 1",
+          "municipio": "municipio"
+        }
+      }
+    ]
+  },
+  "bancoCentral": {
+    "acordaos": [
+      {
+        "numeroAcordaoCRSFN": 18,
+        "numeroProcesso": 15,
+        "numeroRecurso": 20,
+        "parte": "part 2",
+        "recurso": "recurso 2"
+      }
+    ]
+  },
+  "empresaCeis": {
+    "sancoes": [
+      {
+        "complementoOrgao": "complemento orgao 1",
+        "descricaoFundamentacaoLegal": "descricao fundamentacao legal 1",
+        "processo": "processo 2",
+        "orgaoSancionador": "orgao sancionador 2",
+        "origemInformacao": "origem informacao 2",
+        "tipoSancao": "tipo sancao",
+        "uf": "uf",
+        "dataInformacao": "2018-10-21T00:00:00Z",
+        "periodoSancao": {
+          "final": "2018-10-21T00:00:00Z",
+          "inicio": "2018-10-21T00:00:00Z"
+        }
+      }
+    ]
+  },
+  "cnep": {
+    "processos": [
+      {
+        "numeroProcesso": 1,
+        "orgaoSancionador": "orgao sancionador 2",
+        "tipoSancao": "tipo sancao 2",
+        "ufOrgaoSancionador": "uf orgao sancionador 2",
+        "valorMulta": 6000,
+        "dataFinalSancao": "2018-10-21T00:00:00Z",
+        "dataInicioSancao": "2018-10-21T00:00:00Z"
+      }
+    ]
+  },
+  "listaInternacional": [
+    {
+      "nome": "nome 3",
+      "dataProcessamento": "2015-10-21T00:00:00Z"
+    },
+    {
+      "nome": "nome 4",
+      "dataProcessamento": "2015-10-21T00:00:00Z"
+    }
+  ],
+  "proconInformacoes": {
+    "valorTotalMulta": 35,
+    "grupo": {
+      "nome": "Nome group 1",
+      "valorTotalMultas": 15,
+      "dataUltimaAtualizacao": "2015-10-21T00:00:00Z",
+      "partesGrupo": [
+        {
+          "cnpj": "656565",
+          "valorTotalMulta": 45
+        }
+      ]
+    },
+    "processos": [
+      {
+        "status": "status",
+        "numeroProcesso": 1,
+        "valorMulta": 26
+      }
+    ]
+  },
+  "atividadeFinanceira": {
+    "dataConsulta": "2015-10-21T00:00:00Z",
+    "dataHabilitacao": "2015-10-21T00:00:00Z",
+    "numeroHabilitacao": 12,
+    "segmentos": 45,
+    "situacaoHabilitacao": "situacao habilitacao"
+  }
+}

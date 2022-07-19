@@ -1,0 +1,13 @@
+version: 0.0
+os: windows
+files:
+  - source: .\com.linkapital.platform-0.0.1-SNAPSHOT.jar
+    destination: C:\API
+file_exists_behavior: OVERWRITE
+hooks:
+  ApplicationStop:
+    - location: scripts/stop-job.bat
+      timeout: 180
+  ApplicationStart:
+    - location: scripts/start-job.bat
+      timeout: 180

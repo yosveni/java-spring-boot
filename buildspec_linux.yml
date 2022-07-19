@@ -1,0 +1,70 @@
+version: 0.2
+
+  #env:
+  #variables:
+  # key: "value"
+  # key: "value"
+  #parameter-store:
+  # key: "value"
+  # key: "value"
+  #secrets-manager:
+  # key: secret-id:json-key:version-stage:version-id
+  # key: secret-id:json-key:version-stage:version-id
+  #exported-variables:
+  # - variable
+  # - variable
+  #git-credential-helper: yes
+  #batch:
+#fast-fail: true
+#build-list:
+#build-matrix:
+#build-graph:
+phases:
+  #install:
+  #Si utiliza la imagen estándar de Ubuntu 2.0 o posterior, debe especificar las versiones del tiempo de ejecución.
+  #Si especifica las versiones del tiempo de ejecución y utiliza una imagen que no sea la estándar de Ubuntu 2.0, se produce un error en la compilación.
+  #runtime-versions:
+  # name: version
+  # name: version
+  #commands:
+  # - command
+  # - command
+  pre_build:
+    commands:
+      - echo Downloading artefact
+      - aws s3 cp s3://$AWS_ARTIFACT_BUCKET/MOST_liveness_encoder/ MOST_liveness_encoder --recursive
+      - aws s3 cp s3://$AWS_ARTIFACT_BUCKET/jdk-16.0.2_linux-x64_bin.tar.gz .
+      - echo Logging in to Amazon ECR...
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
+      - IMAGE_TAG=build-$(echo $CODEBUILD_BUILD_ID | awk -F":" '{print $2}')
+
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...
+      - docker build -t $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:latest .
+      - docker tag $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker images...
+      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:latest
+      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
+      - rm Dockerfile
+      # - command
+      #reports:
+      #report-name-or-arn:
+      #files:
+      # - location
+      # - location
+    #base-directory: location
+    #discard-paths: yes
+    #file-format: JunitXml | CucumberJson
+artifacts:
+  files:
+    - docker-compose.yaml
+    # - location
+    # - location
+    #name: $(date +%Y-%m-%d)
+    #discard-paths: yes
+    #base-directory: location
